@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@/*": ["./src/*"]
+        },
+        "jsx": "preserve",
+        "target": "ES2022",
+        "moduleResolution": "bundler",
+        "ignoreDeprecations": "6.0"
+    },
+    "include": ["src/**/*", "next-env.d.ts"],
+    "exclude": ["node_modules"]
+}
