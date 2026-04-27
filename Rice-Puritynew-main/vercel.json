@@ -1,0 +1,10 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "rice-purity-test-me-nn4o.vercel.app" }],
+      "destination": "https://www.ricepuritytestme.com/$1",
+      "permanent": true
+    }
+  ]
+}
