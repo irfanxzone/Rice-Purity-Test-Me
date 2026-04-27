@@ -30,7 +30,7 @@ export default function Contact() {
                                     Email
                                 </p>
                                 <a
-                                    href="mailto:hello@ricepuritytestme.com"
+                                    href="mailto:ricepurtytest@gmail.com"
                                     className="text-sm font-semibold text-ink-900 hover:text-[#CA8A04]"
                                 >
                                     hello@ricepuritytestme.com

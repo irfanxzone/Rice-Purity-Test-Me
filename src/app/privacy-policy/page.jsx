@@ -115,7 +115,7 @@ export default function PrivacyPolicy() {
                         You may request deletion of any contact-form message
                         you have sent us by emailing{" "}
                         <a
-                            href="mailto:privacy@ricepuritytestme.com"
+                            href="mailto:ricepurtytest@gmail.com"
                             className="font-semibold text-ink-900 underline decoration-[#FACC15] decoration-2 underline-offset-4"
                         >
                             privacy@ricepuritytestme.com

@@ -29,7 +29,7 @@ export default function Dmca() {
                         infringes your copyright, please send a written notice
                         of alleged infringement to our designated agent at{" "}
                         <a
-                            href="mailto:dmca@ricepuritytestme.com"
+                            href="mailto:ricepurtytest@gmail.com"
                             className="font-semibold text-ink-900 underline decoration-[#FACC15] decoration-2 underline-offset-4"
                         >
                             dmca@ricepuritytestme.com
