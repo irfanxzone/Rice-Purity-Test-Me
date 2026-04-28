@@ -23,7 +23,7 @@ export const metadata = {
         template: "%s · The Rice Purity Test",
     },
     description:
-        "Take the official 100-question Rice Purity Test online. Get your instant purity score from 0 to 100 with clear interpretation. Free, anonymous, no sign-up.",
+        "Take the Rice Purity test and evaluate your personality by answering 100 online questions.",
     keywords: [
         "rice purity test",
         "rice purity test 100 questions",
@@ -68,6 +68,7 @@ export default function RootLayout({ children }) {
     return (
         <html lang="en" className={`${poppins.variable} ${jetbrainsMono.variable}`}>
             <head>
+                    <meta name="google-site-verification" content="jFv4AUzgLzT_F6biCRTUz2vVSyRhfSoP5T5b87jRqLw" />
                 <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
                 <script
                     type="application/ld+json"
