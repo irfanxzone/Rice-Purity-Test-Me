@@ -266,7 +266,7 @@ export default function AO3RicePurityTestPage() {
           )}
         </section>
         <section id="about" data-testid="seo-content" className="mx-auto max-w-3xl px-4 py-16 sm:px-6 sm:py-20 lg:px-8 rpt-prose">
-          <h1 className="font-heading text-3xl font-bold tracking-tight text-neutral-900 sm:text-4xl mb-4">AO3 Rice Purity Test</h1>
+          <h1 className="font-heading text-3xl font-bold tracking-tight text-neutral-900 sm:text-4xl mb-4">What is AO3 Rice Purity Test</h1>
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
             Ao3 is the famous fanfiction platform where people read, write, and share fanfictions. Ao3 means Archive of Our Own. This test is the same as the official rice purity test, but converted into fanfiction culture. All the questions are related to fanfiction content, and fandom lovers share their creative ideas and connect with people who have the same fandom.
           </p>
