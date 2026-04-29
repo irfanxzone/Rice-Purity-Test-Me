@@ -26,26 +26,28 @@ export const metadata = {
         "Take the Rice Purity test and evaluate your personality by answering 100 online questions.",
     keywords: [
         "rice purity test",
-        "rice purity test 100 questions",
-        "official rice purity test",
-        "rice purity score meaning",
-        "purity test",
+        "the rice purity test",
+        "the official rice purity test",
+        "rice purity test score meaning",
+        "purity rice test",
+        "rice purity test 2026",
+        "rice purity test score",
     ],
     robots: { index: true, follow: true },
     alternates: { canonical: "/" },
     openGraph: {
         type: "website",
-        title: "Rice Purity Test – Check Your Score Instantly",
+        title: "The Rice Purity Test",
         description:
-            "Take the 100-question Rice Purity Test and see how pure you are. Free, anonymous, instant result.",
+            "Take the Rice Purity Test and evaluate your personality by answering 100 online questions.",
         url: "/",
         siteName: "Rice Purity Test",
     },
     twitter: {
         card: "summary_large_image",
-        title: "Rice Purity Test – Check Your Score Instantly",
+        title: "The Rice Purity Test",
         description:
-            "Take the 100-question Rice Purity Test and see how pure you are.",
+            "Take the Rice Purity Test and evaluate your personality by answering 100 online questions.",
     },
 };
 
