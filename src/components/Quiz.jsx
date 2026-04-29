@@ -190,12 +190,6 @@ export const Quiz = ({ checked, onToggle, onCalculate, onReset }) => {
                                 >
                                     {checkedCount} / {TOTAL_QUESTIONS} checked
                                 </span>
-                                <span className="font-mono text-[11px] text-ink-500">
-                                    score so far ·{" "}
-                                    <strong className="text-ink-900">
-                                        {TOTAL_QUESTIONS - checkedCount}
-                                    </strong>
-                                </span>
                             </div>
                             <div className="mt-2 h-[5px] w-full overflow-hidden rounded-full bg-ink-900/10">
                                 <div

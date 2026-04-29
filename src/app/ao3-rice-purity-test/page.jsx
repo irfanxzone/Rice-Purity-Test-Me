@@ -174,7 +174,7 @@ export default function AO3RicePurityTestPage() {
           <p className="mx-auto mt-3 max-w-xl text-[16px] leading-relaxed text-ink-700 text-center">
             Are you a fandom lover who wants to check how messed up your fanfiction taste is? Well, you landed in the right place. Ao3 Rice Purity Test is a fun and interactive fandom purity score quiz that asks you questions and gives you a score out of 100. The questions are about your experiences and scenarios that you might encounter while being part of online communities like fandom.
             <br /><br />
-            Many internet users find it better than the original rice purity test. This test actually doesn't calculate your score based on the specific answers; it's based on the number of options you click. To calculate your score, just click the boxes that you think are relevant to you and get the results.
+            Many internet users find it better than the <a href="/" className="rpt-interlink">original rice purity test</a>. This test actually doesn't calculate your score based on the specific answers; it's based on the number of options you click. To calculate your score, just click the boxes that you think are relevant to you and get the results.
           </p>
         </section>
         <section id="test" className="mx-auto max-w-3xl px-4 pt-2 pb-10 sm:px-6 lg:px-8">
@@ -310,8 +310,8 @@ export default function AO3RicePurityTestPage() {
             Everyone who loves or is into fanfic and fandom can take this test and check their taste. Specifically, online fandom communities, friend groups, and people who take part in or are willing to write fanfictions can take the AO3 test. Share your score with your community members and compare with them for joy.
           </p>
           <h2 className="font-heading text-2xl font-bold tracking-tight text-neutral-900 sm:text-3xl mt-10">Conclusion</h2>
-          <p className="mt-4 text-[15px] leading-relaxed text-neutral-700 sm:text-base">
-            The AO3 fanfic test is an amazing fandom quiz inspired by the original rice purity test. It measures how much exposure you have in fandom content by asking simple questions. Enjoy this fun quiz. This test score only shows your familiarity with the fandom culture and fanfictions. Take this lighthearted test, check your score, and share joy with your community members.
+          <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
+            This fanfic test is a self-assessment quiz with questions about your fandom life and fanfictions like fluff, angst, darkfic, etc. You'll be answering questions about Genres, Relationships, Tropes, AUs (ALTERNATE UNIVERSE), and much more. You gotta be honest with the answers.
           </p>
         </section>
       </main>

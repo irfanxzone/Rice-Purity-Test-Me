@@ -113,7 +113,7 @@ export const SeoContent = () => {
                 <ul className="list-disc ml-6 mt-2 text-[15px] text-neutral-700">
                     <li>Gaming genre is included, with questions related to games</li>
                     <li>Anime inspired questions from anime culture</li>
-                    <li>Fanfiction and AO3, with concentration on reading- and writing-based questions.</li>
+                    <li><a href="/ao3-rice-purity-test" className="rpt-interlink">Fanfiction and AO3</a>, with concentration on reading- and writing-based questions.</li>
                 </ul>
                 <p className="mt-2 text-[15px] leading-relaxed text-neutral-700 sm:text-base">
                     These genres are not official and created by fans. Whereas the classic questionnaire of 100-questions is the best recognized and widely accepted version.
