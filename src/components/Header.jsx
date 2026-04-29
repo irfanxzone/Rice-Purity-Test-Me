@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 import { ChevronDown, Menu, X } from "lucide-react";
 
 const MORE_TESTS = [
-    { label: "A03 Rice Purity Test", to: "#" },
+    { label: "A03 Rice Purity Test", to: "/ao3-rice-purity-test" },
     { label: "Valorant Rice Purity Test", to: "#" },
 ];
 
