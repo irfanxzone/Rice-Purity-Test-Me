@@ -7,7 +7,7 @@ import { Mail, MessageSquare, User, Send } from "lucide-react";
 export default function ContactForm() {
     const [form, setForm] = useState({
         name: "",
-        email: "ricepurtytest@gmail.com",
+        email: "ricepuritytestme@gmail.com",
         subject: "",
         message: "",
     });
@@ -29,7 +29,7 @@ export default function ContactForm() {
             toast.success(
                 "Thanks! Your message was noted. We’ll get back to you soon."
             );
-            setForm({ name: "", email: "ricepurtytest@gmail.com", subject: "", message: "" });
+            setForm({ name: "", email: "ricepuritytestme@gmail.com", subject: "", message: "" });
         }, 900);
     };
 
@@ -69,7 +69,7 @@ export default function ContactForm() {
                             value={form.email}
                             onChange={onChange}
                             data-testid="contact-email"
-                            placeholder="ricepurtytest@gmail.com"
+                            placeholder="ricepuritytestme@gmail.com"
                             className="w-full bg-transparent text-sm text-ink-900 placeholder:text-ink-300 focus:outline-none"
                         />
                     </div>
