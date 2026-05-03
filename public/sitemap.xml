@@ -16,7 +16,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.ricepuritytestme.com/ao3-rice-purity-test</loc>
+    <loc>https://ricepuritytestme.com/ao3-rice-purity-test</loc>
     <priority>0.8</priority>
   </url>
   <url>
@@ -38,5 +38,14 @@
     <loc>https://ricepuritytestme.com/dmca</loc>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
+  </url>
+</url>
+  <url>
+    <loc>https://ricepuritytestme.com/valorant-rice-purity-test</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ricepuritytestme.com/rice-purity-test-for-14-years-old</loc>
+    <priority>0.8</priority>
   </url>
 </urlset>

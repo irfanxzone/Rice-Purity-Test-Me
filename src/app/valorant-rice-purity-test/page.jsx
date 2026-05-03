@@ -325,6 +325,9 @@ export default function ValorantRicePurityTestPage() {
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
             With these easy steps, you can evaluate your Valorant purity score.
           </p>
+          <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
+            Want to try something different? <a href="/rice-purity-test-for-14-years-old" className="rpt-interlink">Take the Rice Purity Test for 14-year-olds</a> especially designed for younger teens.
+          </p>
           <h2 className="font-heading text-2xl font-bold tracking-tight text-neutral-900 sm:text-3xl mt-10">How Score Calculated in the Valorant Rice Purity Test</h2>
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
             There are a total of 5 level scores in the test. Each level describes a different personality of the player. Below, we have explained each level in detail:

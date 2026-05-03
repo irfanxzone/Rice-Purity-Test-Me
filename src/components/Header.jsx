@@ -8,6 +8,7 @@ import { ChevronDown, Menu, X } from "lucide-react";
 const MORE_TESTS = [
     { label: "A03 Rice Purity Test", to: "/ao3-rice-purity-test" },
     { label: "Valorant Rice Purity Test", to: "/valorant-rice-purity-test" },
+    { label: "Rice Purity Test for 14-Year-Olds", to: "/rice-purity-test-for-14-years-old" },
 ];
 
 const ABOUT_ITEMS = [
@@ -232,15 +233,14 @@ export default function Header() {
                                 More Tests
                             </p>
                             {MORE_TESTS.map((t) => (
-                                <div
+                                <Link
                                     key={t.label}
-                                    className="flex items-center justify-between px-4 py-2 text-sm text-ink-500"
+                                    href={t.to}
+                                    onClick={() => setMobile(false)}
+                                    className="block rounded-xl px-4 py-2.5 text-sm font-medium text-ink-700 hover:bg-[#FACC15]/30"
                                 >
-                                    <span>{t.label}</span>
-                                    <span className="rounded-full bg-[#FACC15]/30 px-2 py-0.5 font-mono text-[9px] uppercase tracking-wider text-ink-700">
-                                        Soon
-                                    </span>
-                                </div>
+                                    {t.label}
+                                </Link>
                             ))}
                         </div>
 
