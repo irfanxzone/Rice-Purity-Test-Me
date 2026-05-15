@@ -26,6 +26,27 @@ export default function Blog() {
             tag: "Gaming",
             read: "3 min read",
         },
+        {
+            title: "Rice Purity Test for 14 Years Old",
+            desc: "A safe, relatable purity test for teens with 20 questions tailored to 14-year-olds.",
+            href: "/rice-purity-test-for-14-years-old",
+            tag: "Teens",
+            read: "2 min read",
+        },
+        {
+            title: "Racism Rice Purity Test",
+            desc: "Check your racial bias and self-awareness with this 100-question anonymous test.",
+            href: "/racism-rice-purity-test",
+            tag: "Awareness",
+            read: "4 min read",
+        },
+        {
+            title: "7 Tests Like the Rice Purity Test in 2026",
+            desc: "Discover the most popular alternatives to the Rice Purity Test and what makes them unique.",
+            href: "/tests-like-rice-purity-test",
+            tag: "Trending",
+            read: "3 min read",
+        },
     ];
     return (
         <PageLayout

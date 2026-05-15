@@ -9,6 +9,8 @@ const MORE_TESTS = [
     { label: "A03 Rice Purity Test", to: "/ao3-rice-purity-test" },
     { label: "Valorant Rice Purity Test", to: "/valorant-rice-purity-test" },
     { label: "Rice Purity Test for 14-Year-Olds", to: "/rice-purity-test-for-14-years-old" },
+    { label: "Racism Rice Purity Test", to: "/racism-rice-purity-test" },
+    { label: "Tests Like the Rice Purity Test", to: "/tests-like-rice-purity-test" },
 ];
 
 const ABOUT_ITEMS = [
