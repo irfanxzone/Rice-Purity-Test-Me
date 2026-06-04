@@ -27,6 +27,13 @@ export default function Blog() {
             read: "3 min read",
         },
         {
+            title: "Overwatch Rice Purity Test",
+            desc: "Check your Overwatch habits and community personality with this 100-question gaming quiz.",
+            href: "/overwatch-rice-purity-test",
+            tag: "Gaming",
+            read: "3 min read",
+        },
+        {
             title: "Rice Purity Test for 14 Years Old",
             desc: "A safe, relatable purity test for teens with 20 questions tailored to 14-year-olds.",
             href: "/rice-purity-test-for-14-years-old",

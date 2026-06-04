@@ -8,9 +8,9 @@ import { ChevronDown, Menu, X } from "lucide-react";
 const MORE_TESTS = [
     { label: "A03 Rice Purity Test", to: "/ao3-rice-purity-test" },
     { label: "Valorant Rice Purity Test", to: "/valorant-rice-purity-test" },
+    { label: "Overwatch Rice Purity Test", to: "/overwatch-rice-purity-test" },
     { label: "Rice Purity Test for 14-Year-Olds", to: "/rice-purity-test-for-14-years-old" },
     { label: "Racism Rice Purity Test", to: "/racism-rice-purity-test" },
-    { label: "Tests Like the Rice Purity Test", to: "/tests-like-rice-purity-test" },
 ];
 
 const ABOUT_ITEMS = [
@@ -116,6 +116,18 @@ const Dropdown = ({ label, items, testid }) => {
                                     </span>
                                 </Link>
                             )
+                        )}
+                        {testid === "more-tests" && (
+                            <Link
+                                href="/blog"
+                                onClick={() => setOpen(false)}
+                                className="mt-3 inline-flex w-full items-center justify-center rounded-full bg-ink-900 px-4 py-2 text-sm font-semibold text-cream-50 transition-colors hover:bg-ink-800"
+                            >
+                                Explore more
+                                <span aria-hidden="true" className="ml-2">
+                                    →
+                                </span>
+                            </Link>
                         )}
                     </div>
                 </div>
