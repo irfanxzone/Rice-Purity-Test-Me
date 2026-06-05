@@ -13,6 +13,13 @@ export const metadata = {
 export default function Blog() {
     const articles = [
         {
+            title: "Kink Rice Purity Test",
+            desc: "A personal, age-specific 100-question test exploring preferences, boundaries, and consent.",
+            href: "/kink-rice-purity-test",
+            tag: "Adult",
+            read: "3 min read",
+        },
+        {
             title: "AO3 Rice Purity Test",
             desc: "A fun and interactive fandom purity score quiz for AO3 and fanfiction lovers.",
             href: "/ao3-rice-purity-test",

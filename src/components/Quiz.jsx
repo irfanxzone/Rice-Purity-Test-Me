@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useState, useCallback } from "react";
-import { QUESTION_SECTIONS, TOTAL_QUESTIONS } from "@/data/questions";
+import { ALL_QUESTIONS, TOTAL_QUESTIONS } from "@/data/questions";
 import HandCheck from "./HandCheck";
 
 export const Quiz = ({ checked, onToggle, onCalculate, onReset }) => {
@@ -85,93 +85,42 @@ export const Quiz = ({ checked, onToggle, onCalculate, onReset }) => {
                 )}
             </div>
 
-            {/* Section nav pills */}
-            <div className="mb-8 flex flex-wrap gap-2">
-                {QUESTION_SECTIONS.map((section, sIdx) => (
-                    <a
-                        key={section.id}
-                        href={`#section-${section.id}`}
-                        className="inline-flex items-center gap-2 rounded-full border border-ink-300/60 bg-cream-50 px-3.5 py-1.5 text-xs font-medium text-ink-700 transition-colors hover:border-ink-900 hover:text-ink-900"
-                    >
-                        <span className="font-mono text-[10px] text-ink-500">
-                            {sIdx + 1}
-                        </span>
-                        {section.title}
-                    </a>
-                ))}
-            </div>
-
-            {/* ======= QUESTIONS ZONE — sticky bar is scoped here ======= */}
+            {/* ======= QUESTIONS ZONE — single sequence (no categories) ======= */}
             <div className="relative">
-                {QUESTION_SECTIONS.map((section, sIdx) => (
-                    <div
-                        key={section.id}
-                        id={`section-${section.id}`}
-                        data-testid={`section-${section.id}`}
-                        className="mb-10 scroll-mt-28"
-                    >
-                        <div className="mb-5 flex items-end justify-between border-b border-ink-900/15 pb-3">
-                            <div className="flex items-baseline gap-3">
-                                <span className="font-mono text-xs font-medium text-ink-500">
-                                    {sIdx + 1}
-                                </span>
-                                <h3 className="text-xl font-bold text-ink-900 sm:text-2xl">
-                                    {section.title}
-                                </h3>
-                            </div>
-                            <span className="font-mono text-[10px] uppercase tracking-[0.18em] text-ink-500">
-                                {section.questions.length} items
-                            </span>
-                        </div>
-                        <p className="mb-4 text-sm text-ink-500">
-                            {section.description}
-                        </p>
-
-                        <ul className="divide-y divide-ink-900/10 rounded-2xl border border-ink-300/50 bg-cream-50/70 px-3 sm:px-4">
-                            {section.questions.map((text) => {
-                                const idx = globalIdx++;
-                                const id = `q-${idx}`;
-                                const isChecked = !!checked[id];
-                                return (
-                                    <li key={id}>
-                                        <label
-                                            htmlFor={id}
-                                            data-testid={`question-row-${idx + 1}`}
-                                            data-checked={isChecked}
-                                            className="rpt-row group flex cursor-pointer items-start gap-3 rounded-md px-1 py-3 transition-colors hover:bg-cream-200/50 sm:gap-4 sm:py-3.5"
-                                        >
-                                            <input
-                                                type="checkbox"
-                                                id={id}
-                                                data-testid={`question-checkbox-${idx + 1}`}
-                                                checked={isChecked}
-                                                onChange={() => onToggle(id)}
-                                                className="sr-only"
-                                            />
-                                            <span
-                                                aria-hidden="true"
-                                                className="rpt-checkbox mt-0.5"
-                                            >
-                                                <HandCheck
-                                                    strokeWidth={2.6}
-                                                    className="h-4 w-4 text-ink-900"
-                                                />
-                                            </span>
-                                            <span className="flex-1 text-[15px] leading-relaxed text-ink-900">
-                                                <span className="mr-2 font-mono text-xs text-ink-500">
-                                                    {idx + 1}.
-                                                </span>
-                                                <span className="rpt-q-text transition-colors">
-                                                    {text}
-                                                </span>
-                                            </span>
-                                        </label>
-                                    </li>
-                                );
-                            })}
-                        </ul>
-                    </div>
-                ))}
+                <div className="mb-10 scroll-mt-28">
+                    <ul className="divide-y divide-ink-900/10 rounded-2xl border border-ink-300/50 bg-cream-50/70 px-3 sm:px-4">
+                        {ALL_QUESTIONS.map((text, idx) => {
+                            const id = `q-${idx}`;
+                            const isChecked = !!checked[id];
+                            return (
+                                <li key={id}>
+                                    <label
+                                        htmlFor={id}
+                                        data-testid={`question-row-${idx + 1}`}
+                                        data-checked={isChecked}
+                                        className="rpt-row group flex cursor-pointer items-start gap-3 rounded-md px-1 py-3 transition-colors hover:bg-cream-200/50 sm:gap-4 sm:py-3.5"
+                                    >
+                                        <input
+                                            type="checkbox"
+                                            id={id}
+                                            data-testid={`question-checkbox-${idx + 1}`}
+                                            checked={isChecked}
+                                            onChange={() => onToggle(id)}
+                                            className="sr-only"
+                                        />
+                                        <span aria-hidden="true" className="rpt-checkbox mt-0.5">
+                                            <HandCheck strokeWidth={2.6} className="h-4 w-4 text-ink-900" />
+                                        </span>
+                                        <span className="flex-1 text-[15px] leading-relaxed text-ink-900">
+                                            <span className="mr-2 font-mono text-xs text-ink-500">{idx + 1}.</span>
+                                            <span className="rpt-q-text transition-colors">{text}</span>
+                                        </span>
+                                    </label>
+                                </li>
+                            );
+                        })}
+                    </ul>
+                </div>
 
                 {/* Sticky action bar — scoped to questions zone.
                     - Hidden until user scrolls to questions (natural position is at the end).
