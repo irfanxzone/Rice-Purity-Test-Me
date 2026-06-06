@@ -20,6 +20,13 @@ export default function Blog() {
             read: "3 min read",
         },
         {
+            title: "Weighted Rice Purity Test",
+            desc: "A more realistic 100-question purity quiz with weighted scoring for different experiences.",
+            href: "/weighted-rice-purity-test",
+            tag: "Scoring",
+            read: "3 min read",
+        },
+        {
             title: "AO3 Rice Purity Test",
             desc: "A fun and interactive fandom purity score quiz for AO3 and fanfiction lovers.",
             href: "/ao3-rice-purity-test",
