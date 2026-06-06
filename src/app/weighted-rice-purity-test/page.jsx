@@ -203,63 +203,7 @@ export default function WeightedRicePurityTestPage() {
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
             This test groups the questions into score levels based on how light or serious the experience is. Answer honestly to see how the weighted score changes compared to the classic test.
           </p>
-          <div className="overflow-x-auto mt-6">
-            <table className="w-full text-sm">
-              <thead>
-                <tr className="text-left">
-                  <th className="py-2">Question Range</th>
-                  <th className="py-2">Experience Level</th>
-                  <th className="py-2">No. of Questions</th>
-                  <th className="py-2">Points Per “Yes”</th>
-                  <th className="py-2">Maximum Points</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td className="py-2">1–20</td>
-                  <td className="py-2">Light</td>
-                  <td className="py-2">20</td>
-                  <td className="py-2">1</td>
-                  <td className="py-2">20</td>
-                </tr>
-                <tr>
-                  <td className="py-2">21–50</td>
-                  <td className="py-2">Moderate</td>
-                  <td className="py-2">30</td>
-                  <td className="py-2">2</td>
-                  <td className="py-2">60</td>
-                </tr>
-                <tr>
-                  <td className="py-2">51–70</td>
-                  <td className="py-2">Mature / Risky</td>
-                  <td className="py-2">20</td>
-                  <td className="py-2">3</td>
-                  <td className="py-2">60</td>
-                </tr>
-                <tr>
-                  <td className="py-2">71–90</td>
-                  <td className="py-2">High-Impact</td>
-                  <td className="py-2">20</td>
-                  <td className="py-2">4</td>
-                  <td className="py-2">80</td>
-                </tr>
-                <tr>
-                  <td className="py-2">91–100</td>
-                  <td className="py-2">Very Serious</td>
-                  <td className="py-2">10</td>
-                  <td className="py-2">5</td>
-                  <td className="py-2">50</td>
-                </tr>
-                <tr>
-                  <td className="py-2 font-semibold">Total</td>
-                  <td className="py-2">—</td>
-                  <td className="py-2">100</td>
-                  <td className="py-2">—</td>
-                  <td className="py-2">250</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
+         
         </section>
 
         <section id="test" className="mx-auto max-w-3xl px-4 pt-2 pb-10 sm:px-6 lg:px-8">
