@@ -129,7 +129,9 @@ export default function WeightedRicePurityTestPage() {
     [checked]
   );
 
-  const weightedTotal = useMemo(
+  const MAX_POINTS = 250;
+
+  const pointsSum = useMemo(
     () =>
       WEIGHTED_QUESTIONS.reduce(
         (sum, question, index) => sum + (checked[index] ? question.weight : 0),
@@ -138,7 +140,12 @@ export default function WeightedRicePurityTestPage() {
     [checked]
   );
 
-  const score = useMemo(() => Math.max(0, 100 - weightedTotal), [weightedTotal]);
+  const normalizedScore = useMemo(() => {
+    // Convert total selected points to a 0-100 score where selecting the maximum
+    // possible points results in a 0 score and selecting none results in 100.
+    const percentDeducted = Math.round((pointsSum / MAX_POINTS) * 100);
+    return Math.max(0, 100 - percentDeducted);
+  }, [pointsSum]);
 
   useEffect(() => {
     if (typeof window === "undefined") return;
@@ -157,13 +164,13 @@ export default function WeightedRicePurityTestPage() {
   const handleReset = useCallback(() => setChecked({}), []);
 
   const handleCalculate = useCallback(() => {
-    setFinalScore(score);
+    setFinalScore(normalizedScore);
     setStage("done");
     setTimeout(() => {
       const el = document.getElementById("result");
       if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
     }, 50);
-  }, [score]);
+  }, [normalizedScore]);
 
   const handleRetake = useCallback(() => {
     setChecked({});
@@ -274,8 +281,11 @@ export default function WeightedRicePurityTestPage() {
                       onChange={() => handleToggle(index)}
                       className="mt-1 h-5 w-5 accent-[#FACC15]"
                     />
-                    <label htmlFor={`q${index}`} className="text-base cursor-pointer select-none flex-1">
-                      {index + 1}. {question.text}
+                    <label htmlFor={`q${index}`} className="text-base cursor-pointer select-none flex-1 flex items-center justify-between gap-3">
+                      <span>{index + 1}. {question.text}</span>
+                      <span className="ml-3 inline-flex items-center rounded-full bg-cream-100 px-2 py-0.5 text-xs font-semibold text-ink-700">
+                        {question.weight} pt
+                      </span>
                     </label>
                   </li>
                 ))}
@@ -329,6 +339,9 @@ export default function WeightedRicePurityTestPage() {
                   </h2>
                   <p className="mx-auto mt-5 max-w-xl text-[16px] leading-relaxed text-ink-700 sm:text-base">
                     {getScoreMeaning(finalScore)}
+                  </p>
+                  <p className="mx-auto mt-3 max-w-xl text-sm leading-relaxed text-ink-600 sm:text-sm">
+                    Points deducted: <strong>{pointsSum}</strong> / {MAX_POINTS} — final score is out of 100.
                   </p>
                   <div className="mt-8 flex flex-col items-center gap-3 sm:flex-row sm:justify-center print:hidden">
                     <button
