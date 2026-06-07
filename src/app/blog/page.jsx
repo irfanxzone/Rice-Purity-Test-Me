@@ -68,6 +68,13 @@ export default function Blog() {
             tag: "Trending",
             read: "3 min read",
         },
+        {
+            title: "MPS Meaning Rice Purity Test",
+            desc: "Learn what MPS means in the Rice Purity Test and how to answer related questions honestly.",
+            href: "/mps-meaning-rice-purity-test",
+            tag: "Guide",
+            read: "2 min read",
+        },
     ];
     return (
         <PageLayout
