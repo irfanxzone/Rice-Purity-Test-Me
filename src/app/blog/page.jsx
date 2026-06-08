@@ -1,14 +1,9 @@
+"use client";
+
+import { useState } from "react";
 import Link from "next/link";
 import { Clock, ArrowUpRight } from "lucide-react";
 import PageLayout from "@/components/PageLayout";
-
-export const metadata = {
-    title: "Blog — Rice Purity Test",
-    description:
-        "Guides, history, scoring explanations, and the occasional fun deep-dive on the Rice Purity Test.",
-    alternates: { canonical: "/blog" },
-};
-
 
 export default function Blog() {
     const articles = [
@@ -75,7 +70,18 @@ export default function Blog() {
             tag: "Guide",
             read: "2 min read",
         },
+        {
+            title: "Brown Rice Purity Test",
+            desc: "A playful food-themed quiz that gives the Rice Purity Test a funny brown rice twist.",
+            href: "/brown-rice-purity-test",
+            tag: "Food",
+            read: "3 min read",
+        },
     ];
+    const ARTICLES_PER_PAGE = 9;
+    const [page, setPage] = useState(1);
+    const pageCount = Math.ceil(articles.length / ARTICLES_PER_PAGE);
+    const visibleArticles = articles.slice((page - 1) * ARTICLES_PER_PAGE, page * ARTICLES_PER_PAGE);
     return (
         <PageLayout
             eyebrow="Blog"
@@ -84,7 +90,7 @@ export default function Blog() {
             wide
         >
             <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
-                {articles.map((p, i) => (
+                {visibleArticles.map((p, i) => (
                     <Link href={p.href} key={i} data-testid={`blog-card-${i}`}>
                         <article
                             className="group flex flex-col rounded-2xl border border-ink-300/60 bg-cream-50 p-5 transition-all hover:-translate-y-1 hover:border-ink-900 hover:shadow-[0_12px_28px_-14px_rgba(26,26,20,0.25)]"
@@ -109,6 +115,21 @@ export default function Blog() {
                             </span>
                         </article>
                     </Link>
+                ))}
+            </div>
+            <div className="mt-8 flex items-center justify-center gap-3">
+                {Array.from({ length: pageCount }, (_, index) => (
+                    <button
+                        key={index}
+                        onClick={() => setPage(index + 1)}
+                        className={`h-10 min-w-[40px] rounded-full border px-3 text-sm font-semibold transition ${
+                            page === index + 1
+                                ? "bg-ink-900 text-cream-50"
+                                : "border-ink-300 bg-white text-ink-900 hover:border-ink-900"
+                        }`}
+                    >
+                        {index + 1}
+                    </button>
                 ))}
             </div>
         </PageLayout>
