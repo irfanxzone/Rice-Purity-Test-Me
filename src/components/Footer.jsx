@@ -153,7 +153,7 @@ export default function Footer() {
             <div className="border-t border-cream-100/10 bg-black/50">
                 <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-3 px-4 py-5 sm:flex-row sm:px-6 lg:px-8">
                     <p className="font-mono text-[11px] uppercase tracking-[0.18em] text-cream-100/60">
-                        © {new Date().getFullYear()} RicePurityTest · All Rights Reserved
+                        © {new Date().getFullYear()} RicePurityTestMe · All Rights Reserved
                     </p>
                     <div className="flex items-center gap-5">
                         <Link
