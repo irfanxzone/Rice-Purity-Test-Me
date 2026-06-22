@@ -14,8 +14,11 @@ export const SeoContent = () => {
                 </h2>
                 <p className="mt-4 text-[15px] leading-relaxed text-neutral-700 sm:text-base">
                     Rice test, also known as a self-reflection tool, is used to take a rough idea of a person’s social experiences. It is a structured set of anonymous questions that particularly evaluates the innocence of a person. It allows users to reflect on their social experience by answering 100 diverse yet simple questions. By answering questions belonging to multiple facets of human life, in “Yes” or “No” format, you can explore what particular things you have done in your life.
-                </p>
-                <h3 className="mt-8 font-heading text-xl font-semibold text-neutral-900">Background</h3>
+                </p>                <img 
+                    src="/rice-purity-test.webp" 
+                    alt="Rice Purity Test" 
+                    className="mt-6 w-full rounded-lg"
+                />                <h3 className="mt-8 font-heading text-xl font-semibold text-neutral-900">Background</h3>
                 <p className="mt-2 text-[15px] leading-relaxed text-neutral-700 sm:text-base">
                     The test first appeared only for women in the Early Twentieth Century, after it was published in The Thresher, a newspaper at Rice University. Fifty years later after the first launch, in 1974, the Thresher relaunched the test due to its increasing popularity.
                 </p>
