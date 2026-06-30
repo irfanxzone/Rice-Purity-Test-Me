@@ -1,0 +1,91 @@
+"use client";
+
+const SEO_TIMESTAMP = "2026-06-30T18:47:35+05:00";
+
+const ARTICLES = {
+  "76-rice-purity-test": {
+    title: "76 Rice Purity Test",
+    description: "If you have taken the Rice Purity Test and scored 76, you might be wondering what this score means or what it says about your personality.",
+  },
+  "ao3-rice-purity-test": {
+    title: "AO3 Rice Purity Test",
+    description: "A fun and interactive fandom purity score quiz for AO3 and fanfiction lovers.",
+  },
+  "brown-rice-purity-test": {
+    title: "Brown Rice Purity Test 2026",
+    description: "A playful food-themed quiz that gives the Rice Purity Test a funny brown rice twist.",
+  },
+  "kink-rice-purity-test": {
+    title: "Kink Rice Purity Test 2026",
+    description: "A personal, age-specific 100-question test exploring preferences, boundaries, and consent.",
+  },
+  "mps-meaning-rice-purity-test": {
+    title: "MPS Meaning Rice Purity Test",
+    description: "Learn what MPS means in the Rice Purity Test and how to answer related questions honestly.",
+  },
+  "overwatch-rice-purity-test": {
+    title: "Overwatch Rice Purity Test 2026",
+    description: "Check your Overwatch habits and community personality with this 100-question gaming quiz.",
+  },
+  "racism-rice-purity-test": {
+    title: "The Racism Rice Purity Test 2026",
+    description: "Check your racial bias and self-awareness with this 100-question anonymous test.",
+  },
+  "rice-purity-test-for-14-years-old": {
+    title: "Rice Purity Test for 14 Years Old",
+    description: "A safe, relatable purity test for teens with 20 questions tailored to 14-year-olds.",
+  },
+  "rice-purity-test-for-teens": {
+    title: "Rice Purity Test for Teens 2026",
+    description: "The Rice Purity Test for teens is an age-specific version of the famous Purity Test, which young people take for fun, curiosity, and self-reflection.",
+  },
+  "tests-like-rice-purity-test": {
+    title: "Tests Like the Rice Purity Test in 2026",
+    description: "Try popular tests like the Rice Purity Test, compare scores with friends, and discover surprising results.",
+  },
+  "valorant-rice-purity-test": {
+    title: "Valorant Rice Purity Test",
+    description: "A parody of the official rice purity test, but for Valorant players.",
+  },
+  "weighted-rice-purity-test": {
+    title: "Weighted Rice Purity Test | Rice Purity Quiz",
+    description: "Try the Weighted Rice Purity Test: a more realistic 100-question purity score with weighted scoring and deeper meaning.",
+  },
+};
+
+export default function ArticleJsonLd({ slug }) {
+  const article = ARTICLES[slug];
+  if (!article) return null;
+
+  const url = `https://ricepuritytestme.com/${slug}`;
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: article.title,
+    description: article.description,
+    url,
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": url,
+    },
+    datePublished: SEO_TIMESTAMP,
+    dateModified: SEO_TIMESTAMP,
+    author: {
+      "@type": "Organization",
+      name: "Rice Purity Test",
+      url: "https://ricepuritytestme.com/",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Rice Purity Test",
+      url: "https://ricepuritytestme.com/",
+    },
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}

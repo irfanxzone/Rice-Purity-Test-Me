@@ -3,6 +3,7 @@
 import { useCallback, useMemo, useState, useEffect } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 const TEENS_QUESTIONS = [
   "Held hands with someone?",
@@ -165,6 +166,7 @@ export default function TeensRicePurityTestClient() {
 
   return (
     <div className="App">
+      <ArticleJsonLd slug="rice-purity-test-for-teens" />
       <Header />
       <main data-testid="main-content">
         <section className="mx-auto max-w-3xl px-4 pt-10 pb-10 sm:px-6 sm:pt-14 lg:px-8">

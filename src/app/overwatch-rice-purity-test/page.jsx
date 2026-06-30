@@ -2,6 +2,7 @@
 import { useCallback, useMemo, useState, useEffect } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 const OVERWATCH_QUESTIONS = [
   "Have you ever played the original version of Overwatch?",
@@ -182,6 +183,7 @@ export default function OverwatchRicePurityTestPage() {
 
   return (
     <div className="App">
+      <ArticleJsonLd slug="overwatch-rice-purity-test" />
       <Header />
       <main data-testid="main-content">
         <section className="mx-auto max-w-3xl px-4 pt-10 pb-10 sm:px-6 sm:pt-14 lg:px-8">
