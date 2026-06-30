@@ -8,6 +8,13 @@ import PageLayout from "@/components/PageLayout";
 export default function Blog() {
     const articles = [
         {
+            title: "Rice Purity Test for Teens",
+            desc: "A safe, age-specific 100-question purity test for teens focused on everyday life experiences.",
+            href: "/rice-purity-test-for-teens",
+            tag: "Teens",
+            read: "4 min read",
+        },
+        {
             title: "76 Rice Purity Test",
             desc: "Learn what a Rice Purity Test score of 76 means and where it sits on the purity scale.",
             href: "/76-rice-purity-test",
