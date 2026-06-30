@@ -2,7 +2,6 @@
 import { useCallback, useMemo, useState, useEffect } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 const WEIGHTED_QUESTIONS = [
   { text: "Had a crush on someone?", weight: 1 },
@@ -184,7 +183,6 @@ export default function WeightedRicePurityTestPage() {
 
   return (
     <div className="App">
-      <ArticleJsonLd slug="weighted-rice-purity-test" />
       <Header />
       <main data-testid="main-content">
         <section className="mx-auto max-w-3xl px-4 pt-10 pb-10 sm:px-6 sm:pt-14 lg:px-8">

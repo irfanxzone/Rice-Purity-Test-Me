@@ -1,6 +1,4 @@
-"use client";
-
-const SEO_TIMESTAMP = "2026-06-30T18:47:35+05:00";
+export const SEO_TIMESTAMP = "2026-06-30T18:47:35+05:00";
 
 const ARTICLES = {
   "76-rice-purity-test": {

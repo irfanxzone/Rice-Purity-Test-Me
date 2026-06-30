@@ -2,7 +2,6 @@
 import { useCallback, useMemo, useState, useEffect } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 const RACISM_QUESTIONS = [
   "I have assumed someone's intelligence based on their race",
@@ -166,7 +165,6 @@ export default function RacismRicePurityTestPage() {
 
   return (
     <div className="App">
-      <ArticleJsonLd slug="racism-rice-purity-test" />
       <Header />
       <main data-testid="main-content">
         {/* Only show intro and questions until test is completed */}
