@@ -1,4 +1,4 @@
-export const SEO_TIMESTAMP = "2026-06-30T18:47:35+05:00";
+export const SEO_TIMESTAMP = "2026-07-01T07:39:20+05:00";
 
 const ARTICLES = {
   "76-rice-purity-test": {
@@ -24,6 +24,10 @@ const ARTICLES = {
   "overwatch-rice-purity-test": {
     title: "Overwatch Rice Purity Test 2026",
     description: "Check your Overwatch habits and community personality with this 100-question gaming quiz.",
+  },
+  "performative-rice-purity-test": {
+    title: "Performative Rice Purity Test 2026",
+    description: "The Performative Rice Purity Test is a modern trend that started on social media, where purity is no longer the subject.",
   },
   "racism-rice-purity-test": {
     title: "The Racism Rice Purity Test 2026",
@@ -58,7 +62,7 @@ export default function ArticleJsonLd({ slug }) {
   const url = `https://ricepuritytestme.com/${slug}`;
   const schema = {
     "@context": "https://schema.org",
-    "@type": "Article",
+    "@type": "BlogPosting",
     headline: article.title,
     description: article.description,
     url,
@@ -81,9 +85,22 @@ export default function ArticleJsonLd({ slug }) {
   };
 
   return (
-    <script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-    />
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
+      <div className="sr-only" itemScope itemType="https://schema.org/BlogPosting">
+        <meta itemProp="headline" content={article.title} />
+        <meta itemProp="description" content={article.description} />
+        <meta itemProp="url" content={url} />
+        <time itemProp="datePublished" dateTime={SEO_TIMESTAMP}>
+          Published {SEO_TIMESTAMP}
+        </time>
+        <time itemProp="dateModified" dateTime={SEO_TIMESTAMP}>
+          Modified {SEO_TIMESTAMP}
+        </time>
+      </div>
+    </>
   );
 }
