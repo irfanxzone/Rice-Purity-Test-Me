@@ -27,13 +27,13 @@ export const Quiz = ({ checked, onToggle, onCalculate, onReset }) => {
         <section
             id="top"
             data-testid="quiz-section"
-            className="mx-auto max-w-3xl px-4 pt-10 pb-10 sm:px-6 sm:pt-14 lg:px-8"
+            className="mx-auto max-w-3xl px-4 pt-6 pb-10 sm:px-6 sm:pt-14 lg:px-8"
         >
             {/* Intro strip */}
             <div className="mb-8 text-center">
                 <h1
                     data-testid="page-heading"
-                    className="mt-5 text-4xl font-extrabold tracking-tight text-ink-900 sm:text-5xl"
+                    className="mt-0 text-4xl font-extrabold tracking-tight text-ink-900 sm:mt-5 sm:text-5xl"
                 >
                     Rice Purity Test
                 </h1>
