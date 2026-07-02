@@ -165,7 +165,7 @@ export default function PerformativeRicePurityTestClient() {
     <div className="App">
       <Header />
       <main data-testid="main-content">
-        <section className="mx-auto max-w-3xl px-4 pt-10 pb-10 sm:px-6 sm:pt-14 lg:px-8">
+        <section className="mx-auto max-w-3xl px-4 pt-6 pb-10 sm:px-6 sm:pt-14 lg:px-8">
           <h1 className="mt-5 text-4xl font-extrabold tracking-tight text-ink-900 sm:text-5xl text-center">
             Performative Rice Purity Test
           </h1>
