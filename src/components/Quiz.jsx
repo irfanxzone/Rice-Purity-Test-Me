@@ -31,10 +31,6 @@ export const Quiz = ({ checked, onToggle, onCalculate, onReset }) => {
         >
             {/* Intro strip */}
             <div className="mb-8 text-center">
-                <span className="inline-flex items-center gap-2 rounded-full border border-ink-300/60 bg-cream-50 px-3 py-1 font-mono text-[10px] uppercase tracking-[0.22em] text-ink-700">
-                    <span className="h-1.5 w-1.5 rounded-full bg-[#FACC15]" />
-                    100 questions · self-graded · anonymous
-                </span>
                 <h1
                     data-testid="page-heading"
                     className="mt-5 text-4xl font-extrabold tracking-tight text-ink-900 sm:text-5xl"
