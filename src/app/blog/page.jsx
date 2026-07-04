@@ -8,6 +8,13 @@ import PageLayout from "@/components/PageLayout";
 export default function Blog() {
     const articles = [
         {
+            title: "Rice Purity Test for Girls",
+            desc: "A gender-specific 100-question purity quiz reflecting girls' life, school, style, and social experiences.",
+            href: "/rice-purity-test-for-girls",
+            tag: "Guide",
+            read: "4 min read",
+        },
+        {
             title: "Performative Rice Purity Test",
             desc: "A modern purity-style quiz about aesthetic habits, social trends, and online performance.",
             href: "/performative-rice-purity-test",

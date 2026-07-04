@@ -1,4 +1,4 @@
-export const SEO_TIMESTAMP = "2026-07-01T07:39:20+05:00";
+export const SEO_TIMESTAMP = "2026-07-04T12:46:06+05:00";
 
 const ARTICLES = {
   "76-rice-purity-test": {
@@ -16,6 +16,10 @@ const ARTICLES = {
   "kink-rice-purity-test": {
     title: "Kink Rice Purity Test 2026",
     description: "A personal, age-specific 100-question test exploring preferences, boundaries, and consent.",
+  },
+  "rice-purity-test-for-girls": {
+    title: "Rice Purity Test for Girls 2026",
+    description: "The Rice Purity Test for Girls is not just a quiz for many girls; it serves as a mirror reflecting what they experienced, avoided, and learned throughout their lives.",
   },
   "mps-meaning-rice-purity-test": {
     title: "MPS Meaning Rice Purity Test",
