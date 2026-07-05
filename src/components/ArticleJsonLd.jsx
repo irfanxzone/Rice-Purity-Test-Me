@@ -1,4 +1,4 @@
-export const SEO_TIMESTAMP = "2026-07-04T12:46:06+05:00";
+export const SEO_TIMESTAMP = "2026-07-05T23:30:27+05:00";
 
 const ARTICLES = {
   "76-rice-purity-test": {
@@ -12,6 +12,10 @@ const ARTICLES = {
   "brown-rice-purity-test": {
     title: "Brown Rice Purity Test 2026",
     description: "A playful food-themed quiz that gives the Rice Purity Test a funny brown rice twist.",
+  },
+  "fortnite-rice-purity-test": {
+    title: "Fortnite Rice Purity Test 2026",
+    description: "Are you a Fortnite player who wants to check how pure your Fortnite habits are?",
   },
   "kink-rice-purity-test": {
     title: "Kink Rice Purity Test 2026",

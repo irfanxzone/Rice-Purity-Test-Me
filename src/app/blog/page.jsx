@@ -8,6 +8,13 @@ import PageLayout from "@/components/PageLayout";
 export default function Blog() {
     const articles = [
         {
+            title: "Fortnite Rice Purity Test",
+            desc: "A 100-question Fortnite purity quiz about gameplay habits, skins, emotes, and competitive moments.",
+            href: "/fortnite-rice-purity-test",
+            tag: "Gaming",
+            read: "4 min read",
+        },
+        {
             title: "Rice Purity Test for Girls",
             desc: "A gender-specific 100-question purity quiz reflecting girls' life, school, style, and social experiences.",
             href: "/rice-purity-test-for-girls",
