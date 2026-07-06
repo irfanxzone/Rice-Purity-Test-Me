@@ -38,38 +38,18 @@ export const Quiz = ({ checked, onToggle, onCalculate, onReset }) => {
                     Rice Purity Test
                 </h1>
                 <p className="mx-auto mt-3 max-w-xl text-[15px] leading-relaxed text-ink-700">
-                    Click the button below to start testing yourself or scroll down to finish the quiz without adding {" "}
-                    <span className="font-semibold text-ink-900">
-                        personal information
-                    </span>
-                    .
+                    Test your personality with a viral Rice Purity Test that has fascinated millions. A completely secure, anonymous, and non-judgmental test that describes your life experiences, from innocent memories to unforgettable adventures.
                 </p>
             </div>
 
-            {/* Instructions / formula card */}
+            {/* Disclaimer */}
             <div
                 id="test"
-                className="relative mb-10 overflow-hidden rounded-2xl border border-ink-300/60 bg-cream-50 p-5 sm:p-6"
+                className="relative mb-10 text-center"
             >
-                <div className="flex flex-wrap items-center justify-between gap-3">
-                    <div className="flex items-center gap-3">
-                        <span className="flex h-9 w-9 items-center justify-center rounded-full bg-[#FACC15] text-sm font-bold text-ink-900 shadow-[0_2px_0_#1A1A14]">
-                            i
-                        </span>
-                        <div>
-                            <h2 className="text-base font-bold text-ink-900 sm:text-lg">
-                                How it works
-                            </h2>
-                            <p className="text-[13px] text-ink-500">
-                                One tap per item · score calculates live
-                            </p>
-                        </div>
-                    </div>
-                    <div className="rounded-lg bg-ink-900 px-3.5 py-2 font-mono text-[11px] font-semibold text-cream-50">
-                        SCORE ={" "}
-                        <span className="text-[#FACC15]">100 − checked</span>
-                    </div>
-                </div>
+                <p className="mx-auto max-w-2xl text-[15px] font-bold leading-relaxed text-ink-900">
+                    Disclaimer: This test is a reflection of your past–not a roadmap for your future so answer honestly, not aspirationally.
+                </p>
 
                 {showCancelled && (
                     <div
