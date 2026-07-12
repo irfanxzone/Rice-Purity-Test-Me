@@ -8,6 +8,13 @@ import PageLayout from "@/components/PageLayout";
 export default function Blog() {
     const articles = [
         {
+            title: "Updated BDSM Test",
+            desc: "A 100-question adult self-assessment quiz about BDSM curiosity, boundaries, consent, and kink dynamics.",
+            href: "/bdsm-test",
+            tag: "Adult",
+            read: "4 min read",
+        },
+        {
             title: "Fortnite Rice Purity Test",
             desc: "A 100-question Fortnite purity quiz about gameplay habits, skins, emotes, and competitive moments.",
             href: "/fortnite-rice-purity-test",

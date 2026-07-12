@@ -1,6 +1,10 @@
-export const SEO_TIMESTAMP = "2026-07-06T14:42:49+05:00";
+export const SEO_TIMESTAMP = "2026-07-12T23:54:44+05:00";
 
 const ARTICLES = {
+  "bdsm-test": {
+    title: "Updated BDSM Test 2026",
+    description: "The BDSM Test is a unique and modern way to check how kinky you really are.",
+  },
   "76-rice-purity-test": {
     title: "76 Rice Purity Test",
     description: "If you have taken the Rice Purity Test and scored 76, you might be wondering what this score means or what it says about your personality.",
