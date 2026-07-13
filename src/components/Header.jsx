@@ -159,18 +159,17 @@ export default function Header() {
                         >
                             <span
                                 aria-hidden="true"
-                                className="relative inline-flex h-10 w-10 items-center justify-center rounded-full border border-ink-900 bg-[#FACC15] shadow-[0_2px_0_#1A1A14]"
+                                className="relative inline-flex h-10 w-10 items-center justify-center overflow-hidden rounded-full border border-[1px] border-ink-900 bg-cream-50"
                             >
-                                <span className="text-sm font-extrabold text-ink-900">
-                                    R
-                                </span>
+                                <img
+                                    src="/RicePurityTest.webp"
+                                    alt=""
+                                    className="h-full w-full object-cover"
+                                />
                             </span>
                             <span className="flex flex-col leading-none">
                                 <span className="text-[15px] font-bold tracking-tight text-ink-900 sm:text-[17px]">
                                     Rice Purity Test
-                                </span>
-                                <span className="mt-1 font-mono text-[9px] uppercase tracking-[0.22em] text-ink-500">
-                                    Official
                                 </span>
                             </span>
                         </Link>

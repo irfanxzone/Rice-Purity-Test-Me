@@ -35,6 +35,11 @@ export const metadata = {
     ],
     robots: { index: true, follow: true },
     alternates: { canonical: "/" },
+    icons: {
+        icon: [{ url: "/favicon.svg", type: "image/svg+xml" }],
+        shortcut: [{ url: "/favicon.svg", type: "image/svg+xml" }],
+        apple: [{ url: "/RicePurityTest.webp", type: "image/webp" }],
+    },
     openGraph: {
         type: "website",
         title: "The Rice Purity Test",
