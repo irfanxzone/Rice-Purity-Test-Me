@@ -1,6 +1,10 @@
-export const SEO_TIMESTAMP = "2026-07-12T23:54:44+05:00";
+export const SEO_TIMESTAMP = "2026-07-14T00:13:48+05:00";
 
 const ARTICLES = {
+  "byu-rice-purity-test": {
+    title: "BYU Rice Purity Test",
+    description: "The BYU Rice Purity Test is an updated and a customized version of the original Rice Purity Test.",
+  },
   "bdsm-test": {
     title: "Updated BDSM Test 2026",
     description: "The BDSM Test is a unique and modern way to check how kinky you really are.",

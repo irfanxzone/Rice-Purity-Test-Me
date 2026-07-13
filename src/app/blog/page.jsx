@@ -8,6 +8,13 @@ import PageLayout from "@/components/PageLayout";
 export default function Blog() {
     const articles = [
         {
+            title: "BYU Rice Purity Test",
+            desc: "A 100-question BYU-inspired purity quiz about student life, Honor Code moments, dating, and experiences.",
+            href: "/byu-rice-purity-test",
+            tag: "College",
+            read: "4 min read",
+        },
+        {
             title: "Updated BDSM Test",
             desc: "A 100-question adult self-assessment quiz about BDSM curiosity, boundaries, consent, and kink dynamics.",
             href: "/bdsm-test",
