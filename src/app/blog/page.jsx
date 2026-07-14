@@ -8,6 +8,13 @@ import PageLayout from "@/components/PageLayout";
 export default function Blog() {
     const articles = [
         {
+            title: "AI Purity Test",
+            desc: "A 100-question self-graded quiz about AI usage, creativity, ethics, relationships, and daily life.",
+            href: "/ai-purity-test",
+            tag: "AI",
+            read: "4 min read",
+        },
+        {
             title: "BYU Rice Purity Test",
             desc: "A 100-question BYU-inspired purity quiz about student life, Honor Code moments, dating, and experiences.",
             href: "/byu-rice-purity-test",

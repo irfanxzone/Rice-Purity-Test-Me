@@ -1,6 +1,10 @@
-export const SEO_TIMESTAMP = "2026-07-14T00:13:48+05:00";
+export const SEO_TIMESTAMP = "2026-07-15T02:37:13+05:00";
 
 const ARTICLES = {
+  "ai-purity-test": {
+    title: "AI Purity Test 2026",
+    description: "AI Purity Test is a self-assessment or self-graded quiz that measures the person's relationship with AI.",
+  },
   "byu-rice-purity-test": {
     title: "BYU Rice Purity Test",
     description: "The BYU Rice Purity Test is an updated and a customized version of the original Rice Purity Test.",
