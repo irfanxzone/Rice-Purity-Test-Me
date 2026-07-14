@@ -163,7 +163,7 @@ export default function Header() {
                             >
                                 <img
                                     src="/RicePurityTest.webp"
-                                    alt=""
+                                    alt="Rice Purity Test logo"
                                     className="h-full w-full object-cover"
                                 />
                             </span>

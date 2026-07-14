@@ -1,4 +1,4 @@
-export const SEO_TIMESTAMP = "2026-07-15T02:37:13+05:00";
+export const SEO_TIMESTAMP = "2026-07-15T02:51:16+05:00";
 
 const ARTICLES = {
   "ai-purity-test": {
