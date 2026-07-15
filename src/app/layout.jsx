@@ -76,6 +76,7 @@ export default function RootLayout({ children }) {
         <html lang="en" className={`${poppins.variable} ${jetbrainsMono.variable}`}>
             <head>
                     <meta name="google-site-verification" content="jFv4AUzgLzT_F6biCRTUz2vVSyRhfSoP5T5b87jRqLw" />
+                <meta name="google-adsense-account" content="ca-pub-3508327872665056" />
                 <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
                 <script
                     type="application/ld+json"
