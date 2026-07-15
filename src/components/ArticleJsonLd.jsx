@@ -1,6 +1,10 @@
-export const SEO_TIMESTAMP = "2026-07-15T02:51:16+05:00";
+export const SEO_TIMESTAMP = "2026-07-15T23:51:43+05:00";
 
 const ARTICLES = {
+  "question-69-mean": {
+    title: "What is Question 69 on the Rice Purity test",
+    description: "If you have ever taken the Rice Purity Test, you might have wondered what question 69 means.",
+  },
   "ai-purity-test": {
     title: "AI Purity Test 2026",
     description: "AI Purity Test is a self-assessment or self-graded quiz that measures the person's relationship with AI.",

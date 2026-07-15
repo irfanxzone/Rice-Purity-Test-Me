@@ -8,6 +8,13 @@ import PageLayout from "@/components/PageLayout";
 export default function Blog() {
     const articles = [
         {
+            title: "What is Question 69 on the Rice Purity test?",
+            desc: "A clear explanation of what question 69 means on the Rice Purity Test and how to answer it.",
+            href: "/question-69-mean",
+            tag: "Guide",
+            read: "3 min read",
+        },
+        {
             title: "AI Purity Test",
             desc: "A 100-question self-graded quiz about AI usage, creativity, ethics, relationships, and daily life.",
             href: "/ai-purity-test",
