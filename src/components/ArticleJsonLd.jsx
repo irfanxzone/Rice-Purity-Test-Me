@@ -1,6 +1,10 @@
-export const SEO_TIMESTAMP = "2026-07-15T23:51:43+05:00";
+export const SEO_TIMESTAMP = "2026-07-17T02:47:37+05:00";
 
 const ARTICLES = {
+  "nyu-rice-purity-test": {
+    title: "NYU rice purity test",
+    description: "The NYU Rice Purity Test is specially designed for NYU students.",
+  },
   "question-69-mean": {
     title: "What is Question 69 on the Rice Purity test",
     description: "If you have ever taken the Rice Purity Test, you might have wondered what question 69 means.",

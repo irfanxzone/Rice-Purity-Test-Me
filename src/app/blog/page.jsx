@@ -8,6 +8,13 @@ import PageLayout from "@/components/PageLayout";
 export default function Blog() {
     const articles = [
         {
+            title: "NYU Rice Purity Test",
+            desc: "A 100-question NYU student purity quiz about city life, dorm moments, nightlife, and campus culture.",
+            href: "/nyu-rice-purity-test",
+            tag: "College",
+            read: "4 min read",
+        },
+        {
             title: "What is Question 69 on the Rice Purity test?",
             desc: "A clear explanation of what question 69 means on the Rice Purity Test and how to answer it.",
             href: "/question-69-mean",
