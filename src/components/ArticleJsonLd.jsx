@@ -4,18 +4,22 @@ const ARTICLES = {
   "nyu-rice-purity-test": {
     title: "NYU rice purity test",
     description: "The NYU Rice Purity Test is specially designed for NYU students.",
+    image: "https://www.ricepuritytestme.com/NYU-rice-purity-test.webp",
   },
   "question-69-mean": {
     title: "What is Question 69 on the Rice Purity test",
     description: "If you have ever taken the Rice Purity Test, you might have wondered what question 69 means.",
+    image: "https://www.ricepuritytestme.com/Questio-69-mean.webp",
   },
   "ai-purity-test": {
     title: "AI Purity Test 2026",
     description: "AI Purity Test is a self-assessment or self-graded quiz that measures the person's relationship with AI.",
+    image: "https://www.ricepuritytestme.com/AI-purity-test.webp",
   },
   "byu-rice-purity-test": {
     title: "BYU Rice Purity Test",
     description: "The BYU Rice Purity Test is an updated and a customized version of the original Rice Purity Test.",
+    image: "https://www.ricepuritytestme.com/BYU-rice-purity-test.webp",
   },
   "bdsm-test": {
     title: "Updated BDSM Test 2026",
@@ -28,6 +32,7 @@ const ARTICLES = {
   "ao3-rice-purity-test": {
     title: "AO3 Rice Purity Test",
     description: "A fun and interactive fandom purity score quiz for AO3 and fanfiction lovers.",
+    image: "https://www.ricepuritytestme.com/ao3-rice-purity-test.webp",
   },
   "brown-rice-purity-test": {
     title: "Brown Rice Purity Test 2026",
@@ -93,6 +98,7 @@ export default function ArticleJsonLd({ slug }) {
     "@type": "BlogPosting",
     headline: article.title,
     description: article.description,
+    image: article.image,
     url,
     mainEntityOfPage: {
       "@type": "WebPage",
@@ -122,6 +128,7 @@ export default function ArticleJsonLd({ slug }) {
         <meta itemProp="headline" content={article.title} />
         <meta itemProp="description" content={article.description} />
         <meta itemProp="url" content={url} />
+        {article.image && <meta itemProp="image" content={article.image} />}
         <time itemProp="datePublished" dateTime={SEO_TIMESTAMP}>
           Published {SEO_TIMESTAMP}
         </time>

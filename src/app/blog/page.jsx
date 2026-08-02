@@ -8,18 +8,13 @@ import PageLayout from "@/components/PageLayout";
 export default function Blog() {
     const articles = [
         {
-            title: "NYU Rice Purity Test",
-            desc: "A 100-question NYU student purity quiz about city life, dorm moments, nightlife, and campus culture.",
-            href: "/nyu-rice-purity-test",
-            tag: "College",
-            read: "4 min read",
-        },
-        {
-            title: "What is Question 69 on the Rice Purity test?",
-            desc: "A clear explanation of what question 69 means on the Rice Purity Test and how to answer it.",
-            href: "/question-69-mean",
-            tag: "Guide",
+            title: "AO3 Rice Purity Test",
+            desc: "A fun and interactive fandom purity score quiz for AO3 and fanfiction lovers.",
+            href: "/ao3-rice-purity-test",
+            tag: "Fanfic",
             read: "3 min read",
+            image: "/ao3-rice-purity-test.webp",
+            imageAlt: "AO3 Rice Purity Test fanfiction quiz featured image",
         },
         {
             title: "AI Purity Test",
@@ -27,6 +22,8 @@ export default function Blog() {
             href: "/ai-purity-test",
             tag: "AI",
             read: "4 min read",
+            image: "/AI-purity-test.webp",
+            imageAlt: "AI Purity Test artificial intelligence quiz featured image",
         },
         {
             title: "BYU Rice Purity Test",
@@ -34,6 +31,26 @@ export default function Blog() {
             href: "/byu-rice-purity-test",
             tag: "College",
             read: "4 min read",
+            image: "/BYU-rice-purity-test.webp",
+            imageAlt: "BYU Rice Purity Test student quiz featured image",
+        },
+        {
+            title: "NYU Rice Purity Test",
+            desc: "A 100-question NYU student purity quiz about city life, dorm moments, nightlife, and campus culture.",
+            href: "/nyu-rice-purity-test",
+            tag: "College",
+            read: "4 min read",
+            image: "/NYU-rice-purity-test.webp",
+            imageAlt: "NYU Rice Purity Test student life quiz featured image",
+        },
+        {
+            title: "What is Question 69 on the Rice Purity test?",
+            desc: "A clear explanation of what question 69 means on the Rice Purity Test and how to answer it.",
+            href: "/question-69-mean",
+            tag: "Guide",
+            read: "3 min read",
+            image: "/Questio-69-mean.webp",
+            imageAlt: "Question 69 Rice Purity Test meaning guide featured image",
         },
         {
             title: "Updated BDSM Test",
@@ -89,13 +106,6 @@ export default function Blog() {
             desc: "A more realistic 100-question purity quiz with weighted scoring for different experiences.",
             href: "/weighted-rice-purity-test",
             tag: "Scoring",
-            read: "3 min read",
-        },
-        {
-            title: "AO3 Rice Purity Test",
-            desc: "A fun and interactive fandom purity score quiz for AO3 and fanfiction lovers.",
-            href: "/ao3-rice-purity-test",
-            tag: "Fanfic",
             read: "3 min read",
         },
         {
@@ -163,26 +173,39 @@ export default function Blog() {
                 {visibleArticles.map((p, i) => (
                     <Link href={p.href} key={i} data-testid={`blog-card-${i}`}>
                         <article
-                            className="group flex flex-col rounded-2xl border border-ink-300/60 bg-cream-50 p-5 transition-all hover:-translate-y-1 hover:border-ink-900 hover:shadow-[0_12px_28px_-14px_rgba(26,26,20,0.25)]"
+                            className="group flex h-full flex-col overflow-hidden rounded-2xl border border-ink-300/60 bg-cream-50 transition-all hover:-translate-y-1 hover:border-ink-900 hover:shadow-[0_12px_28px_-14px_rgba(26,26,20,0.25)]"
                         >
-                            <div className="flex items-center justify-between">
-                                <span className="inline-flex items-center rounded-full bg-[#FACC15]/40 px-2.5 py-1 font-mono text-[10px] uppercase tracking-[0.15em] text-ink-900">
-                                    {p.tag}
-                                </span>
-                                <span className="inline-flex items-center gap-1 font-mono text-[10px] uppercase tracking-[0.15em] text-ink-500">
-                                    <Clock className="h-3 w-3" />
-                                    {p.read}
+                            {p.image && (
+                                <img
+                                    src={p.image}
+                                    alt={p.imageAlt}
+                                    className="aspect-[16/9] w-full border-b border-ink-200 object-cover"
+                                />
+                            )}
+                            <div className="flex flex-1 flex-col p-5">
+                                {!p.image && (
+                                    <div className="flex items-center justify-between">
+                                        <span className="inline-flex items-center rounded-full bg-[#FACC15]/40 px-2.5 py-1 font-mono text-[10px] uppercase tracking-[0.15em] text-ink-900">
+                                            {p.tag}
+                                        </span>
+                                        <span className="inline-flex items-center gap-1 font-mono text-[10px] uppercase tracking-[0.15em] text-ink-500">
+                                            <Clock className="h-3 w-3" />
+                                            {p.read}
+                                        </span>
+                                    </div>
+                                )}
+                                <h2 className={`${p.image ? "" : "mt-5"} text-lg font-bold leading-tight text-ink-900`}>
+                                    {p.title}
+                                </h2>
+                                {!p.image && (
+                                    <p className="mt-2 flex-1 text-sm leading-relaxed text-ink-700">
+                                        {p.desc}
+                                    </p>
+                                )}
+                                <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-blue-700 group-hover:underline">
+                                    Read more <ArrowUpRight className="h-4 w-4" />
                                 </span>
                             </div>
-                            <h2 className="mt-5 text-lg font-bold leading-tight text-ink-900">
-                                {p.title}
-                            </h2>
-                            <p className="mt-2 flex-1 text-sm leading-relaxed text-ink-700">
-                                {p.desc}
-                            </p>
-                            <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-blue-700 group-hover:underline">
-                                Read more <ArrowUpRight className="h-4 w-4" />
-                            </span>
                         </article>
                     </Link>
                 ))}

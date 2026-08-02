@@ -278,7 +278,11 @@ export default function NYURicePurityTestClient() {
           </p>
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
             A score of 100 means you are completely innocent and have not experienced anything from the list, and a score of 0 means you have experienced everything and have fully experienced life. This is not an exam or judgment tool. Take it as a fun quiz, enjoy it, and share it with your friends.
-          </p>
+          </p>          <img
+            src="/NYU-rice-purity-test.webp"
+            alt="NYU Rice Purity Test student life quiz featured image"
+            className="mt-6 h-auto w-full rounded-lg border border-ink-200 object-cover"
+          />
 
           <h2 className="font-heading mt-10 text-2xl font-bold tracking-tight text-neutral-900 sm:text-3xl">
             What Makes the NYU Version Different

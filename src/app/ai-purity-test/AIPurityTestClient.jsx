@@ -284,7 +284,11 @@ export default function AIPurityTestClient() {
           </p>
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
             This test has taken inspiration from the <Link href="/" className="rpt-interlink">Rice Purity Test</Link> to check your purity in how you use artificial intelligence. This test explores the creative, educational, and modern side of technology as well as highlights the negative usage of the highly emerging technology.
-          </p>
+          </p>          <img
+            src="/AI-purity-test.webp"
+            alt="AI Purity Test artificial intelligence quiz featured image"
+            className="mt-6 h-auto w-full rounded-lg border border-ink-200 object-cover"
+          />
 
           <h2 className="font-heading mt-10 text-2xl font-bold tracking-tight text-neutral-900 sm:text-3xl">
             Why Take the AI Purity Test?

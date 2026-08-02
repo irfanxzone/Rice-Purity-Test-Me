@@ -275,7 +275,11 @@ export default function BYURicePurityTestClient() {
           </p>
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
             The score is described in different levels. Each level determines which category you fall into, such as a purely innocent, partially innocent, or more experienced person.
-          </p>
+          </p>          <img
+            src="/BYU-rice-purity-test.webp"
+            alt="BYU Rice Purity Test student quiz featured image"
+            className="mt-6 h-auto w-full rounded-lg border border-ink-200 object-cover"
+          />
 
           <h3 className="font-heading mt-10 text-xl font-bold tracking-tight text-neutral-900 sm:text-2xl">
             History of the BYU Rice Purity Test

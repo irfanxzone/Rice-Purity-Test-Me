@@ -276,6 +276,11 @@ export default function AO3RicePurityTestPage() {
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
             This fanfic test is a self-assessment quiz with questions about your fandom life and fanfictions like fluff, angst, darkfic, etc. You'll be answering questions about Genres, Relationships, Tropes, AUs (ALTERNATE UNIVERSE), and much more. You gotta be honest with the answers.
           </p>
+          <img
+            src="/ao3-rice-purity-test.webp"
+            alt="AO3 Rice Purity Test fanfiction quiz featured image"
+            className="mt-6 h-auto w-full rounded-lg border border-ink-200 object-cover"
+          />
           <h2 className="font-heading text-2xl font-bold tracking-tight text-neutral-900 sm:text-3xl mt-10">How AO3 Rice Purity Test Works</h2>
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
             The process is simple and easy; all you need to do is just click or check the boxes that are relevant to you. Here's a step-by-step process for taking the test:
