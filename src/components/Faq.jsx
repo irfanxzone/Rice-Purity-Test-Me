@@ -42,7 +42,7 @@ export const Faq = () => {
                         key={i}
                         value={`item-${i}`}
                         data-testid={`faq-item-${i}`}
-                        className="border-b border-neutral-200"
+                        className="border-b border-ink-900/20"
                     >
                         <AccordionTrigger
                             data-testid={`faq-trigger-${i}`}
