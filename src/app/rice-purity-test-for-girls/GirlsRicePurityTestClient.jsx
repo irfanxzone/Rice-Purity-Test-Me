@@ -279,6 +279,11 @@ export default function GirlsRicePurityTestClient() {
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
             One thing to keep in mind is that maybe some questions may not relate to you, that is absolutely normal. Some girls are more social, while others are shy due to their culture and environment. That's why take this very lightly, rather than as a judgmental or serious test.
           </p>
+          <img
+            src="/rice-purity-test-for-girls.webp"
+            alt="Rice Purity Test for Girls quiz featured image"
+            className="mt-6 h-auto w-full rounded-lg border border-ink-200 object-cover"
+          />
 
           <h2 className="font-heading text-2xl font-bold tracking-tight text-neutral-900 sm:text-3xl mt-10">
             How the Purity Score Works

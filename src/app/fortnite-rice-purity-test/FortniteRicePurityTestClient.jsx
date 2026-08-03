@@ -283,6 +283,11 @@ export default function FortniteRicePurityTestClient() {
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
             The game is a mix of shooting, resource gathering, and construction. The game is available on almost all major gaming platforms.
           </p>
+          <img
+            src="/Fortnite-rice-purity-test.webp"
+            alt="Fortnite Rice Purity Test gaming quiz featured image"
+            className="mt-6 h-auto w-full rounded-lg border border-ink-200 object-cover"
+          />
 
           <h2 className="font-heading text-2xl font-bold tracking-tight text-neutral-900 sm:text-3xl mt-10">
             What Parts of Fortnite Does This Test Cover?

@@ -1,4 +1,4 @@
-export const SEO_TIMESTAMP = "2026-08-02T10:51:53+05:00";
+export const SEO_TIMESTAMP = "2026-08-03T13:30:37+05:00";
 
 const ARTICLES = {
   "nyu-rice-purity-test": {
@@ -24,6 +24,7 @@ const ARTICLES = {
   "bdsm-test": {
     title: "Updated BDSM Test 2026",
     description: "The BDSM Test is a unique and modern way to check how kinky you really are.",
+    image: "https://www.ricepuritytestme.com/BDSM-test.webp",
   },
   "76-rice-purity-test": {
     title: "76 Rice Purity Test",
@@ -41,6 +42,7 @@ const ARTICLES = {
   "fortnite-rice-purity-test": {
     title: "Fortnite Rice Purity Test 2026",
     description: "Are you a Fortnite player who wants to check how pure your Fortnite habits are?",
+    image: "https://www.ricepuritytestme.com/Fortnite-rice-purity-test.webp",
   },
   "kink-rice-purity-test": {
     title: "Kink Rice Purity Test 2026",
@@ -49,6 +51,7 @@ const ARTICLES = {
   "rice-purity-test-for-girls": {
     title: "Rice Purity Test for Girls 2026",
     description: "The Rice Purity Test for Girls is not just a quiz for many girls; it serves as a mirror reflecting what they experienced, avoided, and learned throughout their lives.",
+    image: "https://www.ricepuritytestme.com/rice-purity-test-for-girls.webp",
   },
   "mps-meaning-rice-purity-test": {
     title: "MPS Meaning Rice Purity Test",
@@ -61,6 +64,7 @@ const ARTICLES = {
   "performative-rice-purity-test": {
     title: "Performative Rice Purity Test 2026",
     description: "The Performative Rice Purity Test is a modern trend that started on social media, where purity is no longer the subject.",
+    image: "https://www.ricepuritytestme.com/perfprmative-rice-purity-test.webp",
   },
   "racism-rice-purity-test": {
     title: "The Racism Rice Purity Test 2026",
@@ -73,6 +77,7 @@ const ARTICLES = {
   "rice-purity-test-for-teens": {
     title: "Rice Purity Test for Teens 2026",
     description: "The Rice Purity Test for teens is an age-specific version of the famous Purity Test, which young people take for fun, curiosity, and self-reflection.",
+    image: "https://www.ricepuritytestme.com/rice-purity-test-for-teens.webp",
   },
   "tests-like-rice-purity-test": {
     title: "Tests Like the Rice Purity Test in 2026",

@@ -285,6 +285,11 @@ export default function PerformativeRicePurityTestClient() {
             <li>Music taste, films and series, and home or desk setup.</li>
             <li>Coffee choices, reading habits, and many other lifestyle choices.</li>
           </ul>
+          <img
+            src="/perfprmative-rice-purity-test.webp"
+            alt="Performative Rice Purity Test social trend quiz featured image"
+            className="mt-6 h-auto w-full rounded-lg border border-ink-200 object-cover"
+          />
 
           <h3 className="font-heading text-xl font-bold tracking-tight text-neutral-900 sm:text-2xl mt-10">
             Is the Performative Purity Test Accurate?

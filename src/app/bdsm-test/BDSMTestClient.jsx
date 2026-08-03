@@ -290,7 +290,11 @@ export default function BDSMTestClient() {
           </p>
           <p className="mt-2 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
             <strong>Sadism (S) & Masochism (M):</strong> Sadism involves obtaining pleasure from pain or physical sensations. Masochism can range from light spanking to intense impact play.
-          </p>
+          </p>          <img
+            src="/BDSM-test.webp"
+            alt="Updated BDSM Test adult kink quiz featured image"
+            className="mt-6 h-auto w-full rounded-lg border border-ink-200 object-cover"
+          />
 
           <h2 className="font-heading mt-10 text-2xl font-bold tracking-tight text-neutral-900 sm:text-3xl">
             What is BDSM Test?

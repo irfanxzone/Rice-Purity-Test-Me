@@ -281,6 +281,11 @@ export default function TeensRicePurityTestClient() {
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
             A higher score indicates you have had fewer experiences in life, and a lower score refers to a greater number of experiences. The score result should never be treated like a personality score or a life ranking, whether it's low or high.
           </p>
+          <img
+            src="/rice-purity-test-for-teens.webp"
+            alt="Rice Purity Test for Teens safe quiz featured image"
+            className="mt-6 h-auto w-full rounded-lg border border-ink-200 object-cover"
+          />
 
           <h2 className="font-heading text-2xl font-bold tracking-tight text-neutral-900 sm:text-3xl mt-10">
             Why Teens Are So Curious About Their Score
