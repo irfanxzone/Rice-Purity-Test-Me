@@ -33,6 +33,11 @@ export default function SeventySixRicePurityTestPage() {
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
             Based on all the questions, a score of 76 doesn't mean you're completely innocent or pure, but you are also far from being wild. You have enjoyed life in a balanced way and haven't gone extreme. This score level is considered moderately high and balanced, not too innocent and not extreme.
           </p>
+          <img
+            src="/76-rice-purity-test.webp"
+            alt="76 Rice Purity Test score meaning featured image"
+            className="mt-6 h-auto w-full rounded-lg border border-ink-200 object-cover"
+          />
 
           <h2 className="font-heading text-2xl font-bold tracking-tight text-neutral-900 sm:text-3xl mt-10">
             Where Does a 76 Score Sit on the Scale?

@@ -1,4 +1,4 @@
-export const SEO_TIMESTAMP = "2026-08-03T13:30:37+05:00";
+export const SEO_TIMESTAMP = "2026-08-04T20:12:58+05:00";
 
 const ARTICLES = {
   "nyu-rice-purity-test": {
@@ -29,6 +29,7 @@ const ARTICLES = {
   "76-rice-purity-test": {
     title: "76 Rice Purity Test",
     description: "If you have taken the Rice Purity Test and scored 76, you might be wondering what this score means or what it says about your personality.",
+    image: "https://www.ricepuritytestme.com/76-rice-purity-test.webp",
   },
   "ao3-rice-purity-test": {
     title: "AO3 Rice Purity Test",
@@ -47,6 +48,7 @@ const ARTICLES = {
   "kink-rice-purity-test": {
     title: "Kink Rice Purity Test 2026",
     description: "A personal, age-specific 100-question test exploring preferences, boundaries, and consent.",
+    image: "https://www.ricepuritytestme.com/kink-rice-purity-test.webp",
   },
   "rice-purity-test-for-girls": {
     title: "Rice Purity Test for Girls 2026",
@@ -60,6 +62,7 @@ const ARTICLES = {
   "overwatch-rice-purity-test": {
     title: "Overwatch Rice Purity Test 2026",
     description: "Check your Overwatch habits and community personality with this 100-question gaming quiz.",
+    image: "https://www.ricepuritytestme.com/overwatch-rice-purity-test.webp",
   },
   "performative-rice-purity-test": {
     title: "Performative Rice Purity Test 2026",
@@ -86,10 +89,12 @@ const ARTICLES = {
   "valorant-rice-purity-test": {
     title: "Valorant Rice Purity Test",
     description: "A parody of the official rice purity test, but for Valorant players.",
+    image: "https://www.ricepuritytestme.com/valorant-rice-purity-test.webp",
   },
   "weighted-rice-purity-test": {
     title: "Weighted Rice Purity Test | Rice Purity Quiz",
     description: "Try the Weighted Rice Purity Test: a more realistic 100-question purity score with weighted scoring and deeper meaning.",
+    image: "https://www.ricepuritytestme.com/weighted-rice-purity-test.webp",
   },
 };
 

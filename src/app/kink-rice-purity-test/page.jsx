@@ -288,6 +288,11 @@ export default function KinkRicePurityTestPage() {
           <p className="mt-2 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
             <strong>Sensor Play:</strong> Sensor play includes blindfolds and other tactile exploration.
           </p>
+          <img
+            src="/kink-rice-purity-test.webp"
+            alt="Kink Rice Purity Test adult quiz featured image"
+            className="mt-6 h-auto w-full rounded-lg border border-ink-200 object-cover"
+          />
 
           <h2 className="font-heading text-2xl font-bold tracking-tight text-neutral-900 sm:text-3xl mt-10">
             Difference Between a Kink Test and Rice Purity Test

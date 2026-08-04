@@ -311,6 +311,11 @@ export default function ValorantRicePurityTestPage() {
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
             The test results show how you have experienced the game and give you score between 0 to 100. This score helps to understand how dedicated the players are, toxicity levels, or whether players use unethical ways to get higher rankings. Take the test by simply answering in yes no format like the original version.
           </p>
+          <img
+            src="/valorant-rice-purity-test.webp"
+            alt="Valorant Rice Purity Test gaming quiz featured image"
+            className="mt-6 h-auto w-full rounded-lg border border-ink-200 object-cover"
+          />
           <h2 className="font-heading text-2xl font-bold tracking-tight text-neutral-900 sm:text-3xl mt-10">How to Take the Valorant Rice Purity Test</h2>
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
             There are plenty of options available online to take the test. Many sites are available on the internet. Just visit a trusted website like ours and start taking the test. Here’s a detailed guide about taking the test efficiently:

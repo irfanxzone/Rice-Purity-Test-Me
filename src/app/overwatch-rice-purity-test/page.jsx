@@ -309,6 +309,11 @@ export default function OverwatchRicePurityTestPage() {
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
             While playing, the main concern of teams is to defend areas, capture control points on the map, and complete many other goals. In 2016, Overwatch was released and became popular as an action shooter game. Now, Blizzard Entertainment has upgraded the game and launched Overwatch 2 with better graphics, updated heroes, and more amazing features.
           </p>
+          <img
+            src="/overwatch-rice-purity-test.webp"
+            alt="Overwatch Rice Purity Test gaming quiz featured image"
+            className="mt-6 h-auto w-full rounded-lg border border-ink-200 object-cover"
+          />
 
           <h2 className="font-heading text-2xl font-bold tracking-tight text-neutral-900 sm:text-3xl mt-10">
             What is the Overwatch Rice Purity Test?

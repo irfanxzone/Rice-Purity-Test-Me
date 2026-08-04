@@ -312,6 +312,11 @@ export default function WeightedRicePurityTestPage() {
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
             The weighted test is also composed of the same questions given in the original version. The only difference is that each question has a different score. Seeing the high demand, we designed the test provided above, which perfectly gives a better scoring experience than the official rice purity test.
           </p>
+          <img
+            src="/weighted-rice-purity-test.webp"
+            alt="Weighted Rice Purity Test scoring quiz featured image"
+            className="mt-6 h-auto w-full rounded-lg border border-ink-200 object-cover"
+          />
 
           <h2 className="font-heading text-2xl font-bold tracking-tight text-neutral-900 sm:text-3xl mt-10">
             How the Weighted Rice Purity Test Works
