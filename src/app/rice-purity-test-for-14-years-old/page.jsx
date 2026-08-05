@@ -187,6 +187,11 @@ export default function RicePurityTest14Page() {
             It all started on social media after seeing a viral trend among adults; teens demanded a test relevant to them. It is the same as the adult version; the only difference is that the questions are tailored to teen experiences. This test has no affiliation with Rice University.<br /><br />
             Unlike the <a href="/" className="rpt-interlink">original rice purity test</a>, this test consists of 20 questions about the social life, relationships, and sexual life of the 14-year-olds in a safe and protected manner. The result scale of the test ranges from 0 to 20. Our website also offers a feature to share the test and save it as a PDF.
           </p>
+          <img
+            src="/rice-purity-test-for-14-years-old.webp"
+            alt="Rice Purity Test for 14 Years Old teen quiz featured image"
+            className="mt-6 h-auto w-full rounded-lg border border-ink-200 object-cover"
+          />
           <h2 className="font-heading text-2xl font-bold tracking-tight text-neutral-900 sm:text-3xl mt-10">How to Take the Rice Purity Test for 14-Year-Olds</h2>
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
             It works the same as other tests; there is a list of 20 questions related to your life experiences until now, and you simply answer them according to your choice. Below is the detailed guide on how to take this fun quiz:

@@ -28,6 +28,11 @@ export default function MpsMeaningPage() {
           <p className="mt-4 text-[16px] leading-relaxed text-ink-700">
             When a question asks about MPS, it means the things you have done with a member of the preferred sex. It could be anyone, like your crush, someone you liked, or someone you had a physical relationship with. This term is also used not to define any specific gender because you have a crush or have been physical with any gender.
           </p>
+          <img
+            src="/mps-meaning-purity-test.webp"
+            alt="MPS Meaning Rice Purity Test guide featured image"
+            className="mt-6 h-auto w-full rounded-lg border border-ink-200 object-cover"
+          />
 
           <h2 className="font-heading text-2xl font-bold tracking-tight text-neutral-900 sm:text-3xl mt-10">MPS Questions in the Rice Purity Test</h2>
           <p className="mt-4 text-[16px] leading-relaxed text-ink-700">

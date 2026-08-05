@@ -1,6 +1,6 @@
 
 // Homepage metadata for SEO
-const HOME_SEO_TIMESTAMP = "2026-08-04T20:12:58+05:00";
+const HOME_SEO_TIMESTAMP = "2026-08-05T19:06:13+05:00";
 
 export const metadata = {
     title: "The Rice Purity Test",

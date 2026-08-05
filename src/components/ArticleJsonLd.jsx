@@ -1,4 +1,4 @@
-export const SEO_TIMESTAMP = "2026-08-04T20:12:58+05:00";
+export const SEO_TIMESTAMP = "2026-08-05T19:06:13+05:00";
 
 const ARTICLES = {
   "nyu-rice-purity-test": {
@@ -39,6 +39,7 @@ const ARTICLES = {
   "brown-rice-purity-test": {
     title: "Brown Rice Purity Test 2026",
     description: "A playful food-themed quiz that gives the Rice Purity Test a funny brown rice twist.",
+    image: "https://www.ricepuritytestme.com/brown-rice-purity-test.webp",
   },
   "fortnite-rice-purity-test": {
     title: "Fortnite Rice Purity Test 2026",
@@ -58,6 +59,7 @@ const ARTICLES = {
   "mps-meaning-rice-purity-test": {
     title: "MPS Meaning Rice Purity Test",
     description: "Learn what MPS means in the Rice Purity Test and how to answer related questions honestly.",
+    image: "https://www.ricepuritytestme.com/mps-meaning-purity-test.webp",
   },
   "overwatch-rice-purity-test": {
     title: "Overwatch Rice Purity Test 2026",
@@ -72,10 +74,12 @@ const ARTICLES = {
   "racism-rice-purity-test": {
     title: "The Racism Rice Purity Test 2026",
     description: "Check your racial bias and self-awareness with this 100-question anonymous test.",
+    image: "https://www.ricepuritytestme.com/Racism-rice-purity-test.webp",
   },
   "rice-purity-test-for-14-years-old": {
     title: "Rice Purity Test for 14 Years Old",
     description: "A safe, relatable purity test for teens with 20 questions tailored to 14-year-olds.",
+    image: "https://www.ricepuritytestme.com/rice-purity-test-for-14-years-old.webp",
   },
   "rice-purity-test-for-teens": {
     title: "Rice Purity Test for Teens 2026",
@@ -85,6 +89,7 @@ const ARTICLES = {
   "tests-like-rice-purity-test": {
     title: "Tests Like the Rice Purity Test in 2026",
     description: "Try popular tests like the Rice Purity Test, compare scores with friends, and discover surprising results.",
+    image: "https://www.ricepuritytestme.com/tests-like-rice-purity-test.webp",
   },
   "valorant-rice-purity-test": {
     title: "Valorant Rice Purity Test",

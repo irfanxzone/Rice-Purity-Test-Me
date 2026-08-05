@@ -267,6 +267,11 @@ export default function RacismRicePurityTestPage() {
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
             Racism is the belief or behaviour of treating people differently based on their race. By all means, racism considers certain groups superior to others, and some are inferior. Racism might be personal, institutional, or cultural; it has different variants. It can be overt or subtle, this racism purity test is designed to reflect attitudes and experiences related to racial bias.
           </p>
+          <img
+            src="/Racism-rice-purity-test.webp"
+            alt="Racism Rice Purity Test racial bias quiz featured image"
+            className="mt-6 h-auto w-full rounded-lg border border-ink-200 object-cover"
+          />
           <h2 className="font-heading text-2xl font-bold tracking-tight text-neutral-900 sm:text-3xl mt-10">What is the Racism Rice Purity Test?</h2>
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
             The Racism Rice purity Test became popular online as a part of the broader trend of self-assessment quizzes. Since people often follow trends, online trends often spread rapidly through social media. The same happened in the case of the Rice purity score. A random person on X posted about the racism purity test, and it went viral and became a popular trend. The racism rice purity test is a 100-question quiz asking questions about beliefs, behaviours, and experiences related to racial bias.

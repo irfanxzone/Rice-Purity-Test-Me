@@ -23,6 +23,11 @@ export default function TestsLikeRicePurityTestPage() {
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
             Taking the test provides insight into self-identity and self-reflection, which is very important in self-growth and knowing your true self. And also satisfies the chronically online culture, plus we cannot deny how it helps people know how they go through their life experiences.
           </p>
+          <img
+            src="/tests-like-rice-purity-test.webp"
+            alt="Tests Like the Rice Purity Test alternatives guide featured image"
+            className="mt-6 h-auto w-full rounded-lg border border-ink-200 object-cover"
+          />
           <h2 className="font-heading text-2xl font-bold tracking-tight text-neutral-900 sm:text-3xl mt-10">7 Tests Like the Rice Purity Test</h2>
           <ul className="list-disc ml-6 mt-2 text-[16px] text-neutral-700">
             <li><b>Rice Purity Test For 14 Years-old:</b> The <a href="/racism-rice-purity-test" className="rpt-interlink">Rice purity test for 14-year-olds</a> is a specifically designed test for teens. It consists of 20 questions related to teenage life experiences. Kids, especially in their teen years, can take this test to know their purity score at this age. It’s very similar to the Rice purity test, just the questions are tailored according to the teens' experiences.</li>

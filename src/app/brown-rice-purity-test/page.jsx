@@ -281,6 +281,11 @@ export default function BrownRicePurityTestPage() {
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700">
             However, the brown version has no fixed format; it consists of a random mix of questions related to culture, fun, and food. Brown rice is considered as more natural and healthier, so this test is also described as healthy and natural.
           </p>
+          <img
+            src="/brown-rice-purity-test.webp"
+            alt="Brown Rice Purity Test food quiz featured image"
+            className="mt-6 h-auto w-full rounded-lg border border-ink-200 object-cover"
+          />
 
           <h2 className="font-heading text-2xl font-bold tracking-tight text-neutral-900 sm:text-3xl mt-10">Why Is It Called Brown Rice?</h2>
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700">
