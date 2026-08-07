@@ -1,15 +1,10 @@
 "use client";
 
-import { useMemo, useState, useCallback } from "react";
-import { ALL_QUESTIONS, TOTAL_QUESTIONS } from "@/data/questions";
+import { useState, useCallback } from "react";
+import { ALL_QUESTIONS } from "@/data/questions";
 import HandCheck from "./HandCheck";
 
 export const Quiz = ({ checked, onToggle, onCalculate, onReset }) => {
-    const checkedCount = useMemo(
-        () => Object.values(checked).filter(Boolean).length,
-        [checked]
-    );
-    const percent = Math.round((checkedCount / TOTAL_QUESTIONS) * 100);
     const [showCancelled, setShowCancelled] = useState(false);
 
     const handleClear = useCallback(() => {
@@ -21,7 +16,6 @@ export const Quiz = ({ checked, onToggle, onCalculate, onReset }) => {
         }
     }, [checked, onReset]);
 
-    let globalIdx = 0;
 
     return (
         <section
@@ -106,23 +100,15 @@ export const Quiz = ({ checked, onToggle, onCalculate, onReset }) => {
                     data-testid="sticky-action-bar"
                     className="sticky bottom-0 z-30 -mx-4 border-t border-ink-900/20 bg-cream-100/95 backdrop-blur-md sm:-mx-6 lg:-mx-8"
                 >
-                    <div className="mx-auto flex max-w-3xl items-center gap-3 px-4 py-3 sm:px-6 lg:px-8">
-                        <div className="flex-1">
-                            <div className="flex items-center justify-between">
-                                <span
-                                    data-testid="progress-count"
-                                    className="font-mono text-[11px] font-semibold uppercase tracking-[0.15em] text-ink-700"
-                                >
-                                    {checkedCount} / {TOTAL_QUESTIONS} checked
-                                </span>
-                            </div>
-                            <div className="mt-2 h-[5px] w-full overflow-hidden rounded-full bg-ink-900/10">
-                                <div
-                                    className="h-full bg-[#FACC15] transition-[width] duration-200"
-                                    style={{ width: `${percent}%` }}
-                                />
-                            </div>
-                        </div>
+                    <div className="mx-auto flex max-w-3xl items-center justify-center gap-3 px-4 py-3 sm:px-6 lg:px-8">
+                        <button
+                            type="button"
+                            onClick={onCalculate}
+                            data-testid="calculate-score-btn"
+                            className="rounded-full bg-ink-900 px-4 py-2.5 text-sm font-semibold text-cream-50 shadow-[0_2px_0_#000] transition-transform hover:-translate-y-0.5 active:translate-y-0 focus:outline-none focus-visible:ring-2 focus-visible:ring-ink-900 focus-visible:ring-offset-2 sm:px-6"
+                        >
+                            Calculate Score
+                        </button>
                         <button
                             type="button"
                             onClick={handleClear}
@@ -130,14 +116,6 @@ export const Quiz = ({ checked, onToggle, onCalculate, onReset }) => {
                             className="rounded-full border border-ink-300 bg-cream-50 px-3 py-2 text-xs font-medium text-ink-700 transition-colors hover:border-ink-900 sm:px-4"
                         >
                             Clear
-                        </button>
-                        <button
-                            type="button"
-                            onClick={onCalculate}
-                            data-testid="calculate-score-btn"
-                            className="rounded-full bg-ink-900 px-4 py-2.5 text-sm font-semibold text-cream-50 shadow-[0_2px_0_#000] transition-transform hover:-translate-y-0.5 active:translate-y-0 focus:outline-none focus-visible:ring-2 focus-visible:ring-ink-900 focus-visible:ring-offset-2 sm:px-6"
-                        >
-                            Reveal Score
                         </button>
                     </div>
                 </div>
