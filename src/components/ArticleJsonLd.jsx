@@ -1,6 +1,11 @@
-export const SEO_TIMESTAMP = "2026-08-08T13:24:59+05:00";
+export const SEO_TIMESTAMP = "2026-08-08T14:06:23+05:00";
 
 const ARTICLES = {
+  "gay-rice-purity-test": {
+    title: "Gay Rice Purity Test",
+    description: "The gay rice purity test is a complete checklist of 100 questions that revolve around queer life instead of straight life.",
+    image: "https://www.ricepuritytestme.com/gay-rice-purity-test.webp",
+  },
   "nyu-rice-purity-test": {
     title: "NYU rice purity test",
     description: "The NYU Rice Purity Test is specially designed for NYU students.",

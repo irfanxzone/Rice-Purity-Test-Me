@@ -8,6 +8,15 @@ import PageLayout from "@/components/PageLayout";
 export default function Blog() {
     const articles = [
         {
+            title: "Gay Rice Purity Test",
+            desc: "A 100-question LGBTQ+ self-assessment quiz about identity, dating, relationships, and queer life experiences.",
+            href: "/gay-rice-purity-test",
+            tag: "LGBTQ+",
+            read: "4 min read",
+            image: "/gay-rice-purity-test.webp",
+            imageAlt: "Gay Rice Purity Test LGBTQ self assessment quiz featured image",
+        },
+        {
             title: "Rice Purity Test for 14 Years Old",
             desc: "A safe, relatable purity test for teens with 20 questions tailored to 14-year-olds.",
             href: "/rice-purity-test-for-14-years-old",
