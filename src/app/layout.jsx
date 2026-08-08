@@ -63,25 +63,12 @@ export const viewport = {
 };
 
 export default function RootLayout({ children }) {
-    const webpageLd = {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        name: "Rice Purity Test",
-        description:
-            "Take the 100-question Rice Purity Test and see your purity score from 0 to 100. Free, anonymous, instant result.",
-        url: "https://ricepuritytestme.com/",
-    };
-
     return (
         <html lang="en" className={`${poppins.variable} ${jetbrainsMono.variable}`}>
             <head>
-                    <meta name="google-site-verification" content="jFv4AUzgLzT_F6biCRTUz2vVSyRhfSoP5T5b87jRqLw" />
+                <meta name="google-site-verification" content="jFv4AUzgLzT_F6biCRTUz2vVSyRhfSoP5T5b87jRqLw" />
                 <meta name="google-adsense-account" content="ca-pub-3508327872665056" />
                 <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-                <script
-                    type="application/ld+json"
-                    dangerouslySetInnerHTML={{ __html: JSON.stringify(webpageLd) }}
-                />
             </head>
             <body>
                 <Providers>{children}</Providers>
