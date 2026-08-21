@@ -1,4 +1,4 @@
-export const SEO_TIMESTAMP = "2026-08-08T14:06:23+05:00";
+export const SEO_TIMESTAMP = "2026-08-21T10:40:32+05:00";
 
 const ARTICLES = {
   "gay-rice-purity-test": {
