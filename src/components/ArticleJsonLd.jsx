@@ -1,6 +1,11 @@
-export const SEO_TIMESTAMP = "2026-08-21T10:40:32+05:00";
+export const SEO_TIMESTAMP = "2026-08-24T13:19:43+05:00";
 
 const ARTICLES = {
+  "true-asian-rice-purity-test": {
+    title: "True Asian Rice Purity Test",
+    description: "The True Asian Test is a parody quiz built on the format of the original Rice Purity Test. It was created by Liang Pan.",
+    image: "https://www.ricepuritytestme.com/true-asian-rice-purity-test.webp",
+  },
   "gay-rice-purity-test": {
     title: "Gay Rice Purity Test",
     description: "The gay rice purity test is a complete checklist of 100 questions that revolve around queer life instead of straight life.",

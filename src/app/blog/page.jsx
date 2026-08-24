@@ -8,6 +8,15 @@ import PageLayout from "@/components/PageLayout";
 export default function Blog() {
     const articles = [
         {
+            title: "True Asian Rice Purity Test",
+            desc: "A parody checklist quiz about Asian household habits, upbringing, food, school, culture, and family experiences.",
+            href: "/true-asian-rice-purity-test",
+            tag: "Culture",
+            read: "4 min read",
+            image: "/true-asian-rice-purity-test.webp",
+            imageAlt: "True Asian Rice Purity Test Asian upbringing quiz featured image",
+        },
+        {
             title: "Gay Rice Purity Test",
             desc: "A 100-question LGBTQ+ self-assessment quiz about identity, dating, relationships, and queer life experiences.",
             href: "/gay-rice-purity-test",
