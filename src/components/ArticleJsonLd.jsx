@@ -1,4 +1,4 @@
-export const SEO_TIMESTAMP = "2026-09-02T00:13:46+05:00";
+export const SEO_TIMESTAMP = "2026-09-03T22:52:17+05:00";
 
 const ARTICLES = {
   "true-asian-rice-purity-test": {
