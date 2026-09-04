@@ -2,7 +2,7 @@ import { ALL_QUESTIONS } from "@/data/questions";
 import HomePageClient from "./HomePageClient";
 
 // Homepage metadata for SEO
-const HOME_SEO_TIMESTAMP = "2026-09-03T22:52:17+05:00";
+const HOME_SEO_TIMESTAMP = "2026-09-04T18:57:48+05:00";
 
 export const metadata = {
     title: "The Rice Purity Test",
