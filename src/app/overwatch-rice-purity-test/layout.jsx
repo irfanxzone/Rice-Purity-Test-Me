@@ -1,19 +1,22 @@
 import ArticleJsonLd, { SEO_TIMESTAMP } from "@/components/ArticleJsonLd";
 
-const title = "Overwatch Rice Purity Test 2026";
-const description = "Check your Overwatch habits and community personality with this 100-question gaming quiz.";
+const title = "Overwatch Rice Purity Test: Player Quiz 2026";
+const description = "Take the Overwatch Rice Purity Test to explore the gaming habits you have as a player.";
 const image = {
-  url: "https://www.ricepuritytestme.com/overwatch-rice-purity-test.webp",
+  url: "https://ricepuritytestme.com/overwatch-rice-purity-test.webp",
   width: 1200,
   height: 630,
   alt: "Overwatch Rice Purity Test gaming quiz featured image",
 };
 
 export const metadata = {
+  title,
+  description,
+  alternates: { canonical: "https://ricepuritytestme.com/overwatch-rice-purity-test" },
   openGraph: {
     title,
     description,
-    url: "https://www.ricepuritytestme.com/overwatch-rice-purity-test",
+    url: "https://ricepuritytestme.com/overwatch-rice-purity-test",
     type: "article",
     publishedTime: SEO_TIMESTAMP,
     modifiedTime: SEO_TIMESTAMP,

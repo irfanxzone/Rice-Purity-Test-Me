@@ -287,6 +287,9 @@ export default function BrownRicePurityTestPage() {
             className="mt-6 h-auto w-full rounded-lg border border-ink-200 object-cover"
           />
 
+          <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
+            Think about the little food habits you share with friends, from your go-to rice dish to that short-lived healthy eating phase. Those familiar moments are what make this version fun to compare, even when your scores turn out completely different.
+          </p>
           <h2 className="font-heading text-2xl font-bold tracking-tight text-neutral-900 sm:text-3xl mt-10">Why Is It Called Brown Rice?</h2>
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700">
             The idea behind calling it brown rice is simple. It gives this phrase a little unique name and a funny twist. Brown rice is considered more natural, simple, and less processed than white rice. That’s why social media users jokingly associate it with being more honest, pure, and a simple personality like brown rice itself.

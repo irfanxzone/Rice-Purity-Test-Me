@@ -1,4 +1,4 @@
-export const SEO_TIMESTAMP = "2026-09-04T18:57:48+05:00";
+export const SEO_TIMESTAMP = "2026-09-07T08:27:34+05:00";
 
 const ARTICLES = {
   "true-asian-rice-purity-test": {
@@ -47,9 +47,9 @@ const ARTICLES = {
     image: "https://www.ricepuritytestme.com/ao3-rice-purity-test.webp",
   },
   "brown-rice-purity-test": {
-    title: "Brown Rice Purity Test 2026",
-    description: "A playful food-themed quiz that gives the Rice Purity Test a funny brown rice twist.",
-    image: "https://www.ricepuritytestme.com/brown-rice-purity-test.webp",
+    title: "Brown Rice Purity Test: Food Quiz 2026",
+    description: "The Brown Rice Purity Test is a playful and food-themed quiz. It consists of a lighthearted mix of questions related to culture, fun, and food.",
+    image: "https://ricepuritytestme.com/brown-rice-purity-test.webp",
   },
   "fortnite-rice-purity-test": {
     title: "Fortnite Rice Purity Test 2026",
@@ -72,14 +72,14 @@ const ARTICLES = {
     image: "https://www.ricepuritytestme.com/mps-meaning-purity-test.webp",
   },
   "overwatch-rice-purity-test": {
-    title: "Overwatch Rice Purity Test 2026",
-    description: "Check your Overwatch habits and community personality with this 100-question gaming quiz.",
-    image: "https://www.ricepuritytestme.com/overwatch-rice-purity-test.webp",
+    title: "Overwatch Rice Purity Test: Player Quiz 2026",
+    description: "Take the Overwatch Rice Purity Test to explore the gaming habits you have as a player.",
+    image: "https://ricepuritytestme.com/overwatch-rice-purity-test.webp",
   },
   "performative-rice-purity-test": {
-    title: "Performative Rice Purity Test 2026",
-    description: "The Performative Rice Purity Test is a modern trend that started on social media, where purity is no longer the subject.",
-    image: "https://www.ricepuritytestme.com/perfprmative-rice-purity-test.webp",
+    title: "Performative Rice Purity Test: Quiz 2026",
+    description: "The Performative Rice Purity Test is a playful quiz that started on social media, where purity is no longer the focus.",
+    image: "https://ricepuritytestme.com/perfprmative-rice-purity-test.webp",
   },
   "racism-rice-purity-test": {
     title: "The Racism Rice Purity Test 2026",
@@ -97,14 +97,14 @@ const ARTICLES = {
     image: "https://www.ricepuritytestme.com/rice-purity-test-for-teens.webp",
   },
   "tests-like-rice-purity-test": {
-    title: "Tests Like the Rice Purity Test in 2026",
-    description: "Try popular tests like the Rice Purity Test, compare scores with friends, and discover surprising results.",
-    image: "https://www.ricepuritytestme.com/tests-like-rice-purity-test.webp",
+    title: "7 Tests Like the Rice Purity Test in 2026",
+    description: "Explore popular tests like the Rice Purity Test, compare scores with friends, and discover different quiz experiences.",
+    image: "https://ricepuritytestme.com/tests-like-rice-purity-test.webp",
   },
   "valorant-rice-purity-test": {
-    title: "Valorant Rice Purity Test",
-    description: "A parody of the official rice purity test, but for Valorant players.",
-    image: "https://www.ricepuritytestme.com/valorant-rice-purity-test.webp",
+    title: "Valorant Rice Purity Test for Players",
+    description: "Do you want to check how familiar you are with Valorant's in-game habits, memorable experiences, and everyday gameplay? Take this test.",
+    image: "https://ricepuritytestme.com/valorant-rice-purity-test.webp",
   },
   "weighted-rice-purity-test": {
     title: "Weighted Rice Purity Test | Rice Purity Quiz",

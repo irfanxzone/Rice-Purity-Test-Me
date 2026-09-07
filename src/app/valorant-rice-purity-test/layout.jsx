@@ -1,19 +1,22 @@
 import ArticleJsonLd, { SEO_TIMESTAMP } from "@/components/ArticleJsonLd";
 
-const title = "Valorant Rice Purity Test";
-const description = "A parody of the official rice purity test, but for Valorant players.";
+const title = "Valorant Rice Purity Test for Players";
+const description = "Do you want to check how familiar you are with Valorant's in-game habits, memorable experiences, and everyday gameplay? Take this test.";
 const image = {
-  url: "https://www.ricepuritytestme.com/valorant-rice-purity-test.webp",
+  url: "https://ricepuritytestme.com/valorant-rice-purity-test.webp",
   width: 1200,
   height: 630,
   alt: "Valorant Rice Purity Test gaming quiz featured image",
 };
 
 export const metadata = {
+  title,
+  description,
+  alternates: { canonical: "https://ricepuritytestme.com/valorant-rice-purity-test" },
   openGraph: {
     title,
     description,
-    url: "https://www.ricepuritytestme.com/valorant-rice-purity-test",
+    url: "https://ricepuritytestme.com/valorant-rice-purity-test",
     type: "article",
     publishedTime: SEO_TIMESTAMP,
     modifiedTime: SEO_TIMESTAMP,

@@ -291,6 +291,9 @@ export default function PerformativeRicePurityTestClient() {
             className="mt-6 h-auto w-full rounded-lg border border-ink-200 object-cover"
           />
 
+          <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
+            A tote bag or a carefully chosen playlist can be something you genuinely enjoy. As you go through the questions, think about which habits you would keep even if nobody saw them online. That little distinction makes the quiz more interesting than the number alone.
+          </p>
           <h3 className="font-heading text-xl font-bold tracking-tight text-neutral-900 sm:text-2xl mt-10">
             Is the Performative Purity Test Accurate?
           </h3>

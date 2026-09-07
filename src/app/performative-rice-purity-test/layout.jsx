@@ -1,19 +1,22 @@
 import ArticleJsonLd, { SEO_TIMESTAMP } from "@/components/ArticleJsonLd";
 
-const title = "Performative Rice Purity Test 2026";
-const description = "The Performative Rice Purity Test is a modern trend that started on social media, where purity is no longer the subject.";
+const title = "Performative Rice Purity Test: Quiz 2026";
+const description = "The Performative Rice Purity Test is a playful quiz that started on social media, where purity is no longer the focus.";
 const image = {
-  url: "https://www.ricepuritytestme.com/perfprmative-rice-purity-test.webp",
+  url: "https://ricepuritytestme.com/perfprmative-rice-purity-test.webp",
   width: 1200,
   height: 630,
   alt: "Performative Rice Purity Test social trend quiz featured image",
 };
 
 export const metadata = {
+  title,
+  description,
+  alternates: { canonical: "https://ricepuritytestme.com/performative-rice-purity-test" },
   openGraph: {
     title,
     description,
-    url: "https://www.ricepuritytestme.com/performative-rice-purity-test",
+    url: "https://ricepuritytestme.com/performative-rice-purity-test",
     type: "article",
     publishedTime: SEO_TIMESTAMP,
     modifiedTime: SEO_TIMESTAMP,

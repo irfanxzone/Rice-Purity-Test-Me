@@ -325,6 +325,9 @@ export default function OverwatchRicePurityTestPage() {
             What makes it different from others is that its questions reflect everyday life of an Overwatch gamer. Some questions are simple, but some are eyebrow-raising. The score you’ll see is out of 100; a lower score indicates greater involvement in the game, and a higher score shows your purity.
           </p>
 
+          <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
+            Your favorite role can shape which questions feel familiar, whether you spend matches supporting teammates or pushing the objective. Think about the habits you return to across games, along with the memorable moments. Your answers may tell a different story from your competitive rank.
+          </p>
           <h2 className="font-heading text-2xl font-bold tracking-tight text-neutral-900 sm:text-3xl mt-10">
             Overwatch Rice Purity Test Score Meaning
           </h2>

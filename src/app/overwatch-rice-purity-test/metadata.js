@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Overwatch Rice Purity Test 2026",
-  description: "Take the Overwatch Rice Purity Test to check the personality you hold as a player.",
-  alternates: { canonical: "/overwatch-rice-purity-test" },
+  title: "Overwatch Rice Purity Test: Player Quiz 2026",
+  description: "Take the Overwatch Rice Purity Test to explore the gaming habits you have as a player.",
+  alternates: { canonical: "https://ricepuritytestme.com/overwatch-rice-purity-test" },
 };
