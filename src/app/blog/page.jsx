@@ -8,6 +8,15 @@ import PageLayout from "@/components/PageLayout";
 export default function Blog() {
     const articles = [
         {
+            title: "Lesbian Rice Purity Test 2026",
+            desc: "What a lesbian rice purity test asks, how scores work, and how it differs from an LGBT purity test. Find out what your result can actually tell you.",
+            href: "/lesbian-rice-purity-test",
+            tag: "LGBTQ+",
+            read: "4 min read",
+            image: "/lesbian-rice-purity-test.webp",
+            imageAlt: "Lesbian Rice Purity Test 2026: 76-question relationship experiences quiz",
+        },
+        {
             title: "True Asian Rice Purity Test",
             desc: "A parody checklist quiz about Asian household habits, upbringing, food, school, culture, and family experiences.",
             href: "/true-asian-rice-purity-test",
