@@ -3,7 +3,7 @@ import ArticleJsonLd, { SEO_TIMESTAMP } from "@/components/ArticleJsonLd";
 const title = "True Asian Rice Purity Test";
 const description = "The True Asian Test is a parody quiz built on the format of the original Rice Purity Test. It was created by Liang Pan.";
 const image = {
-  url: "https://www.ricepuritytestme.com/true-asian-rice-purity-test.webp",
+  url: "https://ricepuritytestme.com/true-asian-rice-purity-test.webp",
   width: 1200,
   height: 630,
   alt: "True Asian Rice Purity Test Asian upbringing quiz featured image",
@@ -12,11 +12,11 @@ const image = {
 export const metadata = {
   title,
   description,
-  alternates: { canonical: "https://www.ricepuritytestme.com/true-asian-rice-purity-test" },
+  alternates: { canonical: "https://ricepuritytestme.com/true-asian-rice-purity-test" },
   openGraph: {
     title,
     description,
-    url: "https://www.ricepuritytestme.com/true-asian-rice-purity-test",
+    url: "https://ricepuritytestme.com/true-asian-rice-purity-test",
     type: "article",
     publishedTime: SEO_TIMESTAMP,
     modifiedTime: SEO_TIMESTAMP,
