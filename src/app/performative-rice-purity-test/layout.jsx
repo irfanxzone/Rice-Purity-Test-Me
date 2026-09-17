@@ -1,4 +1,6 @@
-import ArticleJsonLd, { SEO_TIMESTAMP } from "@/components/ArticleJsonLd";
+import ArticleJsonLd, { getArticleTimestamp } from "@/components/ArticleJsonLd";
+
+const SEO_TIMESTAMP = getArticleTimestamp("performative-rice-purity-test");
 
 const title = "Performative Rice Purity Test: Quiz 2026";
 const description = "The Performative Rice Purity Test is a playful quiz that started on social media, where purity is no longer the focus.";

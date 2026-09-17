@@ -273,6 +273,9 @@ export default function GayRicePurityTestPage() {
             className="mt-6 h-auto w-full rounded-lg border border-ink-200 object-cover"
           />
 
+          <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
+            For a version focused on queer women and their dating and relationship experiences, the <a href="https://ricepuritytestme.com/lesbian-rice-purity-test" className="rpt-interlink">Lesbian Rice Purity Test</a> uses a separate checklist of 76 questions.
+          </p>
           <h2 className="font-heading mt-10 text-2xl font-bold tracking-tight text-neutral-900 sm:text-3xl">How This Quiz Works</h2>
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
             It works just like the viral purity test. Below is a clear demonstration of how it works.

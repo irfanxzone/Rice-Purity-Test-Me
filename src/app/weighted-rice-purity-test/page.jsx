@@ -310,6 +310,9 @@ export default function WeightedRicePurityTestPage() {
             The Rice Purity Test started long ago. The questions included in it are still relevant and up-to-date, but the score mechanism is outdated. Many social media users wanted a more profound and better version which reduces the purity score out of 100 by the weight of the question. What the original tests misses is that we cannot treat holding hands and being arrested as having the same weight score.
           </p>
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
+            For an example of how the original scoring works, the <a href="https://ricepuritytestme.com/76-rice-purity-test" className="rpt-interlink">76 Rice Purity Test</a> guide explains why 24 checked answers leave a score of 76; weighted scores use a different calculation.
+          </p>
+          <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
             The weighted test is also composed of the same questions given in the original version. The only difference is that each question has a different score. Seeing the high demand, we designed the test provided above, which perfectly gives a better scoring experience than the official rice purity test.
           </p>
           <img

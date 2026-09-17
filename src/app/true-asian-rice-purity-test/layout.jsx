@@ -1,4 +1,6 @@
-import ArticleJsonLd, { SEO_TIMESTAMP } from "@/components/ArticleJsonLd";
+import ArticleJsonLd, { getArticleTimestamp } from "@/components/ArticleJsonLd";
+
+const SEO_TIMESTAMP = getArticleTimestamp("true-asian-rice-purity-test");
 
 const title = "True Asian Rice Purity Test";
 const description = "The True Asian Test is a parody quiz built on the format of the original Rice Purity Test. It was created by Liang Pan.";

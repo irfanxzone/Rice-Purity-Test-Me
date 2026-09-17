@@ -1,4 +1,6 @@
-import ArticleJsonLd, { SEO_TIMESTAMP } from "@/components/ArticleJsonLd";
+import ArticleJsonLd, { getArticleTimestamp } from "@/components/ArticleJsonLd";
+
+const SEO_TIMESTAMP = getArticleTimestamp("ai-purity-test");
 
 const title = "AI Purity Test 2026";
 const description = "AI Purity Test is a self-assessment or self-graded quiz that measures the person's relationship with AI.";

@@ -1,4 +1,6 @@
-import ArticleJsonLd, { SEO_TIMESTAMP } from "@/components/ArticleJsonLd";
+import ArticleJsonLd, { getArticleTimestamp } from "@/components/ArticleJsonLd";
+
+const SEO_TIMESTAMP = getArticleTimestamp("76-rice-purity-test");
 
 const title = "76 Rice Purity Test";
 const description = "If you have taken the Rice Purity Test and scored 76, you might be wondering what this score means or what it says about your personality.";

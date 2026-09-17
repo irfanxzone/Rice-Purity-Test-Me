@@ -1,5 +1,17 @@
 export const SEO_TIMESTAMP = "2026-09-16T11:49:31+05:00";
 
+const ARTICLE_TIMESTAMPS = {
+  "true-asian-rice-purity-test": "2026-09-17T23:34:18+05:00",
+  "lesbian-rice-purity-test": "2026-09-17T23:34:18+05:00",
+  "racism-rice-purity-test": "2026-09-17T23:34:18+05:00",
+  "76-rice-purity-test": "2026-09-17T23:34:18+05:00",
+  "overwatch-rice-purity-test": "2026-09-17T23:34:18+05:00",
+  "performative-rice-purity-test": "2026-09-17T23:34:18+05:00",
+  "ai-purity-test": "2026-09-17T23:34:18+05:00",
+};
+
+export const getArticleTimestamp = (slug) => ARTICLE_TIMESTAMPS[slug] ?? SEO_TIMESTAMP;
+
 const ARTICLES = {
   "lesbian-rice-purity-test": {
     title: "Lesbian Rice Purity Test 2026",
@@ -121,6 +133,7 @@ const ARTICLES = {
 export default function ArticleJsonLd({ slug }) {
   const article = ARTICLES[slug];
   if (!article) return null;
+  const timestamp = getArticleTimestamp(slug);
 
   const url = `https://ricepuritytestme.com/${slug}`;
   const schema = {
@@ -134,8 +147,8 @@ export default function ArticleJsonLd({ slug }) {
       "@type": "WebPage",
       "@id": url,
     },
-    datePublished: SEO_TIMESTAMP,
-    dateModified: SEO_TIMESTAMP,
+    datePublished: timestamp,
+    dateModified: timestamp,
     author: {
       "@type": "Organization",
       name: "Rice Purity Test",
@@ -159,11 +172,11 @@ export default function ArticleJsonLd({ slug }) {
         <meta itemProp="description" content={article.description} />
         <meta itemProp="url" content={url} />
         {article.image && <meta itemProp="image" content={article.image} />}
-        <time itemProp="datePublished" dateTime={SEO_TIMESTAMP}>
-          Published {SEO_TIMESTAMP}
+        <time itemProp="datePublished" dateTime={timestamp}>
+          Published {timestamp}
         </time>
-        <time itemProp="dateModified" dateTime={SEO_TIMESTAMP}>
-          Modified {SEO_TIMESTAMP}
+        <time itemProp="dateModified" dateTime={timestamp}>
+          Modified {timestamp}
         </time>
       </div>
     </>

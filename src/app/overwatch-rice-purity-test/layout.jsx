@@ -1,4 +1,6 @@
-import ArticleJsonLd, { SEO_TIMESTAMP } from "@/components/ArticleJsonLd";
+import ArticleJsonLd, { getArticleTimestamp } from "@/components/ArticleJsonLd";
+
+const SEO_TIMESTAMP = getArticleTimestamp("overwatch-rice-purity-test");
 
 const title = "Overwatch Rice Purity Test: Player Quiz 2026";
 const description = "Take the Overwatch Rice Purity Test to explore the gaming habits you have as a player.";

@@ -319,6 +319,9 @@ export default function ValorantRicePurityTestPage() {
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
             Think back to the rounds your squad still talks about, whether it was a clutch win or a match you would rather forget. Those everyday moments give your answers context, and two players at the same rank can end up with very different scores.
           </p>
+          <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
+            If you also play Overwatch, the <a href="https://ricepuritytestme.com/overwatch-rice-purity-test" className="rpt-interlink">Overwatch Rice Purity Test</a> offers a similar look at your match habits, hero choices, and experiences with teammates.
+          </p>
           <h2 className="font-heading text-2xl font-bold tracking-tight text-neutral-900 sm:text-3xl mt-10">How to Take the Valorant Rice Purity Test</h2>
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
             There are plenty of options available online to take the test. Many sites are available on the internet. Just visit a trusted website like ours and start taking the test. Here’s a detailed guide about taking the test efficiently:

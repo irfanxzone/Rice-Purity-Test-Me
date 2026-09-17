@@ -1,5 +1,7 @@
-import ArticleJsonLd, { SEO_TIMESTAMP } from "@/components/ArticleJsonLd";
+import ArticleJsonLd, { getArticleTimestamp } from "@/components/ArticleJsonLd";
 import { metadata as pageMetadata } from "./metadata";
+
+const SEO_TIMESTAMP = getArticleTimestamp("racism-rice-purity-test");
 
 const title = "The Racism Rice Purity Test 2026";
 const description = "Check your racial bias and self-awareness with this 100-question anonymous test.";

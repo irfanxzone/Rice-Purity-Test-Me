@@ -345,6 +345,9 @@ export default function TrueAsianRicePurityTestPage() {
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
             It is worth being aware that purity style tests, including the original, have been criticized for the way they frame experience and culture. Treat the True Asian Test the way its creator intended, as a lighthearted way to laugh about shared experiences with friends, and it holds up fine. Read too much into the number and you are giving a meme more weight than it can carry.
           </p>
+          <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
+            For a separate reflection on racial assumptions rather than cultural identity, the <a href="https://ricepuritytestme.com/racism-rice-purity-test" className="rpt-interlink">Racism Rice Purity Test</a> asks about bias and everyday behavior.
+          </p>
         </section>
       </main>
       <Footer />

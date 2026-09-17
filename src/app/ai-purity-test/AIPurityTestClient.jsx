@@ -321,6 +321,9 @@ export default function AIPurityTestClient() {
           <p className="mt-2 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
             <strong>Ethical:</strong> Some extensive questions about ethical concerns and AI boundaries.
           </p>
+          <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
+            If the questions about online posts and creative choices feel familiar, the <a href="https://ricepuritytestme.com/performative-rice-purity-test" className="rpt-interlink">Performative Rice Purity Test</a> explores another side of online life: the trends and habits that shape how you present yourself.
+          </p>
 
           <h2 className="font-heading mt-10 text-2xl font-bold tracking-tight text-neutral-900 sm:text-3xl">
             Who Should Take This?

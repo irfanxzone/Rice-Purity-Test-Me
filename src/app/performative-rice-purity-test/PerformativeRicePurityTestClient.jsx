@@ -310,6 +310,9 @@ export default function PerformativeRicePurityTestClient() {
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
             This modern Performative Purity Test is a very useful way to understand whether the person is just performing on social media or actually has an interest in the things they are adopting. If you get a low score on the test, you might need to check your posting for yourself or for social performance.
           </p>
+          <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
+            If artificial intelligence is part of how you create posts, images, or messages, the <a href="https://ricepuritytestme.com/ai-purity-test" className="rpt-interlink">AI Purity Test</a> gives you a separate checklist to reflect on those digital habits.
+          </p>
 
           <h2 className="font-heading text-2xl font-bold tracking-tight text-neutral-900 sm:text-3xl mt-10">
             Final Thoughts
