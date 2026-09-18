@@ -8,6 +8,15 @@ import PageLayout from "@/components/PageLayout";
 export default function Blog() {
     const articles = [
         {
+            title: "Rice Purity Test For Virgins 2026",
+            desc: "Rice Purity Test for virgins is a special variant that is made for those who do not need sexual experience or have never had it before.",
+            href: "/rice-purity-test-for-virgins",
+            tag: "Purity Test",
+            read: "4 min read",
+            image: "/rice-purity-test-for-virgin.webp",
+            imageAlt: "Rice Purity Test for Virgins: 65-question personal experiences quiz",
+        },
+        {
             title: "Lesbian Rice Purity Test 2026",
             desc: "What a lesbian rice purity test asks, how scores work, and how it differs from an LGBT purity test. Find out what your result can actually tell you.",
             href: "/lesbian-rice-purity-test",

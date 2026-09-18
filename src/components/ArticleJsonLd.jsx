@@ -1,18 +1,23 @@
-export const SEO_TIMESTAMP = "2026-09-16T11:49:31+05:00";
+export const SEO_TIMESTAMP = "2026-09-18T14:04:55+05:00";
 
 const ARTICLE_TIMESTAMPS = {
-  "true-asian-rice-purity-test": "2026-09-17T23:34:18+05:00",
-  "lesbian-rice-purity-test": "2026-09-17T23:34:18+05:00",
-  "racism-rice-purity-test": "2026-09-17T23:34:18+05:00",
-  "76-rice-purity-test": "2026-09-17T23:34:18+05:00",
-  "overwatch-rice-purity-test": "2026-09-17T23:34:18+05:00",
-  "performative-rice-purity-test": "2026-09-17T23:34:18+05:00",
-  "ai-purity-test": "2026-09-17T23:34:18+05:00",
+  "true-asian-rice-purity-test": "2026-09-18T14:04:55+05:00",
+  "lesbian-rice-purity-test": "2026-09-18T14:04:55+05:00",
+  "racism-rice-purity-test": "2026-09-18T14:04:55+05:00",
+  "76-rice-purity-test": "2026-09-18T14:04:55+05:00",
+  "overwatch-rice-purity-test": "2026-09-18T14:04:55+05:00",
+  "performative-rice-purity-test": "2026-09-18T14:04:55+05:00",
+  "ai-purity-test": "2026-09-18T14:04:55+05:00",
 };
 
 export const getArticleTimestamp = (slug) => ARTICLE_TIMESTAMPS[slug] ?? SEO_TIMESTAMP;
 
 const ARTICLES = {
+  "rice-purity-test-for-virgins": {
+    title: "Rice Purity Test For Virgins 2026",
+    description: "Rice Purity Test for virgins is a special variant that is made for those who do not need sexual experience or have never had it before.",
+    image: "https://ricepuritytestme.com/rice-purity-test-for-virgin.webp",
+  },
   "lesbian-rice-purity-test": {
     title: "Lesbian Rice Purity Test 2026",
     description: "What a lesbian rice purity test asks, how scores work, and how it differs from an LGBT purity test. Find out what your result can actually tell you.",
