@@ -1,5 +1,6 @@
 import { ALL_QUESTIONS } from "@/data/questions";
 import HomePageClient from "./HomePageClient";
+import Script from "next/script";
 
 // Homepage metadata for SEO
 const HOME_SEO_TIMESTAMP = "2026-09-21T09:57:31+05:00";
@@ -135,6 +136,15 @@ export default function HomePage() {
 
     return (
         <>
+            <Script src="https://www.googletagmanager.com/gtag/js?id=G-63FWXHHNZR" strategy="afterInteractive" />
+            <Script id="google-analytics" strategy="afterInteractive">
+                {`
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+                    gtag('config', 'G-63FWXHHNZR');
+                `}
+            </Script>
             <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(homeSchema) }}
