@@ -1,13 +1,13 @@
-export const SEO_TIMESTAMP = "2026-09-21T09:57:31+05:00";
+export const SEO_TIMESTAMP = "2026-09-22T11:08:48+05:00";
 
 const ARTICLE_TIMESTAMPS = {
-  "true-asian-rice-purity-test": "2026-09-21T09:57:31+05:00",
-  "lesbian-rice-purity-test": "2026-09-21T09:57:31+05:00",
-  "racism-rice-purity-test": "2026-09-21T09:57:31+05:00",
-  "76-rice-purity-test": "2026-09-21T09:57:31+05:00",
-  "overwatch-rice-purity-test": "2026-09-21T09:57:31+05:00",
-  "performative-rice-purity-test": "2026-09-21T09:57:31+05:00",
-  "ai-purity-test": "2026-09-21T09:57:31+05:00",
+  "true-asian-rice-purity-test": "2026-09-22T11:08:48+05:00",
+  "lesbian-rice-purity-test": "2026-09-22T11:08:48+05:00",
+  "racism-rice-purity-test": "2026-09-22T11:08:48+05:00",
+  "76-rice-purity-test": "2026-09-22T11:08:48+05:00",
+  "overwatch-rice-purity-test": "2026-09-22T11:08:48+05:00",
+  "performative-rice-purity-test": "2026-09-22T11:08:48+05:00",
+  "ai-purity-test": "2026-09-22T11:08:48+05:00",
 };
 
 export const getArticleTimestamp = (slug) => ARTICLE_TIMESTAMPS[slug] ?? SEO_TIMESTAMP;
