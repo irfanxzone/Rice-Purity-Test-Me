@@ -8,6 +8,15 @@ import PageLayout from "@/components/PageLayout";
 export default function Blog() {
     const articles = [
         {
+            title: "Rice Purity Test in Spanish",
+            desc: "Learn how the Rice Purity Test in Spanish works, understand common Spanish terms, and see how translations and question changes can affect your score.",
+            href: "/rice-purity-test-in-spanish",
+            tag: "Spanish",
+            read: "4 min read",
+            image: "/rice-purity-test-in-spanish.webp",
+            imageAlt: "Rice Purity Test in Spanish: 100-question test de pureza",
+        },
+        {
             title: "Rice Purity Test For Virgins 2026",
             desc: "Rice Purity Test for virgins is a special variant that is made for those who do not need sexual experience or have never had it before.",
             href: "/rice-purity-test-for-virgins",

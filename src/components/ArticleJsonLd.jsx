@@ -1,18 +1,23 @@
-export const SEO_TIMESTAMP = "2026-09-23T19:13:52+05:00";
+export const SEO_TIMESTAMP = "2026-09-25T09:13:42+05:00";
 
 const ARTICLE_TIMESTAMPS = {
-  "true-asian-rice-purity-test": "2026-09-23T19:13:52+05:00",
-  "lesbian-rice-purity-test": "2026-09-23T19:13:52+05:00",
-  "racism-rice-purity-test": "2026-09-23T19:13:52+05:00",
-  "76-rice-purity-test": "2026-09-23T19:13:52+05:00",
-  "overwatch-rice-purity-test": "2026-09-23T19:13:52+05:00",
-  "performative-rice-purity-test": "2026-09-23T19:13:52+05:00",
-  "ai-purity-test": "2026-09-23T19:13:52+05:00",
+  "true-asian-rice-purity-test": "2026-09-25T09:13:42+05:00",
+  "lesbian-rice-purity-test": "2026-09-25T09:13:42+05:00",
+  "racism-rice-purity-test": "2026-09-25T09:13:42+05:00",
+  "76-rice-purity-test": "2026-09-25T09:13:42+05:00",
+  "overwatch-rice-purity-test": "2026-09-25T09:13:42+05:00",
+  "performative-rice-purity-test": "2026-09-25T09:13:42+05:00",
+  "ai-purity-test": "2026-09-25T09:13:42+05:00",
 };
 
 export const getArticleTimestamp = (slug) => ARTICLE_TIMESTAMPS[slug] ?? SEO_TIMESTAMP;
 
 const ARTICLES = {
+  "rice-purity-test-in-spanish": {
+    title: "Rice Purity Test in Spanish",
+    description: "Learn how the Rice Purity Test in Spanish works, understand common Spanish terms, and see how translations and question changes can affect your score.",
+    image: "https://ricepuritytestme.com/rice-purity-test-in-spanish.webp",
+  },
   "rice-purity-test-for-virgins": {
     title: "Rice Purity Test For Virgins 2026",
     description: "Rice Purity Test for virgins is a special variant that is made for those who do not need sexual experience or have never had it before.",
