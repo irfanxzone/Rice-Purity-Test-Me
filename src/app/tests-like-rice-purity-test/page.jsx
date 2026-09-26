@@ -29,7 +29,7 @@ export default function TestsLikeRicePurityTestPage() {
             className="mt-6 h-auto w-full rounded-lg border border-ink-200 object-cover"
           />
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
-            Start with a topic you already enjoy, whether that is gaming, fanfiction, or everyday relationships. Familiar questions make it easier to join the conversation with friends. Keep in mind that scores from different quizzes reflect different question lists, so the same number can mean very different things.
+            Start with a topic you already enjoy, whether that is gaming, fanfiction, or everyday relationships. Familiar questions make it easier to join the conversation with friends. If gaming is your topic, the <a href="https://ricepuritytestme.com/overwatch-rice-purity-test" className="rpt-interlink">Overwatch Rice Purity Test</a> focuses on hero choices and team experiences, while the <a href="https://ricepuritytestme.com/fortnite-rice-purity-test" className="rpt-interlink">Fortnite Rice Purity Test</a> covers matches, skins, and squad habits. Keep in mind that scores from different quizzes reflect different question lists, so the same number can mean very different things.
           </p>
           <h2 className="font-heading text-2xl font-bold tracking-tight text-neutral-900 sm:text-3xl mt-10">7 Tests Like the Rice Purity Test</h2>
           <ul className="list-disc ml-6 mt-2 text-[16px] text-neutral-700">

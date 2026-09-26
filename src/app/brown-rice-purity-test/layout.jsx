@@ -1,7 +1,9 @@
-import ArticleJsonLd, { SEO_TIMESTAMP } from "@/components/ArticleJsonLd";
+import ArticleJsonLd, { getArticleTimestamp } from "@/components/ArticleJsonLd";
 
-const title = "Brown Rice Purity Test: Food Quiz 2026";
-const description = "The Brown Rice Purity Test is a playful and food-themed quiz. It consists of a lighthearted mix of questions related to culture, fun, and food.";
+const SEO_TIMESTAMP = getArticleTimestamp("brown-rice-purity-test");
+
+const title = "Brown Rice Purity Test: Food & Culture Quiz";
+const description = "The Brown Rice Purity Test is a playful food and culture quiz. It consists of a lighthearted mix of questions about everyday habits, fun, and food.";
 const image = {
   url: "https://ricepuritytestme.com/brown-rice-purity-test.webp",
   width: 1200,

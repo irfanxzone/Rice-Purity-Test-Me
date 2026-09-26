@@ -259,7 +259,7 @@ export default function TrueAsianRicePurityTestPage() {
             className="mt-6 h-auto w-full rounded-lg border border-ink-200 object-cover"
           />
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
-            You go down a checklist and tick every item that applies to you. The more you tick, the higher your percentage will be and the more asian your belonging proves. It leans into humor about strict parents, tutoring, food habits, and growing up in an Asian household, so it lands hardest with people who lived those things.
+            You go down a checklist and tick every item that applies to you. The more you tick, the higher your percentage will be and the more asian your belonging proves. It leans into humor about strict parents, tutoring, food habits, and growing up in an Asian household, so it lands hardest with people who lived those things. If the food and everyday-habit questions are your favorite part, the <a href="https://ricepuritytestme.com/brown-rice-purity-test" className="rpt-interlink">Brown Rice Purity Test</a> takes a lighter, food-and-culture-focused approach.
           </p>
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
             It is not a scientific measure of identity or heritage. There is no official body behind it, no data collection about your ethnicity, and no real meaning to the number. It is a shared-experience meme that spread through TikTok and group chats, which is exactly why the how asian are you framing caught on.

@@ -109,7 +109,7 @@ export default function Question69MeanPage() {
             You should answer the question honestly and according to your personal life experiences. You are taking the test anonymously, so there are no right or wrong answers. The Rice Purity test is a self-graded quiz, so it is worth answering any question that truly reflects your behaviour or experience.
           </p>
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
-            Whatever you choose is private, and we do care about your privacy until you share your score on social media. Whether you answer "YES" or "NO", your response contributes to the overall score, which will be given at the end of the test.
+            Whatever you choose is private, and we do care about your privacy until you share your score on social media. Whether you answer "YES" or "NO", your response contributes to the overall score, which will be given at the end of the test. For a concrete example, the <a href="https://ricepuritytestme.com/76-rice-purity-test" className="rpt-interlink">76 Rice Purity Test</a> guide explains how 24 checked answers leave a score of 76, regardless of which questions you checked.
           </p>
 
           <h2 className="font-heading mt-10 text-2xl font-bold tracking-tight text-neutral-900 sm:text-3xl">

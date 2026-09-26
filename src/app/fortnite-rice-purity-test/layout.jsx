@@ -1,7 +1,9 @@
-import ArticleJsonLd, { SEO_TIMESTAMP } from "@/components/ArticleJsonLd";
+import ArticleJsonLd, { getArticleTimestamp } from "@/components/ArticleJsonLd";
 
-const title = "Fortnite Rice Purity Test 2026";
-const description = "Are you a Fortnite player who wants to check how pure your Fortnite habits are?";
+const SEO_TIMESTAMP = getArticleTimestamp("fortnite-rice-purity-test");
+
+const title = "Fortnite Rice Purity Test: 100 Questions";
+const description = "Are you a Fortnite player who wants to check how pure your Fortnite habits are? Answer 100 questions about matches, skins, and squad experiences.";
 const image = {
   url: "https://www.ricepuritytestme.com/Fortnite-rice-purity-test.webp",
   width: 1200,

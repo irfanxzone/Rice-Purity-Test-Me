@@ -2,8 +2,8 @@ import ArticleJsonLd, { getArticleTimestamp } from "@/components/ArticleJsonLd";
 
 const SEO_TIMESTAMP = getArticleTimestamp("lesbian-rice-purity-test");
 
-const title = "Lesbian Rice Purity Test 2026";
-const description = "What a lesbian rice purity test asks, how scores work, and how it differs from an LGBT purity test. Find out what your result can actually tell you.";
+const title = "Lesbian Rice Purity Test: 76 Questions";
+const description = "What a 76-question lesbian rice purity test asks, how scores work, and how it differs from an LGBT purity test. Find out what your result can tell you.";
 const image = {
   url: "https://ricepuritytestme.com/lesbian-rice-purity-test.webp",
   width: 1200,

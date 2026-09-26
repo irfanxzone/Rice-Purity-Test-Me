@@ -22,7 +22,7 @@ export default function MpsMeaningPage() {
 
           <h2 className="font-heading text-2xl font-bold tracking-tight text-neutral-900 sm:text-3xl mt-10">What Does MPS Mean in the Rice Purity Test?</h2>
           <p className="mt-4 text-[16px] leading-relaxed text-ink-700">
-            The full form of MPS is “Member of The Preferred Sex.” The meaning seems outdated, right? It’s just because the test is very old. Here in the test, it refers to the person you’re sexually or romantically attracted to. These types of terms are used to keep the questions short and to the point.
+            The full form of MPS is “Member of The Preferred Sex.” The meaning seems outdated, right? It’s just because the test is very old. Here in the test, it refers to the person you’re sexually or romantically attracted to. These types of terms are used to keep the questions short and to the point. In the <a href="https://ricepuritytestme.com/rice-purity-test-in-spanish" className="rpt-interlink">Rice Purity Test in Spanish</a>, the same idea appears as MSP, short for a person of your preferred sex.
           </p>
 
           <p className="mt-4 text-[16px] leading-relaxed text-ink-700">
@@ -45,7 +45,7 @@ export default function MpsMeaningPage() {
           </ul>
 
           <p className="mt-4 text-[16px] leading-relaxed text-ink-700">
-            The questions for this term belong to relationship and intimacy. Asked about your personal experiences with a member of the preferred sex.
+            The questions for this term belong to relationship and intimacy. Asked about your personal experiences with a member of the preferred sex. For questions specifically about queer women's dating and relationship experiences, the <a href="https://ricepuritytestme.com/lesbian-rice-purity-test" className="rpt-interlink">Lesbian Rice Purity Test</a> uses a separate 76-question checklist.
           </p>
 
           <h2 className="font-heading text-2xl font-bold tracking-tight text-neutral-900 sm:text-3xl mt-10">How to answer MPS questions correctly</h2>

@@ -2,8 +2,8 @@ import ArticleJsonLd, { getArticleTimestamp } from "@/components/ArticleJsonLd";
 
 const SEO_TIMESTAMP = getArticleTimestamp("76-rice-purity-test");
 
-const title = "76 Rice Purity Test";
-const description = "If you have taken the Rice Purity Test and scored 76, you might be wondering what this score means or what it says about your personality.";
+const title = "76 Rice Purity Test: Score Meaning";
+const description = "If you have taken the Rice Purity Test and scored 76, learn what this score means and how 24 checked answers affect your result.";
 const image = {
   url: "https://ricepuritytestme.com/76-rice-purity-test.webp",
   width: 1200,

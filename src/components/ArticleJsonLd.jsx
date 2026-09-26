@@ -1,11 +1,15 @@
 export const SEO_TIMESTAMP = "2026-09-25T09:13:42+05:00";
 
 const ARTICLE_TIMESTAMPS = {
+  "rice-purity-test-for-girls": "2026-09-26T11:11:27+05:00",
+  "fortnite-rice-purity-test": "2026-09-26T11:11:27+05:00",
+  "brown-rice-purity-test": "2026-09-26T11:11:27+05:00",
+  "rice-purity-test-in-spanish": "2026-09-26T11:11:27+05:00",
   "true-asian-rice-purity-test": "2026-09-25T09:13:42+05:00",
-  "lesbian-rice-purity-test": "2026-09-25T09:13:42+05:00",
+  "lesbian-rice-purity-test": "2026-09-26T11:11:27+05:00",
   "racism-rice-purity-test": "2026-09-25T09:13:42+05:00",
-  "76-rice-purity-test": "2026-09-25T09:13:42+05:00",
-  "overwatch-rice-purity-test": "2026-09-25T09:13:42+05:00",
+  "76-rice-purity-test": "2026-09-26T11:11:27+05:00",
+  "overwatch-rice-purity-test": "2026-09-26T11:11:27+05:00",
   "performative-rice-purity-test": "2026-09-25T09:13:42+05:00",
   "ai-purity-test": "2026-09-25T09:13:42+05:00",
 };
@@ -14,8 +18,8 @@ export const getArticleTimestamp = (slug) => ARTICLE_TIMESTAMPS[slug] ?? SEO_TIM
 
 const ARTICLES = {
   "rice-purity-test-in-spanish": {
-    title: "Rice Purity Test in Spanish",
-    description: "Learn how the Rice Purity Test in Spanish works, understand common Spanish terms, and see how translations and question changes can affect your score.",
+    title: "Rice Purity Test in Spanish: 100 Questions",
+    description: "Learn how the 100-question Rice Purity Test in Spanish works, understand common Spanish terms, and see how translations and question changes affect your score.",
     image: "https://ricepuritytestme.com/rice-purity-test-in-spanish.webp",
   },
   "rice-purity-test-for-virgins": {
@@ -24,8 +28,8 @@ const ARTICLES = {
     image: "https://ricepuritytestme.com/rice-purity-test-for-virgin.webp",
   },
   "lesbian-rice-purity-test": {
-    title: "Lesbian Rice Purity Test 2026",
-    description: "What a lesbian rice purity test asks, how scores work, and how it differs from an LGBT purity test. Find out what your result can actually tell you.",
+    title: "Lesbian Rice Purity Test: 76 Questions",
+    description: "What a 76-question lesbian rice purity test asks, how scores work, and how it differs from an LGBT purity test. Find out what your result can tell you.",
     image: "https://ricepuritytestme.com/lesbian-rice-purity-test.webp",
   },
   "true-asian-rice-purity-test": {
@@ -64,8 +68,8 @@ const ARTICLES = {
     image: "https://www.ricepuritytestme.com/BDSM-test.webp",
   },
   "76-rice-purity-test": {
-    title: "76 Rice Purity Test",
-    description: "If you have taken the Rice Purity Test and scored 76, you might be wondering what this score means or what it says about your personality.",
+    title: "76 Rice Purity Test: Score Meaning",
+    description: "If you have taken the Rice Purity Test and scored 76, learn what this score means and how 24 checked answers affect your result.",
     image: "https://www.ricepuritytestme.com/76-rice-purity-test.webp",
   },
   "ao3-rice-purity-test": {
@@ -74,13 +78,13 @@ const ARTICLES = {
     image: "https://www.ricepuritytestme.com/ao3-rice-purity-test.webp",
   },
   "brown-rice-purity-test": {
-    title: "Brown Rice Purity Test: Food Quiz 2026",
-    description: "The Brown Rice Purity Test is a playful and food-themed quiz. It consists of a lighthearted mix of questions related to culture, fun, and food.",
+    title: "Brown Rice Purity Test: Food & Culture Quiz",
+    description: "The Brown Rice Purity Test is a playful food and culture quiz. It consists of a lighthearted mix of questions about everyday habits, fun, and food.",
     image: "https://ricepuritytestme.com/brown-rice-purity-test.webp",
   },
   "fortnite-rice-purity-test": {
-    title: "Fortnite Rice Purity Test 2026",
-    description: "Are you a Fortnite player who wants to check how pure your Fortnite habits are?",
+    title: "Fortnite Rice Purity Test: 100 Questions",
+    description: "Are you a Fortnite player who wants to check how pure your Fortnite habits are? Answer 100 questions about matches, skins, and squad experiences.",
     image: "https://www.ricepuritytestme.com/Fortnite-rice-purity-test.webp",
   },
   "kink-rice-purity-test": {
@@ -89,8 +93,8 @@ const ARTICLES = {
     image: "https://www.ricepuritytestme.com/kink-rice-purity-test.webp",
   },
   "rice-purity-test-for-girls": {
-    title: "Rice Purity Test for Girls 2026",
-    description: "The Rice Purity Test for Girls is not just a quiz for many girls; it serves as a mirror reflecting what they experienced, avoided, and learned throughout their lives.",
+    title: "Rice Purity Test for Girls: 100 Questions",
+    description: "The Rice Purity Test for Girls is a 100-question quiz reflecting what girls experienced, avoided, and learned throughout their lives.",
     image: "https://www.ricepuritytestme.com/rice-purity-test-for-girls.webp",
   },
   "mps-meaning-rice-purity-test": {
@@ -99,8 +103,8 @@ const ARTICLES = {
     image: "https://www.ricepuritytestme.com/mps-meaning-purity-test.webp",
   },
   "overwatch-rice-purity-test": {
-    title: "Overwatch Rice Purity Test: Player Quiz 2026",
-    description: "Take the Overwatch Rice Purity Test to explore the gaming habits you have as a player.",
+    title: "Overwatch Rice Purity Test: 100-Question Quiz",
+    description: "Take the 100-question Overwatch Rice Purity Test to explore your gaming habits, hero choices, and experiences as a player.",
     image: "https://ricepuritytestme.com/overwatch-rice-purity-test.webp",
   },
   "performative-rice-purity-test": {
