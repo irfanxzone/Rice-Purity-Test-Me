@@ -1,17 +1,17 @@
-export const SEO_TIMESTAMP = "2026-09-28T01:03:38+05:00";
+export const SEO_TIMESTAMP = "2026-09-29T00:41:21+05:00";
 
 const ARTICLE_TIMESTAMPS = {
-  "rice-purity-test-for-girls": "2026-09-28T01:03:38+05:00",
-  "fortnite-rice-purity-test": "2026-09-28T01:03:38+05:00",
-  "brown-rice-purity-test": "2026-09-28T01:03:38+05:00",
-  "rice-purity-test-in-spanish": "2026-09-28T01:03:38+05:00",
-  "true-asian-rice-purity-test": "2026-09-28T01:03:38+05:00",
-  "lesbian-rice-purity-test": "2026-09-28T01:03:38+05:00",
-  "racism-rice-purity-test": "2026-09-28T01:03:38+05:00",
-  "76-rice-purity-test": "2026-09-28T01:03:38+05:00",
-  "overwatch-rice-purity-test": "2026-09-28T01:03:38+05:00",
-  "performative-rice-purity-test": "2026-09-28T01:03:38+05:00",
-  "ai-purity-test": "2026-09-28T01:03:38+05:00",
+  "rice-purity-test-for-girls": "2026-09-29T00:41:21+05:00",
+  "fortnite-rice-purity-test": "2026-09-29T00:41:21+05:00",
+  "brown-rice-purity-test": "2026-09-29T00:41:21+05:00",
+  "rice-purity-test-in-spanish": "2026-09-29T00:41:21+05:00",
+  "true-asian-rice-purity-test": "2026-09-29T00:41:21+05:00",
+  "lesbian-rice-purity-test": "2026-09-29T00:41:21+05:00",
+  "racism-rice-purity-test": "2026-09-29T00:41:21+05:00",
+  "76-rice-purity-test": "2026-09-29T00:41:21+05:00",
+  "overwatch-rice-purity-test": "2026-09-29T00:41:21+05:00",
+  "performative-rice-purity-test": "2026-09-29T00:41:21+05:00",
+  "ai-purity-test": "2026-09-29T00:41:21+05:00",
 };
 
 export const getArticleTimestamp = (slug) => ARTICLE_TIMESTAMPS[slug] ?? SEO_TIMESTAMP;
