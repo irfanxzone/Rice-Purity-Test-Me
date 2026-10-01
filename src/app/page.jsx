@@ -3,7 +3,7 @@ import HomePageClient from "./HomePageClient";
 import Script from "next/script";
 
 // Homepage metadata for SEO
-const HOME_SEO_TIMESTAMP = "2026-09-29T00:41:21+05:00";
+const HOME_SEO_TIMESTAMP = "2026-10-01T10:21:00+05:00";
 
 export const metadata = {
     title: "The Rice Purity Test",
