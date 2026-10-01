@@ -23,7 +23,7 @@ export const metadata = {
         template: "%s · The Rice Purity Test",
     },
     description:
-        "Take the Rice Purity test and evaluate your personality by answering 100 online questions.",
+        "Take the Rice Purity Test and evaluate your personality by answering 100 online questions with an instant, private score.",
     keywords: [
         "rice purity test",
         "the rice purity test",
@@ -44,7 +44,7 @@ export const metadata = {
         type: "website",
         title: "The Rice Purity Test",
         description:
-            "Take the Rice Purity Test and evaluate your personality by answering 100 online questions.",
+            "Take the Rice Purity Test and evaluate your personality by answering 100 online questions with an instant, private score.",
         url: "/",
         siteName: "Rice Purity Test",
     },
@@ -52,7 +52,7 @@ export const metadata = {
         card: "summary_large_image",
         title: "The Rice Purity Test",
         description:
-            "Take the Rice Purity Test and evaluate your personality by answering 100 online questions.",
+            "Take the Rice Purity Test and evaluate your personality by answering 100 online questions with an instant, private score.",
     },
 };
 

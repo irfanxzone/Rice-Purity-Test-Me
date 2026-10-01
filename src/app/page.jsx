@@ -7,7 +7,7 @@ const HOME_SEO_TIMESTAMP = "2026-10-01T10:21:00+05:00";
 
 export const metadata = {
     title: "The Rice Purity Test",
-    description: "Take the Rice Purity Test and evaluate your personality by answering 100 online questions.",
+    description: "Take the Rice Purity Test and evaluate your personality by answering 100 online questions with an instant, private score.",
     other: {
         "article:published_time": HOME_SEO_TIMESTAMP,
         "article:modified_time": HOME_SEO_TIMESTAMP,
@@ -18,7 +18,7 @@ export default function HomePage() {
     const siteUrl = "https://ricepuritytestme.com/";
     const logoUrl = "https://ricepuritytestme.com/RicePurityTest.webp";
     const pageTitle = "The Rice Purity Test";
-    const pageDescription = "Take the Rice Purity Test and evaluate your personality by answering 100 online questions.";
+    const pageDescription = "Take the Rice Purity Test and evaluate your personality by answering 100 online questions with an instant, private score.";
 
     const homeSchema = {
         "@context": "https://schema.org",
