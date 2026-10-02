@@ -19,8 +19,8 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata = {
     metadataBase: new URL("https://ricepuritytestme.com"),
     title: {
-        default: "The Rice Purity Test",
-        template: "%s · The Rice Purity Test",
+        default: "The Rice Purity Test 2026",
+        template: "%s · The Rice Purity Test 2026",
     },
     description:
         "Take the Rice Purity Test and evaluate your personality by answering 100 online questions with an instant, private score.",
@@ -42,7 +42,7 @@ export const metadata = {
     },
     openGraph: {
         type: "website",
-        title: "The Rice Purity Test",
+        title: "The Rice Purity Test 2026",
         description:
             "Take the Rice Purity Test and evaluate your personality by answering 100 online questions with an instant, private score.",
         url: "/",
@@ -50,7 +50,7 @@ export const metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "The Rice Purity Test",
+        title: "The Rice Purity Test 2026",
         description:
             "Take the Rice Purity Test and evaluate your personality by answering 100 online questions with an instant, private score.",
     },
