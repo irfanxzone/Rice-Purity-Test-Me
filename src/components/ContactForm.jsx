@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { toast } from "sonner";
+import { Toaster, toast } from "sonner";
 import { Mail, MessageSquare, User, Send } from "lucide-react";
 
 export default function ContactForm() {
@@ -39,6 +39,7 @@ export default function ContactForm() {
             data-testid="contact-form"
             className="space-y-5 rounded-3xl border border-ink-300/60 bg-cream-50 p-6 sm:p-8 lg:col-span-8"
         >
+            <Toaster position="bottom-center" richColors closeButton />
             <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
                 <label className="block">
                     <span className="font-mono text-[10px] uppercase tracking-[0.2em] text-ink-500">

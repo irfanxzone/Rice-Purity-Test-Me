@@ -1,0 +1,753 @@
+[
+  {
+    "name": "mobile-1",
+    "lighthouseVersion": "13.5.0",
+    "fetchTime": "2026-10-03T07:07:34.080Z",
+    "scores": {
+      "performance": 98,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": {
+        "value": 1369.6386,
+        "display": "1.4 s"
+      },
+      "largest-contentful-paint": {
+        "value": 2257.0924,
+        "display": "2.3 s"
+      },
+      "total-blocking-time": {
+        "value": 70.5,
+        "display": "70 ms"
+      },
+      "cumulative-layout-shift": {
+        "value": 0.0008701794177635521,
+        "display": "0.001"
+      },
+      "speed-index": {
+        "value": 1369.6386,
+        "display": "1.4 s"
+      }
+    },
+    "failures": [
+      {
+        "id": "interactive",
+        "title": "Time to Interactive",
+        "display": "4.0 s"
+      },
+      {
+        "id": "unused-css-rules",
+        "title": "Reduce unused CSS",
+        "display": "Est savings of 11 KiB"
+      },
+      {
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript",
+        "display": "Est savings of 51 KiB"
+      },
+      {
+        "id": "bf-cache",
+        "title": "Page prevented back/forward cache restoration",
+        "display": "2 failure reasons"
+      },
+      {
+        "id": "forced-reflow-insight",
+        "title": "Forced reflow"
+      },
+      {
+        "id": "legacy-javascript-insight",
+        "title": "Legacy JavaScript",
+        "display": "Est savings of 11 KiB"
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree"
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "display": "Est savings of 350 ms"
+      }
+    ],
+    "resources": [
+      {
+        "resourceType": "total",
+        "label": "Total",
+        "requestCount": 23,
+        "transferSize": 269665
+      },
+      {
+        "resourceType": "script",
+        "label": "Script",
+        "requestCount": 12,
+        "transferSize": 165002
+      },
+      {
+        "resourceType": "font",
+        "label": "Font",
+        "requestCount": 5,
+        "transferSize": 40791
+      },
+      {
+        "resourceType": "document",
+        "label": "Document",
+        "requestCount": 1,
+        "transferSize": 34103
+      },
+      {
+        "resourceType": "other",
+        "label": "Other",
+        "requestCount": 3,
+        "transferSize": 15023
+      },
+      {
+        "resourceType": "stylesheet",
+        "label": "Stylesheet",
+        "requestCount": 1,
+        "transferSize": 13647
+      },
+      {
+        "resourceType": "image",
+        "label": "Image",
+        "requestCount": 1,
+        "transferSize": 1099
+      },
+      {
+        "resourceType": "media",
+        "label": "Media",
+        "requestCount": 0,
+        "transferSize": 0
+      },
+      {
+        "resourceType": "third-party",
+        "label": "Third-party",
+        "requestCount": 3,
+        "transferSize": 57703
+      }
+    ],
+    "activeScripts": {
+      "adsense": true,
+      "analytics": false
+    },
+    "warnings": [],
+    "validWithScripts": false
+  },
+  {
+    "name": "mobile-2",
+    "lighthouseVersion": "13.5.0",
+    "fetchTime": "2026-10-03T07:07:47.658Z",
+    "scores": {
+      "performance": 99,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": {
+        "value": 1359.1281,
+        "display": "1.4 s"
+      },
+      "largest-contentful-paint": {
+        "value": 1848.0854,
+        "display": "1.8 s"
+      },
+      "total-blocking-time": {
+        "value": 18.5,
+        "display": "20 ms"
+      },
+      "cumulative-layout-shift": {
+        "value": 0.0007117522099620115,
+        "display": "0.001"
+      },
+      "speed-index": {
+        "value": 1359.1281,
+        "display": "1.4 s"
+      }
+    },
+    "failures": [
+      {
+        "id": "unused-css-rules",
+        "title": "Reduce unused CSS",
+        "display": "Est savings of 11 KiB"
+      },
+      {
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript",
+        "display": "Est savings of 21 KiB"
+      },
+      {
+        "id": "legacy-javascript-insight",
+        "title": "Legacy JavaScript",
+        "display": "Est savings of 11 KiB"
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree"
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "display": "Est savings of 360 ms"
+      }
+    ],
+    "resources": [
+      {
+        "resourceType": "total",
+        "label": "Total",
+        "requestCount": 22,
+        "transferSize": 211962
+      },
+      {
+        "resourceType": "script",
+        "label": "Script",
+        "requestCount": 11,
+        "transferSize": 107299
+      },
+      {
+        "resourceType": "font",
+        "label": "Font",
+        "requestCount": 5,
+        "transferSize": 40791
+      },
+      {
+        "resourceType": "document",
+        "label": "Document",
+        "requestCount": 1,
+        "transferSize": 34103
+      },
+      {
+        "resourceType": "other",
+        "label": "Other",
+        "requestCount": 3,
+        "transferSize": 15023
+      },
+      {
+        "resourceType": "stylesheet",
+        "label": "Stylesheet",
+        "requestCount": 1,
+        "transferSize": 13647
+      },
+      {
+        "resourceType": "image",
+        "label": "Image",
+        "requestCount": 1,
+        "transferSize": 1099
+      },
+      {
+        "resourceType": "media",
+        "label": "Media",
+        "requestCount": 0,
+        "transferSize": 0
+      },
+      {
+        "resourceType": "third-party",
+        "label": "Third-party",
+        "requestCount": 2,
+        "transferSize": 0
+      }
+    ],
+    "activeScripts": {
+      "adsense": false,
+      "analytics": false
+    },
+    "warnings": [],
+    "validWithScripts": false
+  },
+  {
+    "name": "mobile-3",
+    "lighthouseVersion": "13.5.0",
+    "fetchTime": "2026-10-03T07:07:56.498Z",
+    "scores": {
+      "performance": 99,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": {
+        "value": 1071.384,
+        "display": "1.1 s"
+      },
+      "largest-contentful-paint": {
+        "value": 2109.2560000000003,
+        "display": "2.1 s"
+      },
+      "total-blocking-time": {
+        "value": 22.5,
+        "display": "20 ms"
+      },
+      "cumulative-layout-shift": {
+        "value": 0.0008701794177635521,
+        "display": "0.001"
+      },
+      "speed-index": {
+        "value": 1071.384,
+        "display": "1.1 s"
+      }
+    },
+    "failures": [
+      {
+        "id": "unused-css-rules",
+        "title": "Reduce unused CSS",
+        "display": "Est savings of 11 KiB"
+      },
+      {
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript",
+        "display": "Est savings of 21 KiB"
+      },
+      {
+        "id": "forced-reflow-insight",
+        "title": "Forced reflow"
+      },
+      {
+        "id": "legacy-javascript-insight",
+        "title": "Legacy JavaScript",
+        "display": "Est savings of 11 KiB"
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree"
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "display": "Est savings of 290 ms"
+      }
+    ],
+    "resources": [
+      {
+        "resourceType": "total",
+        "label": "Total",
+        "requestCount": 22,
+        "transferSize": 211962
+      },
+      {
+        "resourceType": "script",
+        "label": "Script",
+        "requestCount": 11,
+        "transferSize": 107299
+      },
+      {
+        "resourceType": "font",
+        "label": "Font",
+        "requestCount": 5,
+        "transferSize": 40791
+      },
+      {
+        "resourceType": "document",
+        "label": "Document",
+        "requestCount": 1,
+        "transferSize": 34103
+      },
+      {
+        "resourceType": "other",
+        "label": "Other",
+        "requestCount": 3,
+        "transferSize": 15023
+      },
+      {
+        "resourceType": "stylesheet",
+        "label": "Stylesheet",
+        "requestCount": 1,
+        "transferSize": 13647
+      },
+      {
+        "resourceType": "image",
+        "label": "Image",
+        "requestCount": 1,
+        "transferSize": 1099
+      },
+      {
+        "resourceType": "media",
+        "label": "Media",
+        "requestCount": 0,
+        "transferSize": 0
+      },
+      {
+        "resourceType": "third-party",
+        "label": "Third-party",
+        "requestCount": 2,
+        "transferSize": 0
+      }
+    ],
+    "activeScripts": {
+      "adsense": false,
+      "analytics": false
+    },
+    "warnings": [],
+    "validWithScripts": false
+  },
+  {
+    "name": "mobile-4",
+    "lighthouseVersion": "13.5.0",
+    "fetchTime": "2026-10-03T07:08:09.349Z",
+    "scores": {
+      "performance": 98,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": {
+        "value": 1370.1402,
+        "display": "1.4 s"
+      },
+      "largest-contentful-paint": {
+        "value": 2243.4268,
+        "display": "2.2 s"
+      },
+      "total-blocking-time": {
+        "value": 17,
+        "display": "20 ms"
+      },
+      "cumulative-layout-shift": {
+        "value": 0.0008701794177635521,
+        "display": "0.001"
+      },
+      "speed-index": {
+        "value": 1370.1402,
+        "display": "1.4 s"
+      }
+    },
+    "failures": [
+      {
+        "id": "unused-css-rules",
+        "title": "Reduce unused CSS",
+        "display": "Est savings of 11 KiB"
+      },
+      {
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript",
+        "display": "Est savings of 21 KiB"
+      },
+      {
+        "id": "forced-reflow-insight",
+        "title": "Forced reflow"
+      },
+      {
+        "id": "legacy-javascript-insight",
+        "title": "Legacy JavaScript",
+        "display": "Est savings of 11 KiB"
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree"
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "display": "Est savings of 360 ms"
+      }
+    ],
+    "resources": [
+      {
+        "resourceType": "total",
+        "label": "Total",
+        "requestCount": 22,
+        "transferSize": 211962
+      },
+      {
+        "resourceType": "script",
+        "label": "Script",
+        "requestCount": 11,
+        "transferSize": 107299
+      },
+      {
+        "resourceType": "font",
+        "label": "Font",
+        "requestCount": 5,
+        "transferSize": 40791
+      },
+      {
+        "resourceType": "document",
+        "label": "Document",
+        "requestCount": 1,
+        "transferSize": 34103
+      },
+      {
+        "resourceType": "other",
+        "label": "Other",
+        "requestCount": 3,
+        "transferSize": 15023
+      },
+      {
+        "resourceType": "stylesheet",
+        "label": "Stylesheet",
+        "requestCount": 1,
+        "transferSize": 13647
+      },
+      {
+        "resourceType": "image",
+        "label": "Image",
+        "requestCount": 1,
+        "transferSize": 1099
+      },
+      {
+        "resourceType": "media",
+        "label": "Media",
+        "requestCount": 0,
+        "transferSize": 0
+      },
+      {
+        "resourceType": "third-party",
+        "label": "Third-party",
+        "requestCount": 2,
+        "transferSize": 0
+      }
+    ],
+    "activeScripts": {
+      "adsense": false,
+      "analytics": false
+    },
+    "warnings": [],
+    "validWithScripts": false
+  },
+  {
+    "name": "mobile-5",
+    "lighthouseVersion": "13.5.0",
+    "fetchTime": "2026-10-03T07:08:22.285Z",
+    "scores": {
+      "performance": 98,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": {
+        "value": 1373.073,
+        "display": "1.4 s"
+      },
+      "largest-contentful-paint": {
+        "value": 2252.382,
+        "display": "2.3 s"
+      },
+      "total-blocking-time": {
+        "value": 21,
+        "display": "20 ms"
+      },
+      "cumulative-layout-shift": {
+        "value": 0.0008701794177635521,
+        "display": "0.001"
+      },
+      "speed-index": {
+        "value": 1373.073,
+        "display": "1.4 s"
+      }
+    },
+    "failures": [
+      {
+        "id": "unused-css-rules",
+        "title": "Reduce unused CSS",
+        "display": "Est savings of 11 KiB"
+      },
+      {
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript",
+        "display": "Est savings of 21 KiB"
+      },
+      {
+        "id": "forced-reflow-insight",
+        "title": "Forced reflow"
+      },
+      {
+        "id": "legacy-javascript-insight",
+        "title": "Legacy JavaScript",
+        "display": "Est savings of 11 KiB"
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree"
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "display": "Est savings of 360 ms"
+      }
+    ],
+    "resources": [
+      {
+        "resourceType": "total",
+        "label": "Total",
+        "requestCount": 22,
+        "transferSize": 211962
+      },
+      {
+        "resourceType": "script",
+        "label": "Script",
+        "requestCount": 11,
+        "transferSize": 107299
+      },
+      {
+        "resourceType": "font",
+        "label": "Font",
+        "requestCount": 5,
+        "transferSize": 40791
+      },
+      {
+        "resourceType": "document",
+        "label": "Document",
+        "requestCount": 1,
+        "transferSize": 34103
+      },
+      {
+        "resourceType": "other",
+        "label": "Other",
+        "requestCount": 3,
+        "transferSize": 15023
+      },
+      {
+        "resourceType": "stylesheet",
+        "label": "Stylesheet",
+        "requestCount": 1,
+        "transferSize": 13647
+      },
+      {
+        "resourceType": "image",
+        "label": "Image",
+        "requestCount": 1,
+        "transferSize": 1099
+      },
+      {
+        "resourceType": "media",
+        "label": "Media",
+        "requestCount": 0,
+        "transferSize": 0
+      },
+      {
+        "resourceType": "third-party",
+        "label": "Third-party",
+        "requestCount": 2,
+        "transferSize": 0
+      }
+    ],
+    "activeScripts": {
+      "adsense": false,
+      "analytics": false
+    },
+    "warnings": [],
+    "validWithScripts": false
+  },
+  {
+    "name": "desktop",
+    "lighthouseVersion": "13.5.0",
+    "fetchTime": "2026-10-03T07:08:35.086Z",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": {
+        "value": 346.42385,
+        "display": "0.3 s"
+      },
+      "largest-contentful-paint": {
+        "value": 569.6159,
+        "display": "0.6 s"
+      },
+      "total-blocking-time": {
+        "value": 0,
+        "display": "0 ms"
+      },
+      "cumulative-layout-shift": {
+        "value": 0.001095784811604355,
+        "display": "0.001"
+      },
+      "speed-index": {
+        "value": 346.42385,
+        "display": "0.3 s"
+      }
+    },
+    "failures": [
+      {
+        "id": "unused-css-rules",
+        "title": "Reduce unused CSS",
+        "display": "Est savings of 10 KiB"
+      },
+      {
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript",
+        "display": "Est savings of 21 KiB"
+      },
+      {
+        "id": "legacy-javascript-insight",
+        "title": "Legacy JavaScript",
+        "display": "Est savings of 11 KiB"
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree"
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests"
+      }
+    ],
+    "resources": [
+      {
+        "resourceType": "total",
+        "label": "Total",
+        "requestCount": 22,
+        "transferSize": 211574
+      },
+      {
+        "resourceType": "script",
+        "label": "Script",
+        "requestCount": 11,
+        "transferSize": 107299
+      },
+      {
+        "resourceType": "font",
+        "label": "Font",
+        "requestCount": 5,
+        "transferSize": 40791
+      },
+      {
+        "resourceType": "document",
+        "label": "Document",
+        "requestCount": 1,
+        "transferSize": 34103
+      },
+      {
+        "resourceType": "other",
+        "label": "Other",
+        "requestCount": 3,
+        "transferSize": 15023
+      },
+      {
+        "resourceType": "stylesheet",
+        "label": "Stylesheet",
+        "requestCount": 1,
+        "transferSize": 13647
+      },
+      {
+        "resourceType": "image",
+        "label": "Image",
+        "requestCount": 1,
+        "transferSize": 711
+      },
+      {
+        "resourceType": "media",
+        "label": "Media",
+        "requestCount": 0,
+        "transferSize": 0
+      },
+      {
+        "resourceType": "third-party",
+        "label": "Third-party",
+        "requestCount": 2,
+        "transferSize": 0
+      }
+    ],
+    "activeScripts": {
+      "adsense": false,
+      "analytics": false
+    },
+    "warnings": [],
+    "validWithScripts": false
+  }
+]

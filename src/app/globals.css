@@ -95,12 +95,12 @@ code, .font-mono {
     transition: all 0.15s ease;
 }
 
-.rpt-row[data-checked="true"] .rpt-checkbox {
+.rpt-row:has(input:checked) .rpt-checkbox {
     background: #FACC15;
     border-color: #1A1A14;
 }
 
-.rpt-row[data-checked="true"] .rpt-checkbox svg {
+.rpt-row:has(input:checked) .rpt-checkbox svg {
     opacity: 1;
     transform: scale(1);
 }
@@ -116,7 +116,7 @@ code, .font-mono {
     -webkit-tap-highlight-color: transparent;
 }
 
-.rpt-row[data-checked="true"] .rpt-q-text {
+.rpt-row:has(input:checked) .rpt-q-text {
     color: #6B6A55;
 }
 
@@ -265,4 +265,67 @@ code, .font-mono {
         animation: none !important;
         padding: 36px !important;
     }
+}
+
+/* Skip offscreen article layout, but never contain lists: paint containment clips outside markers. */
+@supports (content-visibility: auto) {
+    [data-testid="seo-content"] > .rpt-prose > :not(ol):not(ul) {
+        content-visibility: auto;
+        contain-intrinsic-size: auto 120px;
+    }
+}
+
+.rpt-row:has(input:focus-visible) {
+    outline: 2px solid #1A1A14;
+    outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        transition-duration: 0.01ms !important;
+    }
+}
+
+@media print {
+    [data-testid="seo-content"] > .rpt-prose > :not(ol):not(ul) {
+        content-visibility: visible;
+    }
+}
+
+/* Keep the full question list searchable while skipping offscreen layout. */
+@supports (content-visibility: auto) {
+    .rpt-question-item {
+        content-visibility: auto;
+        contain-intrinsic-block-size: auto 52px;
+    }
+}
+#test { scroll-margin-top: 100px; }
+@media print { .rpt-question-item { content-visibility: visible; } }
+
+/* Small labels and question numbers use the device monospace font. */
+:root { --font-jetbrains: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+
+/* Native inputs replace 100 decorative SVGs and their wrapper elements. */
+.rpt-native-checkbox {
+    appearance: none;
+    -webkit-appearance: none;
+    position: relative;
+    cursor: pointer;
+}
+.rpt-native-checkbox::after {
+    content: "";
+    width: 12px;
+    height: 7px;
+    border-left: 2.5px solid currentColor;
+    border-bottom: 2.5px solid currentColor;
+    color: #1A1A14;
+    transform: translateY(-1px) rotate(-45deg);
+    opacity: 0;
+}
+.rpt-native-checkbox:checked::after { opacity: 1; }
+@media (forced-colors: active) {
+    .rpt-native-checkbox { appearance: auto; }
+    .rpt-native-checkbox::after { display: none; }
 }

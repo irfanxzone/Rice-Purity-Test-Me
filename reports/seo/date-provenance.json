@@ -1,0 +1,333 @@
+[
+  {
+    "path": "/",
+    "source": "src/app/page.jsx",
+    "publishedCommit": "f21c1f3fe4663e50cf3bd98514a5790bcbe70742",
+    "modifiedCommit": "ccce39938ac626bd896ee52b027fd4f733b7dcb7",
+    "modifiedSubject": "Add Spanish Rice Purity Test and refresh page dates",
+    "contentSources": [
+      "src/app/page.jsx",
+      "src/app/HomePageClient.jsx",
+      "src/components/SeoContent.jsx",
+      "src/components/Faq.jsx",
+      "src/data/questions.js"
+    ]
+  },
+  {
+    "path": "/76-rice-purity-test",
+    "source": "src/app/76-rice-purity-test/page.jsx",
+    "publishedCommit": "db6a46183b4d36163e88178f4769c339ca90cded",
+    "modifiedCommit": "1844bded43d2d51aec2d9478f2f67a79da02fad9",
+    "modifiedSubject": "Add contextual links and refine metadata for seven test pages",
+    "contentSources": [
+      "src/app/76-rice-purity-test/page.jsx"
+    ]
+  },
+  {
+    "path": "/about",
+    "source": "src/app/about/page.jsx",
+    "publishedCommit": "f21c1f3fe4663e50cf3bd98514a5790bcbe70742",
+    "modifiedCommit": "f21c1f3fe4663e50cf3bd98514a5790bcbe70742",
+    "modifiedSubject": "Initial commit for Vercel deployment",
+    "contentSources": [
+      "src/app/about/page.jsx"
+    ]
+  },
+  {
+    "path": "/ai-purity-test",
+    "source": "src/app/ai-purity-test/page.jsx",
+    "publishedCommit": "e09a2f6ff62f88ffae36d17257e5bacf2c674465",
+    "modifiedCommit": "2c697133bf3574b161d3f79ca01dcbeb541074ad",
+    "modifiedSubject": "Add contextual test links and update seven page dates",
+    "contentSources": [
+      "src/app/ai-purity-test/page.jsx",
+      "src/app/ai-purity-test/AIPurityTestClient.jsx"
+    ]
+  },
+  {
+    "path": "/ao3-rice-purity-test",
+    "source": "src/app/ao3-rice-purity-test/page.jsx",
+    "publishedCommit": "f21c1f3fe4663e50cf3bd98514a5790bcbe70742",
+    "modifiedCommit": "1cca2d569f337419e1d909d06d58725bf6d353d7",
+    "modifiedSubject": "Add featured images to key articles",
+    "contentSources": [
+      "src/app/ao3-rice-purity-test/page.jsx"
+    ]
+  },
+  {
+    "path": "/bdsm-test",
+    "source": "src/app/bdsm-test/page.jsx",
+    "publishedCommit": "2a746a975a4819e4dda3e3e0ea68104e07c4032f",
+    "modifiedCommit": "c9f44746f1ea995df6024752f45d8476bc328c61",
+    "modifiedSubject": "Add more featured images and refresh dates",
+    "contentSources": [
+      "src/app/bdsm-test/page.jsx",
+      "src/app/bdsm-test/BDSMTestClient.jsx"
+    ]
+  },
+  {
+    "path": "/blog",
+    "source": "src/app/blog/page.jsx",
+    "publishedCommit": "f21c1f3fe4663e50cf3bd98514a5790bcbe70742",
+    "modifiedCommit": "ccce39938ac626bd896ee52b027fd4f733b7dcb7",
+    "modifiedSubject": "Add Spanish Rice Purity Test and refresh page dates",
+    "contentSources": [
+      "src/app/blog/page.jsx"
+    ]
+  },
+  {
+    "path": "/brown-rice-purity-test",
+    "source": "src/app/brown-rice-purity-test/page.jsx",
+    "publishedCommit": "d46eac2c13f1e9821343f16a75bee60cdeba7965",
+    "modifiedCommit": "2c697133bf3574b161d3f79ca01dcbeb541074ad",
+    "modifiedSubject": "Add contextual test links and update seven page dates",
+    "contentSources": [
+      "src/app/brown-rice-purity-test/page.jsx"
+    ]
+  },
+  {
+    "path": "/byu-rice-purity-test",
+    "source": "src/app/byu-rice-purity-test/page.jsx",
+    "publishedCommit": "10e99711e6c5e1e10a72ac32d592701499298c93",
+    "modifiedCommit": "1cca2d569f337419e1d909d06d58725bf6d353d7",
+    "modifiedSubject": "Add featured images to key articles",
+    "contentSources": [
+      "src/app/byu-rice-purity-test/page.jsx",
+      "src/app/byu-rice-purity-test/BYURicePurityTestClient.jsx"
+    ]
+  },
+  {
+    "path": "/contact",
+    "source": "src/app/contact/page.jsx",
+    "publishedCommit": "f21c1f3fe4663e50cf3bd98514a5790bcbe70742",
+    "modifiedCommit": "6817dedce018cf66261b4e511d4c1714d05edcac",
+    "modifiedSubject": "Update social links in footer and unify contact email across site",
+    "contentSources": [
+      "src/app/contact/page.jsx"
+    ]
+  },
+  {
+    "path": "/dmca",
+    "source": "src/app/dmca/page.jsx",
+    "publishedCommit": "f21c1f3fe4663e50cf3bd98514a5790bcbe70742",
+    "modifiedCommit": "6817dedce018cf66261b4e511d4c1714d05edcac",
+    "modifiedSubject": "Update social links in footer and unify contact email across site",
+    "contentSources": [
+      "src/app/dmca/page.jsx"
+    ]
+  },
+  {
+    "path": "/fortnite-rice-purity-test",
+    "source": "src/app/fortnite-rice-purity-test/page.jsx",
+    "publishedCommit": "ae7fdb05f7e0f3d6576b14ccbe8ba4fc5bf10b01",
+    "modifiedCommit": "1844bded43d2d51aec2d9478f2f67a79da02fad9",
+    "modifiedSubject": "Add contextual links and refine metadata for seven test pages",
+    "contentSources": [
+      "src/app/fortnite-rice-purity-test/page.jsx",
+      "src/app/fortnite-rice-purity-test/FortniteRicePurityTestClient.jsx"
+    ]
+  },
+  {
+    "path": "/gay-rice-purity-test",
+    "source": "src/app/gay-rice-purity-test/page.jsx",
+    "publishedCommit": "4f359d00d054e386bfb9c83a267e709d8e990121",
+    "modifiedCommit": "2c697133bf3574b161d3f79ca01dcbeb541074ad",
+    "modifiedSubject": "Add contextual test links and update seven page dates",
+    "contentSources": [
+      "src/app/gay-rice-purity-test/page.jsx"
+    ]
+  },
+  {
+    "path": "/kink-rice-purity-test",
+    "source": "src/app/kink-rice-purity-test/page.jsx",
+    "publishedCommit": "363be3bc7a53464641cca85ff677c07cc04d1cf4",
+    "modifiedCommit": "6ecd5bc0de0f03ddd96615d51052481a5772d40d",
+    "modifiedSubject": "Add featured images to more articles",
+    "contentSources": [
+      "src/app/kink-rice-purity-test/page.jsx"
+    ]
+  },
+  {
+    "path": "/lesbian-rice-purity-test",
+    "source": "src/app/lesbian-rice-purity-test/page.jsx",
+    "publishedCommit": "6378bd14de4ab5476959465d125d704d2709266f",
+    "modifiedCommit": "6378bd14de4ab5476959465d125d704d2709266f",
+    "modifiedSubject": "Add Lesbian Rice Purity Test with 76-point scoring",
+    "contentSources": [
+      "src/app/lesbian-rice-purity-test/page.jsx"
+    ]
+  },
+  {
+    "path": "/mps-meaning-rice-purity-test",
+    "source": "src/app/mps-meaning-rice-purity-test/page.jsx",
+    "publishedCommit": "178126780058dd8a48cd1ac1c1a907dbf47e88ff",
+    "modifiedCommit": "1844bded43d2d51aec2d9478f2f67a79da02fad9",
+    "modifiedSubject": "Add contextual links and refine metadata for seven test pages",
+    "contentSources": [
+      "src/app/mps-meaning-rice-purity-test/page.jsx"
+    ]
+  },
+  {
+    "path": "/nyu-rice-purity-test",
+    "source": "src/app/nyu-rice-purity-test/page.jsx",
+    "publishedCommit": "51ad5eec4bf169d1809cabebaea85bb380dab48a",
+    "modifiedCommit": "1cca2d569f337419e1d909d06d58725bf6d353d7",
+    "modifiedSubject": "Add featured images to key articles",
+    "contentSources": [
+      "src/app/nyu-rice-purity-test/page.jsx",
+      "src/app/nyu-rice-purity-test/NYURicePurityTestClient.jsx"
+    ]
+  },
+  {
+    "path": "/overwatch-rice-purity-test",
+    "source": "src/app/overwatch-rice-purity-test/page.jsx",
+    "publishedCommit": "ea4310882b3b12e38d89a2b5287de8120c5f6cb8",
+    "modifiedCommit": "664491de85bffb1177186e0c4fd38052e20bb005",
+    "modifiedSubject": "Refine article metadata and content and refresh publication dates",
+    "contentSources": [
+      "src/app/overwatch-rice-purity-test/page.jsx"
+    ]
+  },
+  {
+    "path": "/performative-rice-purity-test",
+    "source": "src/app/performative-rice-purity-test/page.jsx",
+    "publishedCommit": "237e45c4bef9486396d822a6e407903cee588293",
+    "modifiedCommit": "2c697133bf3574b161d3f79ca01dcbeb541074ad",
+    "modifiedSubject": "Add contextual test links and update seven page dates",
+    "contentSources": [
+      "src/app/performative-rice-purity-test/page.jsx",
+      "src/app/performative-rice-purity-test/PerformativeRicePurityTestClient.jsx"
+    ]
+  },
+  {
+    "path": "/privacy-policy",
+    "source": "src/app/privacy-policy/page.jsx",
+    "publishedCommit": "f21c1f3fe4663e50cf3bd98514a5790bcbe70742",
+    "modifiedCommit": "6817dedce018cf66261b4e511d4c1714d05edcac",
+    "modifiedSubject": "Update social links in footer and unify contact email across site",
+    "contentSources": [
+      "src/app/privacy-policy/page.jsx"
+    ]
+  },
+  {
+    "path": "/question-69-mean",
+    "source": "src/app/question-69-mean/page.jsx",
+    "publishedCommit": "9f432ca6edb39a3d03fb69266244db7dd8c3ac1f",
+    "modifiedCommit": "1844bded43d2d51aec2d9478f2f67a79da02fad9",
+    "modifiedSubject": "Add contextual links and refine metadata for seven test pages",
+    "contentSources": [
+      "src/app/question-69-mean/page.jsx"
+    ]
+  },
+  {
+    "path": "/racism-rice-purity-test",
+    "source": "src/app/racism-rice-purity-test/page.jsx",
+    "publishedCommit": "ca85e24cefd61274c16e1a39ffafca271424df5e",
+    "modifiedCommit": "f1f710582aa63368812bad8aa9bea34559baa266",
+    "modifiedSubject": "Add final featured images to articles",
+    "contentSources": [
+      "src/app/racism-rice-purity-test/page.jsx"
+    ]
+  },
+  {
+    "path": "/rice-purity-test-for-14-years-old",
+    "source": "src/app/rice-purity-test-for-14-years-old/page.jsx",
+    "publishedCommit": "ca65882a788bfbf7709ef275763591673a5449b6",
+    "contentSources": [
+      "src/app/rice-purity-test-for-14-years-old/page.jsx"
+    ],
+    "note": "Questions and explanations rewritten in the working tree. Set modified from the content commit after review."
+  },
+  {
+    "path": "/rice-purity-test-for-girls",
+    "source": "src/app/rice-purity-test-for-girls/page.jsx",
+    "publishedCommit": "181976aa375722aca95a3e48ad21c55f273503f1",
+    "modifiedCommit": "1844bded43d2d51aec2d9478f2f67a79da02fad9",
+    "modifiedSubject": "Add contextual links and refine metadata for seven test pages",
+    "contentSources": [
+      "src/app/rice-purity-test-for-girls/page.jsx",
+      "src/app/rice-purity-test-for-girls/GirlsRicePurityTestClient.jsx"
+    ]
+  },
+  {
+    "path": "/rice-purity-test-for-teens",
+    "source": "src/app/rice-purity-test-for-teens/page.jsx",
+    "publishedCommit": "60492a52399b6e46ce78804295ca80464ce317c2",
+    "modifiedCommit": "c9f44746f1ea995df6024752f45d8476bc328c61",
+    "modifiedSubject": "Add more featured images and refresh dates",
+    "contentSources": [
+      "src/app/rice-purity-test-for-teens/page.jsx",
+      "src/app/rice-purity-test-for-teens/TeensRicePurityTestClient.jsx"
+    ]
+  },
+  {
+    "path": "/rice-purity-test-for-virgins",
+    "source": "src/app/rice-purity-test-for-virgins/page.jsx",
+    "publishedCommit": "16f6db70f0b8c157f1f4153e9c741cde9aa673d3",
+    "modifiedCommit": "1844bded43d2d51aec2d9478f2f67a79da02fad9",
+    "modifiedSubject": "Add contextual links and refine metadata for seven test pages",
+    "contentSources": [
+      "src/app/rice-purity-test-for-virgins/page.jsx"
+    ]
+  },
+  {
+    "path": "/rice-purity-test-in-spanish",
+    "source": "src/app/rice-purity-test-in-spanish/page.jsx",
+    "publishedCommit": "ccce39938ac626bd896ee52b027fd4f733b7dcb7",
+    "contentSources": [
+      "src/app/rice-purity-test-in-spanish/page.jsx"
+    ],
+    "modifiedCommit": "ccce39938ac626bd896ee52b027fd4f733b7dcb7",
+    "modifiedSubject": "Add Spanish Rice Purity Test and refresh page dates"
+  },
+  {
+    "path": "/terms-and-conditions",
+    "source": "src/app/terms-and-conditions/page.jsx",
+    "publishedCommit": "f21c1f3fe4663e50cf3bd98514a5790bcbe70742",
+    "modifiedCommit": "f21c1f3fe4663e50cf3bd98514a5790bcbe70742",
+    "modifiedSubject": "Initial commit for Vercel deployment",
+    "contentSources": [
+      "src/app/terms-and-conditions/page.jsx"
+    ]
+  },
+  {
+    "path": "/tests-like-rice-purity-test",
+    "source": "src/app/tests-like-rice-purity-test/page.jsx",
+    "publishedCommit": "ca85e24cefd61274c16e1a39ffafca271424df5e",
+    "modifiedCommit": "1844bded43d2d51aec2d9478f2f67a79da02fad9",
+    "modifiedSubject": "Add contextual links and refine metadata for seven test pages",
+    "contentSources": [
+      "src/app/tests-like-rice-purity-test/page.jsx"
+    ]
+  },
+  {
+    "path": "/true-asian-rice-purity-test",
+    "source": "src/app/true-asian-rice-purity-test/page.jsx",
+    "publishedCommit": "cd48301f6a69077242d1fa1edb7a304347c5ca5b",
+    "modifiedCommit": "1844bded43d2d51aec2d9478f2f67a79da02fad9",
+    "modifiedSubject": "Add contextual links and refine metadata for seven test pages",
+    "contentSources": [
+      "src/app/true-asian-rice-purity-test/page.jsx"
+    ]
+  },
+  {
+    "path": "/valorant-rice-purity-test",
+    "source": "src/app/valorant-rice-purity-test/page.jsx",
+    "publishedCommit": "2c0e30319ba26c95aac47fdbd1b10fcb715d29f1",
+    "modifiedCommit": "2c697133bf3574b161d3f79ca01dcbeb541074ad",
+    "modifiedSubject": "Add contextual test links and update seven page dates",
+    "contentSources": [
+      "src/app/valorant-rice-purity-test/page.jsx"
+    ]
+  },
+  {
+    "path": "/weighted-rice-purity-test",
+    "source": "src/app/weighted-rice-purity-test/page.jsx",
+    "publishedCommit": "98e9e4916602e87640b933c3c1925d0e8a8560ca",
+    "modifiedCommit": "2c697133bf3574b161d3f79ca01dcbeb541074ad",
+    "modifiedSubject": "Add contextual test links and update seven page dates",
+    "contentSources": [
+      "src/app/weighted-rice-purity-test/page.jsx"
+    ]
+  }
+]

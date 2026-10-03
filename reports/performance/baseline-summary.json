@@ -1,0 +1,33 @@
+{
+  "name": "baseline-mobile",
+  "lighthouseVersion": "13.5.0",
+  "fetchTime": "2026-10-03T05:38:08.553Z",
+  "scores": {
+    "performance": 76,
+    "accessibility": 98,
+    "best-practices": 73,
+    "seo": 100
+  },
+  "metrics": {
+    "first-contentful-paint": {
+      "value": 3135.543,
+      "display": "3.1 s"
+    },
+    "largest-contentful-paint": {
+      "value": 3531.0428,
+      "display": "3.5 s"
+    },
+    "total-blocking-time": {
+      "value": 371.9999999999991,
+      "display": "370 ms"
+    },
+    "cumulative-layout-shift": {
+      "value": 0.0008701794177635521,
+      "display": "0.001"
+    },
+    "speed-index": {
+      "value": 3379.913523593147,
+      "display": "3.4 s"
+    }
+  }
+}

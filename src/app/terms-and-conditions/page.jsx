@@ -1,17 +1,10 @@
+import { buildMetadata, getPage } from "@/lib/seo";
 import PageLayout from "@/components/PageLayout";
 
-export const metadata = {
-    title: "Terms & Conditions",
-    description: "The simple ground rules for using Rice Purity Test.",
-    alternates: { canonical: "/terms-and-conditions" },
-};
+export const metadata = buildMetadata({ path: "/terms-and-conditions" });
 
 export default function Terms() {
-    const today = new Date().toLocaleDateString("en-US", {
-        year: "numeric",
-        month: "long",
-        day: "numeric",
-    });
+    const today = getPage("/terms-and-conditions").modified;
     return (
         <PageLayout
             eyebrow="Legal"

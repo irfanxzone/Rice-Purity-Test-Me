@@ -1,18 +1,10 @@
+import { buildMetadata, getPage } from "@/lib/seo";
 import PageLayout from "@/components/PageLayout";
 
-export const metadata = {
-    title: "Privacy Policy",
-    description:
-        "What we collect, what we don't, and how we treat the information you share with us.",
-    alternates: { canonical: "/privacy-policy" },
-};
+export const metadata = buildMetadata({ path: "/privacy-policy" });
 
 export default function PrivacyPolicy() {
-    const today = new Date().toLocaleDateString("en-US", {
-        year: "numeric",
-        month: "long",
-        day: "numeric",
-    });
+    const today = getPage("/privacy-policy").modified;
     return (
         <PageLayout
             eyebrow="Legal"

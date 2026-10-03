@@ -74,7 +74,7 @@ export default function Footer() {
                                     Rice Purity Test
                                 </p>
                                 <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-cream-400/80">
-                                    Official · 100 items
+                                    Original · 100 items
                                 </p>
                             </div>
                         </Link>
@@ -100,9 +100,9 @@ export default function Footer() {
 
                     {/* Pages */}
                     <div className="md:col-span-3">
-                        <h4 className="text-xs font-semibold uppercase tracking-[0.2em] text-[#FACC15]">
+                        <h2 className="text-xs font-semibold uppercase tracking-[0.2em] text-[#FACC15]">
                             Pages
-                        </h4>
+                        </h2>
                         <ul className="mt-5 space-y-3">
                             {PAGES.map((p) => (
                                 <li key={p.label}>
@@ -120,9 +120,9 @@ export default function Footer() {
 
                     {/* Socials */}
                     <div className="md:col-span-4">
-                        <h4 className="text-xs font-semibold uppercase tracking-[0.2em] text-[#FACC15]">
+                        <h2 className="text-xs font-semibold uppercase tracking-[0.2em] text-[#FACC15]">
                             Follow
-                        </h4>
+                        </h2>
 
                         <div className="mt-5 flex flex-wrap gap-2.5">
                             {SOCIALS.map((s) => (

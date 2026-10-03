@@ -1,24 +1,16 @@
 "use client";
 
+import { getMenuItems } from "@/lib/seo";
+
+
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { ChevronDown, Menu, X } from "lucide-react";
 
-const MORE_TESTS = [
-    { label: "A03 Rice Purity Test", to: "/ao3-rice-purity-test" },
-    { label: "Valorant Rice Purity Test", to: "/valorant-rice-purity-test" },
-    { label: "Overwatch Rice Purity Test", to: "/overwatch-rice-purity-test" },
-    { label: "Rice Purity Test for 14-Year-Olds", to: "/rice-purity-test-for-14-years-old" },
-    { label: "Racism Rice Purity Test", to: "/racism-rice-purity-test" },
-];
+const MORE_TESTS = getMenuItems("tests");
 
-const ABOUT_ITEMS = [
-    { label: "About Us", to: "/about" },
-    { label: "Contact Us", to: "/contact" },
-    { label: "DMCA", to: "/dmca" },
-    { label: "Privacy Policy", to: "/privacy-policy" },
-];
+const ABOUT_ITEMS = getMenuItems("about");
 
 const Dropdown = ({ label, items, testid }) => {
     const [open, setOpen] = useState(false);
@@ -64,6 +56,7 @@ const Dropdown = ({ label, items, testid }) => {
                 type="button"
                 onClick={() => setOpen((v) => !v)}
                 data-testid={`nav-dropdown-${testid}`}
+                aria-expanded={open}
                 className="inline-flex items-center gap-1 rounded-full px-4 py-2 text-sm font-medium text-ink-700 transition-colors hover:bg-ink-900/5 hover:text-ink-900"
             >
                 {label}
@@ -74,8 +67,7 @@ const Dropdown = ({ label, items, testid }) => {
                     }
                 />
             </button>
-            {open && (
-                <div
+            <div hidden={!open}
                     data-testid={`dropdown-${testid}`}
                     onMouseEnter={openNow}
                     onMouseLeave={scheduleClose}
@@ -131,7 +123,6 @@ const Dropdown = ({ label, items, testid }) => {
                         )}
                     </div>
                 </div>
-            )}
         </div>
     );
 };
@@ -221,6 +212,7 @@ export default function Header() {
                             onClick={() => setMobile((v) => !v)}
                             data-testid="mobile-menu-toggle"
                             aria-label="Toggle menu"
+                            aria-expanded={mobile}
                             className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-ink-300 bg-cream-50 text-ink-900 md:hidden"
                         >
                             {mobile ? <X className="h-4 w-4" /> : <Menu className="h-4 w-4" />}
@@ -228,8 +220,7 @@ export default function Header() {
                     </div>
                 </div>
 
-                {mobile && (
-                    <div
+                <div hidden={!mobile}
                         data-testid="mobile-nav"
                         className="mt-2 rounded-2xl border border-ink-300/60 bg-cream-50 p-3 shadow-lg md:hidden"
                     >
@@ -289,7 +280,6 @@ export default function Header() {
                             Take Test →
                         </a>
                     </div>
-                )}
             </div>
         </header>
     );

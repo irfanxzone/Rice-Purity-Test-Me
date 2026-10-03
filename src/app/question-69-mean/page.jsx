@@ -1,3 +1,4 @@
+import { buildMetadata } from "@/lib/seo";
 import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -41,11 +42,7 @@ const faqSchema = {
   ],
 };
 
-export const metadata = {
-  title: "What is Question 69 on the Rice Purity test",
-  description: "If you have ever taken the Rice Purity Test, you might have wondered what question 69 means.",
-  alternates: { canonical: "https://www.ricepuritytestme.com/question-69-mean" },
-};
+export const metadata = buildMetadata({ path: "/question-69-mean" });
 
 export default function Question69MeanPage() {
   return (

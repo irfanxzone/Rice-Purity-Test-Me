@@ -1,0 +1,356 @@
+[
+  {
+    "name": "mobile-1",
+    "lighthouseVersion": "13.5.0",
+    "fetchTime": "2026-10-03T05:49:12.677Z",
+    "scores": {
+      "performance": 89,
+      "accessibility": 100,
+      "best-practices": 77,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": {
+        "value": 1821.45495,
+        "display": "1.8 s"
+      },
+      "largest-contentful-paint": {
+        "value": 2484.3033000000005,
+        "display": "2.5 s"
+      },
+      "total-blocking-time": {
+        "value": 335,
+        "display": "340 ms"
+      },
+      "cumulative-layout-shift": {
+        "value": 0.0007117522099620115,
+        "display": "0.001"
+      },
+      "speed-index": {
+        "value": 1821.45495,
+        "display": "1.8 s"
+      }
+    },
+    "failures": [
+      {
+        "id": "first-contentful-paint",
+        "title": "First Contentful Paint",
+        "display": "1.8 s"
+      },
+      {
+        "id": "total-blocking-time",
+        "title": "Total Blocking Time",
+        "display": "340 ms"
+      },
+      {
+        "id": "max-potential-fid",
+        "title": "Max Potential First Input Delay",
+        "display": "140 ms"
+      },
+      {
+        "id": "interactive",
+        "title": "Time to Interactive",
+        "display": "6.8 s"
+      },
+      {
+        "id": "third-party-cookies",
+        "title": "Uses third-party cookies",
+        "display": "1 cookie found"
+      },
+      {
+        "id": "mainthread-work-breakdown",
+        "title": "Minimize main-thread work",
+        "display": "2.2 s"
+      },
+      {
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript",
+        "display": "Est savings of 243 KiB"
+      },
+      {
+        "id": "inspector-issues",
+        "title": "Issues were logged in the `Issues` panel in Chrome Devtools"
+      },
+      {
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes",
+        "display": "Est savings of 16 KiB"
+      },
+      {
+        "id": "legacy-javascript-insight",
+        "title": "Legacy JavaScript",
+        "display": "Est savings of 11 KiB"
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree"
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "display": "Est savings of 810 ms"
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "name": "mobile-2",
+    "lighthouseVersion": "13.5.0",
+    "fetchTime": "2026-10-03T05:49:27.105Z",
+    "scores": {
+      "performance": 91,
+      "accessibility": 100,
+      "best-practices": 77,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": {
+        "value": 1065.90735,
+        "display": "1.1 s"
+      },
+      "largest-contentful-paint": {
+        "value": 2134.46085,
+        "display": "2.1 s"
+      },
+      "total-blocking-time": {
+        "value": 352.13847499999974,
+        "display": "350 ms"
+      },
+      "cumulative-layout-shift": {
+        "value": 0.0008701794177635521,
+        "display": "0.001"
+      },
+      "speed-index": {
+        "value": 1144.742349678374,
+        "display": "1.1 s"
+      }
+    },
+    "failures": [
+      {
+        "id": "total-blocking-time",
+        "title": "Total Blocking Time",
+        "display": "350 ms"
+      },
+      {
+        "id": "max-potential-fid",
+        "title": "Max Potential First Input Delay",
+        "display": "260 ms"
+      },
+      {
+        "id": "interactive",
+        "title": "Time to Interactive",
+        "display": "6.5 s"
+      },
+      {
+        "id": "third-party-cookies",
+        "title": "Uses third-party cookies",
+        "display": "2 cookies found"
+      },
+      {
+        "id": "mainthread-work-breakdown",
+        "title": "Minimize main-thread work",
+        "display": "2.2 s"
+      },
+      {
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript",
+        "display": "Est savings of 244 KiB"
+      },
+      {
+        "id": "inspector-issues",
+        "title": "Issues were logged in the `Issues` panel in Chrome Devtools"
+      },
+      {
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes",
+        "display": "Est savings of 16 KiB"
+      },
+      {
+        "id": "legacy-javascript-insight",
+        "title": "Legacy JavaScript",
+        "display": "Est savings of 11 KiB"
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree"
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "display": "Est savings of 280 ms"
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "name": "mobile-3",
+    "lighthouseVersion": "13.5.0",
+    "fetchTime": "2026-10-03T05:49:37.319Z",
+    "scores": {
+      "performance": 92,
+      "accessibility": 100,
+      "best-practices": 77,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": {
+        "value": 1823.5701096930657,
+        "display": "1.8 s"
+      },
+      "largest-contentful-paint": {
+        "value": 2474.0898444957506,
+        "display": "2.5 s"
+      },
+      "total-blocking-time": {
+        "value": 231.33054008769568,
+        "display": "230 ms"
+      },
+      "cumulative-layout-shift": {
+        "value": 0.0008701794177635521,
+        "display": "0.001"
+      },
+      "speed-index": {
+        "value": 1823.5701096930657,
+        "display": "1.8 s"
+      }
+    },
+    "failures": [
+      {
+        "id": "first-contentful-paint",
+        "title": "First Contentful Paint",
+        "display": "1.8 s"
+      },
+      {
+        "id": "total-blocking-time",
+        "title": "Total Blocking Time",
+        "display": "230 ms"
+      },
+      {
+        "id": "max-potential-fid",
+        "title": "Max Potential First Input Delay",
+        "display": "140 ms"
+      },
+      {
+        "id": "interactive",
+        "title": "Time to Interactive",
+        "display": "6.0 s"
+      },
+      {
+        "id": "third-party-cookies",
+        "title": "Uses third-party cookies",
+        "display": "1 cookie found"
+      },
+      {
+        "id": "mainthread-work-breakdown",
+        "title": "Minimize main-thread work",
+        "display": "2.3 s"
+      },
+      {
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript",
+        "display": "Est savings of 239 KiB"
+      },
+      {
+        "id": "inspector-issues",
+        "title": "Issues were logged in the `Issues` panel in Chrome Devtools"
+      },
+      {
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes",
+        "display": "Est savings of 16 KiB"
+      },
+      {
+        "id": "forced-reflow-insight",
+        "title": "Forced reflow"
+      },
+      {
+        "id": "legacy-javascript-insight",
+        "title": "Legacy JavaScript",
+        "display": "Est savings of 11 KiB"
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree"
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "display": "Est savings of 790 ms"
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "name": "desktop",
+    "lighthouseVersion": "13.5.0",
+    "fetchTime": "2026-10-03T05:49:48.565Z",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 77,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": {
+        "value": 480.10819999999995,
+        "display": "0.5 s"
+      },
+      "largest-contentful-paint": {
+        "value": 585.9698,
+        "display": "0.6 s"
+      },
+      "total-blocking-time": {
+        "value": 0,
+        "display": "0 ms"
+      },
+      "cumulative-layout-shift": {
+        "value": 0.0011165465662668188,
+        "display": "0.001"
+      },
+      "speed-index": {
+        "value": 482.84946054229454,
+        "display": "0.5 s"
+      }
+    },
+    "failures": [
+      {
+        "id": "third-party-cookies",
+        "title": "Uses third-party cookies",
+        "display": "1 cookie found"
+      },
+      {
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript",
+        "display": "Est savings of 241 KiB"
+      },
+      {
+        "id": "inspector-issues",
+        "title": "Issues were logged in the `Issues` panel in Chrome Devtools"
+      },
+      {
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes",
+        "display": "Est savings of 16 KiB"
+      },
+      {
+        "id": "forced-reflow-insight",
+        "title": "Forced reflow"
+      },
+      {
+        "id": "legacy-javascript-insight",
+        "title": "Legacy JavaScript",
+        "display": "Est savings of 11 KiB"
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree"
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests",
+        "display": "Est savings of 190 ms"
+      }
+    ],
+    "warnings": []
+  }
+]

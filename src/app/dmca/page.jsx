@@ -1,18 +1,10 @@
+import { buildMetadata, getPage } from "@/lib/seo";
 import PageLayout from "@/components/PageLayout";
 
-export const metadata = {
-    title: "DMCA Policy",
-    description:
-        "How to file a copyright takedown notice or counter-notice under the Digital Millennium Copyright Act.",
-    alternates: { canonical: "/dmca" },
-};
+export const metadata = buildMetadata({ path: "/dmca" });
 
 export default function Dmca() {
-    const today = new Date().toLocaleDateString("en-US", {
-        year: "numeric",
-        month: "long",
-        day: "numeric",
-    });
+    const today = getPage("/dmca").modified;
     return (
         <PageLayout
             eyebrow="Legal"

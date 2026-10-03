@@ -1,157 +1,55 @@
 "use client";
 
-import { useCallback, useMemo, useState, useEffect } from "react";
-import Header from "@/components/Header";
-import Quiz from "@/components/Quiz";
-import Result from "@/components/Result";
-import SeoContent from "@/components/SeoContent";
-import Faq from "@/components/Faq";
-import Footer from "@/components/Footer";
-import { TOTAL_QUESTIONS } from "@/data/questions";
+import { useEffect, useRef, useState } from "react";
+import dynamic from "next/dynamic";
 
-export default function HomePageClient() {
-    const [stage, setStage] = useState("taking"); // "taking" | "done"
-    const [checked, setChecked] = useState({});
-    const [finalScore, setFinalScore] = useState(null);
+const Result = dynamic(() => import("@/components/Result"), {
+    ssr: false,
+    loading: () => (
+        <section id="result" role="status" aria-live="polite" className="mx-auto min-h-[32rem] max-w-3xl px-4 pt-10 sm:px-6 sm:pt-16 lg:px-8">
+            Loading your score...
+        </section>
+    ),
+});
 
-    const checkedCount = useMemo(
-        () => Object.values(checked).filter(Boolean).length,
-        [checked]
-    );
+export default function HomePageClient({ children, totalQuestions }) {
+    const quizRef = useRef(null);
+    const [score, setScore] = useState(null);
 
-    // Scroll to #test if user lands with a hash
     useEffect(() => {
-        if (typeof window === "undefined") return;
-        if (window.location.hash === "#test") {
-            setTimeout(() => {
-                const el = document.getElementById("test");
-                if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
-            }, 80);
+        if (score !== null) {
+            document.getElementById("result")?.scrollIntoView({ block: "start", behavior: "instant" });
         }
-    }, []);
+    }, [score]);
 
-    const handleToggle = useCallback((id) => {
-        setChecked((prev) => ({ ...prev, [id]: !prev[id] }));
-    }, []);
+    function handleAction(event) {
+        const action = event.target.closest("[data-quiz-action]")?.dataset.quizAction;
+        if (!action) return;
+        const checked = quizRef.current.querySelectorAll('input[type="checkbox"]:checked');
+        if (action === "calculate") {
+            setScore(totalQuestions - checked.length);
+        } else if (action === "clear") {
+            if (!checked.length) return;
+            checked.forEach(input => { input.checked = false; });
+            const notice = quizRef.current.querySelector("[data-reset-notice]");
+            notice.getAnimations().forEach(animation => animation.cancel());
+            notice.animate([
+                { opacity: 0, transform: "rotate(-14deg) scale(1.6)" },
+                { opacity: 0.95, transform: "rotate(-8deg) scale(1)", offset: 0.25 },
+                { opacity: 0.9, transform: "rotate(-8deg) scale(1)", offset: 0.7 },
+                { opacity: 0, transform: "rotate(-8deg) scale(0.95)" },
+            ], { duration: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? 1 : 1400 });
+        }
+    }
 
-    const handleReset = useCallback(() => setChecked({}), []);
+    if (score !== null) {
+        return <Result score={score} onRetake={() => {
+            setScore(null);
+            window.scrollTo({ top: 0, behavior: "instant" });
+        }} />;
+    }
 
-    const handleCalculate = useCallback(() => {
-        const score = TOTAL_QUESTIONS - checkedCount;
-        setFinalScore(score);
-        setStage("done");
-        setTimeout(() => {
-            const el = document.getElementById("result");
-            if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
-        }, 50);
-    }, [checkedCount]);
-
-    const handleRetake = useCallback(() => {
-        setChecked({});
-        setFinalScore(null);
-        setStage("taking");
-        setTimeout(() => {
-            window.scrollTo({ top: 0, behavior: "smooth" });
-        }, 50);
-    }, []);
-
-    // Single FAQPage JSON-LD (merged all questions)
-    const faqLd = {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        mainEntity: [
-            // Main homepage FAQs
-            {
-                "@type": "Question",
-                "name": "What Is a Good Rice Purity Test Score?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "There is no objectively good or bad score. A higher score (closer to 100) means fewer experiences, while a lower score reflects a more adventurous life. It is meant entirely for fun."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Are Rice Purity Test results anonymous?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes. Everything runs in your browser. We do not store your answers or your score on any server."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Can I retake the Rice Purity Test?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Absolutely. You can retake the test as many times as you want. Just click Retake Test after you see your score."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Where can I take the Rice Purity Test online?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Right here on this page. Click Start Test, check the items that apply to you, and get your score instantly."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "How many questions are there in the Rice Purity Test?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "The Rice Purity Test has 100 questions covering innocent, relationship, experience and extreme life experiences."
-                }
-            },
-            // FAQ from Faq.jsx (for schema completeness)
-            {
-                "@type": "Question",
-                "name": "Is the Rice Purity Test suitable for a 14-year-old?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Preferably not, but some students voluntarily take the test. Certain questions may not be appropriate for a 14-year-old, so it is recommended not to answer anything that makes you uncomfortable."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Is the Rice Purity Test accurate?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "It depends entirely on your answers. If you answer all questions honestly, the score will be accurate. Incorrect answers will lead to inaccurate results."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Why is it called the Rice Test?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "The test is named after Rice University, where it originally started. That is why it is known as the Rice Purity Test."
-                }
-            }
-        ]
-    };
-
-    return (
-        <div className="App">
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }}
-            />
-            <Header />
-            <main data-testid="main-content">
-                {stage === "taking" && (
-                    <Quiz
-                        checked={checked}
-                        onToggle={handleToggle}
-                        onCalculate={handleCalculate}
-                        onReset={handleReset}
-                    />
-                )}
-                {stage === "done" && finalScore !== null && (
-                    <Result score={finalScore} onRetake={handleRetake} />
-                )}
-                <SeoContent />
-                <Faq />
-            </main>
-            <Footer />
-        </div>
-    );
+    // Native checkboxes respond immediately, without rerendering 100 React rows.
+    // There is deliberately no form submission: answers never leave the browser.
+    return <div ref={quizRef} onClick={handleAction}>{children}</div>;
 }

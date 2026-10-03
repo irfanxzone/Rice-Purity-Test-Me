@@ -2,7 +2,7 @@
 
 import { useRef } from "react";
 import { Link2, Printer, Share2 } from "lucide-react";
-import { toast } from "sonner";
+import { Toaster, toast } from "sonner";
 import HandCheck from "./HandCheck";
 
 const interpretations = [
@@ -116,6 +116,7 @@ export const Result = ({ score, onRetake }) => {
             data-testid="result-section"
             className="mx-auto max-w-3xl px-4 pt-10 pb-24 sm:px-6 sm:pt-16 lg:px-8"
         >
+            <Toaster position="bottom-center" richColors closeButton />
             {/* Certificate card */}
             <div
                 ref={certificateRef}

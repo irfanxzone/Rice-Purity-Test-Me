@@ -1,12 +1,8 @@
+import { buildMetadata } from "@/lib/seo";
 import Link from "next/link";
 import PageLayout from "@/components/PageLayout";
 
-export const metadata = {
-    title: "About Rice Purity Test",
-    description:
-        "A simple, anonymous, 100-question self-survey that has quietly traveled dorms, group chats, and social feeds for a century.",
-    alternates: { canonical: "/about" },
-};
+export const metadata = buildMetadata({ path: "/about" });
 
 const stats = [
     { label: "Questions", value: "100" },

@@ -1,3 +1,5 @@
+import StaticImage from "./StaticImage";
+
 export const SeoContent = () => {
     return (
         <section
@@ -7,17 +9,22 @@ export const SeoContent = () => {
         >
             <div className="rpt-prose">
                 <p className="mt-4 text-[15px] leading-relaxed text-neutral-700 sm:text-base">
-                    Ever wondered what you have experienced in the past? The Rice Purity Test 2026 is the best way to reflect on personal life experiences. Take the test and evaluate your personality by answering 100 online questions. This quiz is designed for self-discovery rather than being judgmental.
+                    Ever wondered what you have experienced in the past? The Rice Purity Test 2026 is the best way to reflect on personal life experiences. Take the test and check your purity score by answering 100 online questions. This quiz is designed for self-discovery rather than being judgmental.
                 </p>
                 <h2 className="font-heading text-2xl font-bold tracking-tight text-neutral-900 sm:text-3xl mt-10">
                     What is the Rice Purity Test?
                 </h2>
                 <p className="mt-4 text-[15px] leading-relaxed text-neutral-700 sm:text-base">
                     Rice test, also known as a self-reflection tool, is used to take a rough idea of a person’s social experiences. It is a structured set of anonymous questions that particularly evaluates the innocence of a person. It allows users to reflect on their social experience by answering 100 diverse yet simple questions. By answering questions belonging to multiple facets of human life, in “Yes” or “No” format, you can explore what particular things you have done in your life.
-                </p>                <img 
+                </p>                <StaticImage
                     src="/rice-purity-test.webp" 
-                    alt="Rice Purity Test" 
-                    className="mt-6 w-full rounded-lg"
+                    alt="Rice Purity Test"
+                    width={1974}
+                    height={797}
+                    sizes="(max-width: 639px) calc(100vw - 32px), (max-width: 767px) calc(100vw - 48px), 720px"
+                    loading="lazy"
+                    decoding="async"
+                    className="mt-6 h-auto w-full rounded-lg"
                 />                <h3 className="mt-8 font-heading text-xl font-semibold text-neutral-900">Background</h3>
                 <p className="mt-2 text-[15px] leading-relaxed text-neutral-700 sm:text-base">
                     The test first appeared only for women in the Early Twentieth Century, after it was published in The Thresher, a newspaper at Rice University. Fifty years later after the first launch, in 1974, the Thresher relaunched the test due to its increasing popularity.
@@ -28,16 +35,16 @@ export const SeoContent = () => {
                 </p>
                 <h3 className="mt-8 font-heading text-xl font-semibold text-neutral-900">History of Rice Purity</h3>
                 <p className="mt-2 text-[15px] leading-relaxed text-neutral-700 sm:text-base">
-                    The Rice Purity Test Quiz was widely associated with students at Rice University during Orientation-Week in 1980. It is basically a test that reveals the maturity and relationships among students. As the test originated from university, therefore it was named as “Rice Purity Test”. Students from high school took the test to have a glimpse of university life before getting admission. However, the Rice Test finally made its online debut in 2012 for the public with greater accessibility.
+                    The Rice Purity Test Quiz was widely associated with students at Rice University during Orientation-Week in 1980. It is basically a test that reveals the maturity and relationships among students. As the test originated from university, therefore it was named as “Rice Purity Test”. Students from high school took the test to have a glimpse of university life before getting admission. Purity tests were already being shared online in the 1980s, and social media later brought the Rice test to a much wider public.
                 </p>
                 <p className="mt-2 text-[15px] leading-relaxed text-neutral-700 sm:text-base">
                     Over the course of time the test changed, and different genres of life were included to see how an individual grows.
                 </p>
                 <h2 className="font-heading text-2xl font-bold tracking-tight text-neutral-900 sm:text-3xl mt-10">
-                    How to Take the Rice test purity Online?
+                    How to Take the Rice Purity Test Online?
                 </h2>
                 <p className="mt-4 text-[15px] leading-relaxed text-neutral-700 sm:text-base">
-                    Different platforms cause more confusion, but let me ease your mind with a proper solution. Since the Rice test purity is totally free and does not ask for personal data, therefore, whenever you take the test, prefer official sites to avoid malicious bots entering your system. If any site asks for subscription or money then leave the source immediately.
+                    Different platforms cause more confusion, but let me ease your mind with a proper solution. Since the Rice Purity Test is totally free and does not ask for personal data, therefore, whenever you take the test, prefer official sites to avoid malicious bots entering your system. If any site asks for subscription or money then leave the source immediately.
                 </p>
                 <h2 className="font-heading text-2xl font-bold tracking-tight text-neutral-900 sm:text-3xl mt-10">
                     How Does the Rice Purity Test Work?
@@ -49,7 +56,7 @@ export const SeoContent = () => {
                     <li>Take a start with 100 pre-loaded questions</li>
                     <li>Tick the box to answer the question.</li>
                     <li>If the answer is no, then leave it empty.</li>
-                    <li>Each no answer results in deduction of one point.</li>
+                    <li>Each checked answer subtracts one point from 100.</li>
                     <li>Now submit the test and get results.</li>
                 </ol>
                 <p className="mt-4 text-[15px] leading-relaxed text-neutral-700 sm:text-base">
@@ -80,13 +87,13 @@ export const SeoContent = () => {
                         <tbody>
                             <tr><td className="border px-2 py-1">98-100</td><td className="border px-2 py-1">This is a clear representation of a person’s innocent behavior, youngsters or people under 18 often get the highest purity score.</td></tr>
                             <tr><td className="border px-2 py-1">91-97</td><td className="border px-2 py-1">You are very pure and not involved in adult activities. This score range is also purest due to fewer instances in life.</td></tr>
-                            <tr><td className="border px-2 py-1">70-90</td><td className="border px-2 py-1">Whether you are in a relationship or experienced certain events, this score is a moderate range that shows a mild experience.</td></tr>
+                            <tr><td className="border px-2 py-1">77-90</td><td className="border px-2 py-1">Whether you are in a relationship or experienced certain events, this score is a moderate range that shows a mild experience.</td></tr>
                             <tr><td className="border px-2 py-1">45-76</td><td className="border px-2 py-1">This score shows that you encounter a wide range of events in your life, and experienced many things.</td></tr>
-                            <tr><td className="border px-2 py-1">9-44</td><td className="border px-2 py-1">This is an extremely experienced graph of a person’s life with uncountable social interactions.</td></tr>
+                            <tr><td className="border px-2 py-1">0-44</td><td className="border px-2 py-1">This is an extremely experienced graph of a person’s life with uncountable social interactions.</td></tr>
                         </tbody>
                     </table>
                 </div>
-                <h3 className="mt-8 font-heading text-xl font-semibold text-neutral-900">What is the Average Unisexuality Score?</h3>
+                <h3 className="mt-8 font-heading text-xl font-semibold text-neutral-900">What is the Average Rice Purity Score?</h3>
                 <p className="mt-2 text-[15px] leading-relaxed text-neutral-700 sm:text-base">
                     The test is not based on official calculations, however the average score observed is between 65 to 70. This average score is mostly associated with adults and college students. Instead of taking it seriously, consider the test a fun and self-exploration activity. Since the entire average calculation is estimated with shared results and global test trends, rather than a scientifically proven method.
                 </p>
@@ -147,18 +154,18 @@ export const SeoContent = () => {
                 </p>
                 <ul className="list-disc ml-6 mt-2 text-[15px] text-neutral-700">
                     <li>Relationships and Romance; it involves dating, holding hands, and emotional relationships.</li>
-                    <li>Social Exploration & Parties: ever involved in pranks, parties, dares, and dorms.</li>
+                    <li>Social Exploration & Parties: parties, drinking games, dorm life.</li>
                     <li>Substance Use: asks about exposure to alcohol, smoking or any drug.</li>
-                    <li>Rule Breaking: experienced vandalism, or involved in theft or cheating.</li>
-                    <li>Academic Behavior: skipping classes, dishonesty in academics.</li>
-                    <li>Personal Risk & Adventure: dangerous stunts, adventures, or breaking laws.</li>
+                    <li>Rule Breaking: vandalism, public urination, cheating on a partner.</li>
+                    <li>School Discipline: being sent to the principal or dean, probation or suspension.</li>
+                    <li>Personal Risk & Law: skinny-dipping, streaking, run-ins with the police, arrests.</li>
                 </ul>
                 <p className="mt-2 text-[15px] leading-relaxed text-neutral-700 sm:text-base">
                     Despite the test being famous for purity, still it is meant for personal reflections, or exploration.
                 </p>
-                <h3 className="mt-8 font-heading text-xl font-semibold text-neutral-900">Is the Purity Test Rice  anonymous and safe?</h3>
+                <h3 className="mt-8 font-heading text-xl font-semibold text-neutral-900">Is the Rice Purity Test anonymous and safe?</h3>
                 <p className="mt-2 text-[15px] leading-relaxed text-neutral-700 sm:text-base">
-                    Several websites claim to be safe but contain viruses. In contrast, the official Rice Personality Test is safe and based on anonymous questions. Several reasons contribute to this claim for instance,
+                    Several websites claim to be safe but contain viruses. In contrast, the Rice Purity Test on this site is safe and based on anonymous questions. Several reasons contribute to this claim for instance,
                 </p>
                 <ul className="list-disc ml-6 mt-2 text-[15px] text-neutral-700">
                     <li>No Sign-in or Log-in required</li>
@@ -174,17 +181,26 @@ export const SeoContent = () => {
                 <p className="mt-2 text-[15px] leading-relaxed text-neutral-700 sm:text-base">
                     In my opinion, many people fall between 65 to 75. A lower score simply shows broader experiences. Since the higher score means that you have less social exposure due to a very private lifestyle. Moreover, a lower score indicates more experiences and less innocence or purity. But be careful, since this test is intended for excitement and analyzing one’s life events, instead of direct judgment.
                 </p>
-                <h2 className="font-heading text-2xl font-bold tracking-tight text-neutral-900 sm:text-3xl mt-10">Final words</h2>
-                <p className="mt-4 text-[15px] leading-relaxed text-neutral-700 sm:text-base">
-                    In different regions of the world, the Rice Purity Test has evolved in different ways, spreading its cultural and social influence on people. It has become the largest platform to mirror what experiences you have had in your life. You need to answer 100 questions in a yes-or-no quiz form to analyze your personality. Moreover you can share the scores with friends and compare it with others for enjoyment. In addition, you can also explore other aspects of the Rice Purity Test to get updated.
-                </p>
                 <h3 className="mt-8 font-heading text-xl font-semibold text-neutral-900">Misconceptions About Rice Test</h3>
                 <p className="mt-2 text-[15px] leading-relaxed text-neutral-700 sm:text-base">
-                    Rumors and misconceptions never leave you alone. In the Purity test, people often considered it as a judgemental approach towards others, however, it is not. It originated to discover students' lives initially, helping them engage and socialize. On a larger scale, this innocence test is used to gauge personal experiences. It is not something scientifically approved, so take it lightly.
+                    Rumors and misconceptions never leave you alone. In the Purity test, people often considered it as a judgemental approach towards others, however, it is not. It originated to discover students&apos; lives initially, helping them engage and socialize. On a larger scale, this innocence test is used to gauge personal experiences. It is not something scientifically approved, so take it lightly.
                 </p>
             </div>
         </section>
     );
 };
+
+export function FinalWords() {
+    return (
+        <section data-testid="final-words" className="mx-auto max-w-3xl px-4 pb-16 sm:px-6 sm:pb-20 lg:px-8">
+            <div className="rpt-prose">
+                <h2 className="font-heading text-2xl font-bold tracking-tight text-neutral-900 sm:text-3xl mt-10">Final words</h2>
+                <p className="mt-4 text-[15px] leading-relaxed text-neutral-700 sm:text-base">
+                    In different regions of the world, the Rice Purity Test has evolved in different ways, spreading its cultural and social influence on people. It has become the largest platform to mirror what experiences you have had in your life. You need to answer 100 questions in a yes-or-no quiz form to analyze your personality. Moreover you can share the scores with friends and compare it with others for enjoyment. In addition, you can also explore other aspects of the Rice Purity Test to get updated.
+                </p>
+            </div>
+        </section>
+    );
+}
 
 export default SeoContent;

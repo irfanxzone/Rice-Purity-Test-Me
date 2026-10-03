@@ -1,24 +1,23 @@
+import { buildMetadata, getPage } from "@/lib/seo";
 import { ALL_QUESTIONS } from "@/data/questions";
 import HomePageClient from "./HomePageClient";
+import Quiz from "@/components/Quiz";
 import Script from "next/script";
+import HomeHeader from "@/components/HomeHeader";
+import HomeFooter from "@/components/HomeFooter";
+import Faq from "@/components/Faq";
+import { HOME_FAQ } from "@/data/home-faq";
+import SeoContent, { FinalWords } from "@/components/SeoContent";
 
 // Homepage metadata for SEO
-const HOME_SEO_TIMESTAMP = "2026-10-02T19:03:18+05:00";
 
-export const metadata = {
-    title: "The Rice Purity Test 2026",
-    description: "Take the Rice Purity Test and evaluate your personality by answering 100 online questions with an instant, private score.",
-    other: {
-        "article:published_time": HOME_SEO_TIMESTAMP,
-        "article:modified_time": HOME_SEO_TIMESTAMP,
-    },
-};
+export const metadata = buildMetadata({ path: "/", absoluteTitle: true, type: "website" });
 
 export default function HomePage() {
     const siteUrl = "https://ricepuritytestme.com/";
     const logoUrl = "https://ricepuritytestme.com/RicePurityTest.webp";
     const pageTitle = "The Rice Purity Test 2026";
-    const pageDescription = "Take the Rice Purity Test and evaluate your personality by answering 100 online questions with an instant, private score.";
+    const pageDescription = getPage("/").description;
 
     const homeSchema = {
         "@context": "https://schema.org",
@@ -42,8 +41,8 @@ export default function HomePage() {
                 name: pageTitle,
                 headline: pageTitle,
                 description: pageDescription,
-                datePublished: HOME_SEO_TIMESTAMP,
-                dateModified: HOME_SEO_TIMESTAMP,
+                datePublished: getPage("/").published,
+                dateModified: getPage("/").modified,
                 isPartOf: {
                     "@type": "WebSite",
                     "@id": `${siteUrl}#website`,
@@ -67,8 +66,8 @@ export default function HomePage() {
                 name: pageTitle,
                 description: pageDescription,
                 url: siteUrl,
-                datePublished: HOME_SEO_TIMESTAMP,
-                dateModified: HOME_SEO_TIMESTAMP,
+                datePublished: getPage("/").published,
+                dateModified: getPage("/").modified,
                 image: logoUrl,
                 author: {
                     "@id": `${siteUrl}#organization`,
@@ -134,9 +133,10 @@ export default function HomePage() {
         ],
     };
 
+
     return (
         <>
-            <Script src="https://www.googletagmanager.com/gtag/js?id=G-63FWXHHNZR" strategy="afterInteractive" />
+            <Script src="https://www.googletagmanager.com/gtag/js?id=G-63FWXHHNZR" strategy="lazyOnload" />
             <Script id="google-analytics" strategy="afterInteractive">
                 {`
                     window.dataLayer = window.dataLayer || [];
@@ -149,7 +149,16 @@ export default function HomePage() {
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(homeSchema) }}
             />
-            <HomePageClient />
+            <div className="App">
+                <HomeHeader />
+                <main data-testid="main-content">
+                    <HomePageClient totalQuestions={ALL_QUESTIONS.length}><Quiz /></HomePageClient>
+                    <SeoContent />
+                    <Faq items={HOME_FAQ} />
+                    <FinalWords />
+                </main>
+                <HomeFooter />
+            </div>
         </>
     );
 }

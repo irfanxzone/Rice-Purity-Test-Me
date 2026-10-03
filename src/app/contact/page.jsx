@@ -1,13 +1,9 @@
+import { buildMetadata } from "@/lib/seo";
 import PageLayout from "@/components/PageLayout";
 import ContactForm from "@/components/ContactForm";
 import { Mail, MapPin, Clock } from "lucide-react";
 
-export const metadata = {
-    title: "Contact Us",
-    description:
-        "Found a bug, spotted a typo, want to partner, or just feel like saying hello? Drop us a line.",
-    alternates: { canonical: "/contact" },
-};
+export const metadata = buildMetadata({ path: "/contact" });
 
 export default function Contact() {
     return (

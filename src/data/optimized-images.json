@@ -1,0 +1,50 @@
+{
+  "/RicePurityTest.webp": {
+    "width": 1254,
+    "height": 1254,
+    "variants": [
+      {
+        "width": 40,
+        "src": "/optimized/RicePurityTest-40-1525a6a93dc6.webp"
+      },
+      {
+        "width": 80,
+        "src": "/optimized/RicePurityTest-80-745b3419c681.webp"
+      },
+      {
+        "width": 120,
+        "src": "/optimized/RicePurityTest-120-4be5747ee12a.webp"
+      }
+    ]
+  },
+  "/rice-purity-test.webp": {
+    "width": 1974,
+    "height": 797,
+    "variants": [
+      {
+        "width": 384,
+        "src": "/optimized/rice-purity-test-384-f0af0a56b50b.webp"
+      },
+      {
+        "width": 640,
+        "src": "/optimized/rice-purity-test-640-0a335464461f.webp"
+      },
+      {
+        "width": 768,
+        "src": "/optimized/rice-purity-test-768-74b697744f0c.webp"
+      },
+      {
+        "width": 1080,
+        "src": "/optimized/rice-purity-test-1080-aa9e00e7eed0.webp"
+      },
+      {
+        "width": 1440,
+        "src": "/optimized/rice-purity-test-1440-648c166d36a7.webp"
+      },
+      {
+        "width": 1974,
+        "src": "/optimized/rice-purity-test-1974-5d383be6cec6.webp"
+      }
+    ]
+  }
+}

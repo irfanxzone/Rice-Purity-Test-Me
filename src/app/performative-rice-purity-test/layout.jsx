@@ -1,42 +1,5 @@
-import ArticleJsonLd, { getArticleTimestamp } from "@/components/ArticleJsonLd";
-
-const SEO_TIMESTAMP = getArticleTimestamp("performative-rice-purity-test");
-
-const title = "Performative Rice Purity Test: Quiz 2026";
-const description = "The Performative Rice Purity Test is a playful quiz that started on social media, where purity is no longer the focus.";
-const image = {
-  url: "https://ricepuritytestme.com/perfprmative-rice-purity-test.webp",
-  width: 1200,
-  height: 630,
-  alt: "Performative Rice Purity Test social trend quiz featured image",
-};
-
-export const metadata = {
-  title,
-  description,
-  alternates: { canonical: "https://ricepuritytestme.com/performative-rice-purity-test" },
-  openGraph: {
-    title,
-    description,
-    url: "https://ricepuritytestme.com/performative-rice-purity-test",
-    type: "article",
-    publishedTime: SEO_TIMESTAMP,
-    modifiedTime: SEO_TIMESTAMP,
-    images: [image],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title,
-    description,
-    images: [image.url],
-  },
-};
+import ArticleJsonLd from "@/components/ArticleJsonLd";
 
 export default function ArticleLayout({ children }) {
-  return (
-    <>
-      <ArticleJsonLd slug="performative-rice-purity-test" />
-      {children}
-    </>
-  );
+  return <><ArticleJsonLd slug="performative-rice-purity-test" />{children}</>;
 }
