@@ -1,0 +1,104 @@
+{
+  "76-rice-purity-test": [
+    "mps-meaning-rice-purity-test",
+    "weighted-rice-purity-test"
+  ],
+  "ai-purity-test": [
+    "performative-rice-purity-test",
+    "tests-like-rice-purity-test"
+  ],
+  "ao3-rice-purity-test": [
+    "kink-rice-purity-test",
+    "bdsm-test"
+  ],
+  "bdsm-test": [
+    "kink-rice-purity-test",
+    "weighted-rice-purity-test"
+  ],
+  "brown-rice-purity-test": [
+    "true-asian-rice-purity-test",
+    "rice-purity-test-for-14-years-old"
+  ],
+  "byu-rice-purity-test": [
+    "nyu-rice-purity-test",
+    "76-rice-purity-test"
+  ],
+  "fortnite-rice-purity-test": [
+    "valorant-rice-purity-test",
+    "overwatch-rice-purity-test"
+  ],
+  "gay-rice-purity-test": [
+    "lesbian-rice-purity-test",
+    "mps-meaning-rice-purity-test"
+  ],
+  "kink-rice-purity-test": [
+    "bdsm-test",
+    "ao3-rice-purity-test"
+  ],
+  "lesbian-rice-purity-test": [
+    "gay-rice-purity-test",
+    "rice-purity-test-for-virgins"
+  ],
+  "mps-meaning-rice-purity-test": [
+    "tests-like-rice-purity-test",
+    "lesbian-rice-purity-test",
+    "rice-purity-test-in-spanish"
+  ],
+  "nyu-rice-purity-test": [
+    "byu-rice-purity-test",
+    "76-rice-purity-test"
+  ],
+  "overwatch-rice-purity-test": [
+    "valorant-rice-purity-test",
+    "fortnite-rice-purity-test"
+  ],
+  "performative-rice-purity-test": [
+    "ai-purity-test",
+    "tests-like-rice-purity-test"
+  ],
+  "question-69-mean": [
+    "mps-meaning-rice-purity-test",
+    "76-rice-purity-test"
+  ],
+  "racism-rice-purity-test": [
+    "true-asian-rice-purity-test",
+    "brown-rice-purity-test"
+  ],
+  "rice-purity-test-for-14-years-old": [
+    "brown-rice-purity-test",
+    "true-asian-rice-purity-test"
+  ],
+  "rice-purity-test-for-girls": [
+    "lesbian-rice-purity-test",
+    "rice-purity-test-for-virgins"
+  ],
+  "rice-purity-test-for-teens": [
+    "rice-purity-test-for-14-years-old",
+    "brown-rice-purity-test"
+  ],
+  "rice-purity-test-for-virgins": [
+    "mps-meaning-rice-purity-test",
+    "rice-purity-test-for-girls"
+  ],
+  "rice-purity-test-in-spanish": [
+    "76-rice-purity-test",
+    "tests-like-rice-purity-test"
+  ],
+  "tests-like-rice-purity-test": [
+    "ao3-rice-purity-test",
+    "valorant-rice-purity-test",
+    "rice-purity-test-in-spanish"
+  ],
+  "true-asian-rice-purity-test": [
+    "brown-rice-purity-test",
+    "performative-rice-purity-test"
+  ],
+  "valorant-rice-purity-test": [
+    "overwatch-rice-purity-test",
+    "fortnite-rice-purity-test"
+  ],
+  "weighted-rice-purity-test": [
+    "76-rice-purity-test",
+    "tests-like-rice-purity-test"
+  ]
+}

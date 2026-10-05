@@ -11,6 +11,10 @@ async function discover(dir, segments = []) {
     else if (/^page\.(jsx?|tsx?)$/.test(entry.name)) {
       const path = '/' + segments.filter(part => !part.startsWith('(')).join('/');
       const source = await readFile(dir + '/' + entry.name, 'utf8');
+      if (path === '/[...missing]') {
+        assert(source.includes('notFound();'), 'Catch-all must only render a 404');
+        continue;
+      }
       assert(source.includes('export const metadata = buildMetadata('), path + ': page must export buildMetadata');
       const declaredPath = source.match(/buildMetadata\(\{\s*path:\s*["']([^"']+)["']/)?.[1];
       assert.equal(declaredPath, path, path + ': metadata path must match route');

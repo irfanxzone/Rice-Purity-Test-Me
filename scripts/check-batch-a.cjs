@@ -7,10 +7,19 @@ const snapshot = process.env.BATCH_A_BASE || '9ac9707';
 const normalize = s => s.replace(/\r\n/g, '\n');
 const protectedPattern = /const\s+(\w*QUESTIONS(?:_\d+)?)\s*=\s*\[[\s\S]*?\n\];/g;
 function original(file) { return normalize(cp.execFileSync('git', ['show', snapshot + ':' + file], { encoding: 'utf8' })); }
-const current = file => normalize(fs.readFileSync(file, 'utf8'));
+function currentPath(file) {
+  if (fs.existsSync(file)) return file;
+  if (file === 'src/app/layout.jsx') return 'src/components/SiteDocument.jsx';
+  if (file.startsWith('src/app/')) {
+    const rest = file.slice('src/app/'.length);
+    return 'src/app/' + (rest.startsWith('rice-purity-test-in-spanish/') ? '(es)/' : '(en)/') + rest;
+  }
+  return file;
+}
+const current = file => normalize(fs.readFileSync(currentPath(file), 'utf8'));
 // Protect the actual questionnaire, weights, scoring, state handlers, and ad loader.
 for (const file of cp.execFileSync('git', ['ls-tree', '-r', '--name-only', snapshot, 'src'], { encoding: 'utf8' }).trim().split('\n')) {
-  if (!/\.(js|jsx)$/.test(file) || !fs.existsSync(file)) continue;
+  if (!/\.(js|jsx)$/.test(file) || !fs.existsSync(currentPath(file))) continue;
   const before = original(file), after = current(file);
   const arrays = [...before.matchAll(protectedPattern)].map(match => match[0]);
   assert.deepEqual([...after.matchAll(protectedPattern)].map(match => match[0]), arrays, file + ': questions changed');
@@ -18,7 +27,7 @@ for (const file of cp.execFileSync('git', ['ls-tree', '-r', '--name-only', snaps
     const marker = /return\s*\(\s*</;
     const beforeBoundary = before.search(marker), afterBoundary = after.search(marker);
     assert(beforeBoundary >= 0 && afterBoundary >= 0, file + ': expected quiz render boundary');
-    const withoutFaqSchema = source => source.replace(/const FAQ_SCHEMA = \{[\s\S]*?\n\};/, '');
+    const withoutFaqSchema = source => source.replace(/const FAQ_SCHEMA = \{[\s\S]*?\n\};/, '').replace(/^import RelatedTests from .*;\n/m, '').replace(/\n{2,}/g, '\n');
     assert.equal(withoutFaqSchema(after.slice(0, afterBoundary)), withoutFaqSchema(before.slice(0, beforeBoundary)), file + ': quiz logic changed');
   }
 }
