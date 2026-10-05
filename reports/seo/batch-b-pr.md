@@ -1,0 +1,5 @@
+The homepage did not link every variant, and many variants lacked contextual sibling links. Batch B adds a 25-card homepage directory and two or three related links inside each variant's main content. The blog's 25-card listing is unchanged.
+
+It also fixes duplicate H1s on racism/Valorant, the early Overwatch H3, and the Spanish document language. URL-neutral English/Spanish route groups share the existing root document so Spanish emits lang="es" while all 32 public pages remain static. Cross-language navigation reloads the document; existing URLs, design classes, questions, scoring, and AdSense loading are preserved. The branded 404 remains available through an explicit unmatched-path handler.
+
+Validation: Batch A verified live before work; production build passes; all 32 pages pass Batch A and SEO regression checks; the Batch B crawl finds all 25 variants one click from home and no orphan pages; responsive grid and language navigation pass at 375/768/1280px; existing homepage scoring/browser tests pass. See reports/seo/batch-b.md and batch-b-results.json.
