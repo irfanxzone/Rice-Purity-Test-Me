@@ -148,7 +148,7 @@ const FAQ_SCHEMA = {
       "name": "Is the Valorant Rice Purity Test accurate?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Like the original test, which is also not scientifically proven, it’s not accurate at all. It just tells you the answer based on your experiences, which requires no scientific proof; just take it as fun."
+        "text": "Like the classic test, which is also not scientifically proven, it’s not accurate at all. It just tells you the answer based on your experiences, which requires no scientific proof; just take it as fun."
       }
     }
   ]
@@ -210,9 +210,9 @@ export default function ValorantRicePurityTestPage() {
         <section className="mx-auto max-w-3xl px-4 pt-10 pb-10 sm:px-6 sm:pt-14 lg:px-8">
           <h1 className="mt-5 text-4xl font-extrabold tracking-tight text-ink-900 sm:text-5xl text-center">Valorant Rice Purity Test</h1>
           <p className="mx-auto mt-3 max-w-xl text-[16px] leading-relaxed text-ink-700 text-center">
-            Are you looking for the viral Valorant Rice Purity Test trend? Do you want to check how familiar you are with Valorant’s in-game action, different experiences, and overall gameplay? Take this test. It is a parody of the official rice purity, a self-assessment questionnaire purely about the Valorant game.
+            Are you looking for the viral Valorant Rice Purity Test trend? Do you want to check how familiar you are with Valorant’s in-game action, different experiences, and overall gameplay? Take this test. It is a parody of the classic rice purity, a self-assessment questionnaire purely about the Valorant game.
             <br /><br />
-            The core concept of this test same as the original version; you just answer the right question that relates to you. The questions in this test aim to focus on players' playing habits, how they play, and their ethical boundaries. Also, it focuses on all the achievements while playing the game and the rankings of the players, whether they are beginners or pros.
+            The core concept of this test same as the classic version; you just answer the right question that relates to you. The questions in this test aim to focus on players' playing habits, how they play, and their ethical boundaries. Also, it focuses on all the achievements while playing the game and the rankings of the players, whether they are beginners or pros.
           </p>
         </section>
         <section id="test" className="mx-auto max-w-3xl px-4 pt-2 pb-10 sm:px-6 lg:px-8">
@@ -309,7 +309,7 @@ export default function ValorantRicePurityTestPage() {
             Valorant is a famous shooting game designed by Riot Games. Inspired by the <a href="/" className="rpt-interlink">rice purity test</a>, Valorant's active community of gamers created this trend to check the purity score of players and test their game knowledge. This test is also a complete 100-question list where all questions are about Valorant.
           </p>
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
-            The test results show how you have experienced the game and give you score between 0 to 100. This score helps to understand how dedicated the players are, toxicity levels, or whether players use unethical ways to get higher rankings. Take the test by simply answering in yes no format like the original version.
+            The test results show how you have experienced the game and give you score between 0 to 100. This score helps to understand how dedicated the players are, toxicity levels, or whether players use unethical ways to get higher rankings. Take the test by simply answering in yes no format like the classic version.
           </p>
           <img
             src="/valorant-rice-purity-test.webp"
@@ -372,7 +372,7 @@ export default function ValorantRicePurityTestPage() {
               <AccordionItem value="faq-3">
                 <AccordionTrigger className="text-base font-semibold px-4 py-3">Is the Valorant Rice Purity Test accurate?</AccordionTrigger>
                 <AccordionContent className="text-[16px] px-4 pb-4 pt-0 text-neutral-700">
-                  Like the original test, which is also not scientifically proven, it’s not accurate at all. It just tells you the answer based on your experiences, which requires no scientific proof; just take it as fun.
+                  Like the classic test, which is also not scientifically proven, it’s not accurate at all. It just tells you the answer based on your experiences, which requires no scientific proof; just take it as fun.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>

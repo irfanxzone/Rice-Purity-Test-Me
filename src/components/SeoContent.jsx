@@ -18,7 +18,7 @@ export const SeoContent = () => {
                     Rice test, also known as a self-reflection tool, is used to take a rough idea of a person’s social experiences. It is a structured set of anonymous questions that particularly evaluates the innocence of a person. It allows users to reflect on their social experience by answering 100 diverse yet simple questions. By answering questions belonging to multiple facets of human life, in “Yes” or “No” format, you can explore what particular things you have done in your life.
                 </p>                <StaticImage
                     src="/rice-purity-test.webp" 
-                    alt="Rice Purity Test"
+                    alt="Rice Purity Test 100-question checklist preview"
                     width={1974}
                     height={797}
                     sizes="(max-width: 639px) calc(100vw - 32px), (max-width: 767px) calc(100vw - 48px), 720px"
@@ -44,7 +44,7 @@ export const SeoContent = () => {
                     How to Take the Rice Purity Test Online?
                 </h2>
                 <p className="mt-4 text-[15px] leading-relaxed text-neutral-700 sm:text-base">
-                    Different platforms cause more confusion, but let me ease your mind with a proper solution. Since the Rice Purity Test is totally free and does not ask for personal data, therefore, whenever you take the test, prefer official sites to avoid malicious bots entering your system. If any site asks for subscription or money then leave the source immediately.
+                    Different platforms cause more confusion, but let me ease your mind with a proper solution. Since the Rice Purity Test is totally free and does not ask for personal data, therefore, whenever you take the test, use sites you trust to avoid malicious bots entering your system. If any site asks for subscription or money then leave the source immediately.
                 </p>
                 <h2 className="font-heading text-2xl font-bold tracking-tight text-neutral-900 sm:text-3xl mt-10">
                     How Does the Rice Purity Test Work?
@@ -95,7 +95,7 @@ export const SeoContent = () => {
                 </div>
                 <h3 className="mt-8 font-heading text-xl font-semibold text-neutral-900">What is the Average Rice Purity Score?</h3>
                 <p className="mt-2 text-[15px] leading-relaxed text-neutral-700 sm:text-base">
-                    The test is not based on official calculations, however the average score observed is between 65 to 70. This average score is mostly associated with adults and college students. Instead of taking it seriously, consider the test a fun and self-exploration activity. Since the entire average calculation is estimated with shared results and global test trends, rather than a scientifically proven method.
+                    The test is not based on validated calculations, however the average score observed is between 65 to 70. This average score is mostly associated with adults and college students. Instead of taking it seriously, consider the test a fun and self-exploration activity. Since the entire average calculation is estimated with shared results and global test trends, rather than a scientifically proven method.
                 </p>
                 <h3 className="mt-8 font-heading text-xl font-semibold text-neutral-900">Average Rice Score by Age (Approx)</h3>
                 <ul className="list-disc ml-6 mt-2 text-[15px] text-neutral-700">
@@ -118,7 +118,7 @@ export const SeoContent = () => {
                 </ul>
                 <h3 className="mt-8 font-heading text-xl font-semibold text-neutral-900">Different Versions of Rice Test?</h3>
                 <p className="mt-2 text-[15px] leading-relaxed text-neutral-700 sm:text-base">
-                    Over the passage of time, different online communities appeared where the test was inspired by the original Rice Purity Test. However, they have made different categories based on the interests of users. For instance,
+                    Over the passage of time, different online communities appeared where the test was inspired by the classic Rice Purity Test. However, they have made different categories based on the interests of users. For instance,
                 </p>
                 <ul className="list-disc ml-6 mt-2 text-[15px] text-neutral-700">
                     <li>Gaming genre is included, with questions related to games</li>
@@ -126,7 +126,7 @@ export const SeoContent = () => {
                     <li><a href="/ao3-rice-purity-test" className="rpt-interlink">Fanfiction and AO3</a>, with concentration on reading- and writing-based questions.</li>
                 </ul>
                 <p className="mt-2 text-[15px] leading-relaxed text-neutral-700 sm:text-base">
-                    These genres are not official and created by fans. Whereas the classic questionnaire of 100-questions is the best recognized and widely accepted version.
+                    These genres are created by fans. Whereas the classic questionnaire of 100-questions is the best recognized and widely accepted version.
                 </p>
                 <h3 className="mt-8 font-heading text-xl font-semibold text-neutral-900">Rice Test Popularity by Country</h3>
                 <div className="mt-4 overflow-x-auto">

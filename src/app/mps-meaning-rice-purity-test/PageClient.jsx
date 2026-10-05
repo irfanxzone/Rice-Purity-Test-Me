@@ -13,7 +13,7 @@ export default function MpsMeaningPage() {
           </h1>
 
           <p className="mt-6 text-[16px] leading-relaxed text-ink-700">
-            The <a href="/" className="rpt-interlink">Rice purity Test</a> is a globally popular quiz, where each question takes you to a different life experience. However, some terms create a bit of confusion because their proper meaning isn’t described. MPS is one of them. So, if you’re one of them, finding the meaning of MPS, you’re not alone.
+            The <a href="/" className="rpt-interlink">Rice Purity Test</a> is a globally popular quiz, where each question takes you to a different life experience. However, some terms create a bit of confusion because their proper meaning isn’t described. MPS is one of them. So, if you’re one of them, finding the meaning of MPS, you’re not alone.
           </p>
 
           <p className="mt-4 text-[16px] leading-relaxed text-ink-700">
@@ -56,12 +56,12 @@ export default function MpsMeaningPage() {
             Answer the question honestly if it applies to you in any condition, not a guess. It’s not a judgment of anyone’s character, so don't worry about embarrassment.
           </p>
 
-          <h3 className="font-heading text-xl font-bold tracking-tight text-neutral-900 sm:text-2xl mt-10">Why Do People Search for “MPS Meaning Rice Purity Test”?</h3>
+          <h2 className="font-heading text-xl font-bold tracking-tight text-neutral-900 sm:text-2xl mt-10">Why Do People Search for “MPS Meaning Rice Purity Test”?</h2>
           <p className="mt-4 text-[16px] leading-relaxed text-ink-700">
             People are curious to know the meaning of MPS because it is not clearly mentioned in the test. It feels awkward while taking a test, you see a word, not knowing the exact meaning, and you might feel stuck. You wonder what it means by a partner, opposite gender, or does it apply to LGBTQ+ and so on. That’s the reason people search for it to clarify about the term properly.
           </p>
 
-          <h3 className="font-heading text-xl font-bold tracking-tight text-neutral-900 sm:text-2xl mt-10">Should You Take the Rice Purity Test Seriously?</h3>
+          <h2 className="font-heading text-xl font-bold tracking-tight text-neutral-900 sm:text-2xl mt-10">Should You Take the Rice Purity Test Seriously?</h2>
           <p className="mt-4 text-[16px] leading-relaxed text-ink-700">
             No need to take it seriously since the purpose of the test is entertainment and fun, and you take the test anonymously. When you and your friends share a score, it must bring joy instead of embarrassment. A high score doesn’t mean you are bad, and a low score means you’re boring. It’s just that everyone grows up differently.
           </p>

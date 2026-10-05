@@ -274,7 +274,7 @@ export default function NYURicePurityTestClient() {
             What Is the Rice Purity Test?
           </h2>
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
-            Before moving on to the NYU version, we must understand the original version of the Rice Purity Test, which was made for regular college students. It is based on 100 questions curated over the years for newly enrolled students. It works simply: if you check a box, it means you relate to it; otherwise, leave it unchecked.
+            Before moving on to the NYU version, we must understand the classic version of the Rice Purity Test, which was made for regular college students. It is based on 100 questions curated over the years for newly enrolled students. It works simply: if you check a box, it means you relate to it; otherwise, leave it unchecked.
           </p>
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
             A score of 100 means you are completely innocent and have not experienced anything from the list, and a score of 0 means you have experienced everything and have fully experienced life. This is not an exam or judgment tool. Take it as a fun quiz, enjoy it, and share it with your friends.
@@ -288,7 +288,7 @@ export default function NYURicePurityTestClient() {
             What Makes the NYU Version Different
           </h2>
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
-            NYU is different because it does not have a traditional campus. There is no gate between you and the city. Washington Square Park is an unofficial campus where you share it with film students, street performers, and chess players. Therefore, it does not specifically ask about college life in a wider context, but asks about experiences in the whole city.
+            NYU is different because it does not have a traditional campus. There is no gate between you and the city. Washington Square Park is an fan-made campus where you share it with film students, street performers, and chess players. Therefore, it does not specifically ask about college life in a wider context, but asks about experiences in the whole city.
           </p>
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
             The question focuses on the following areas:

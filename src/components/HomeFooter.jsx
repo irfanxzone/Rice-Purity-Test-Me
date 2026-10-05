@@ -26,7 +26,7 @@ export default function HomeFooter() {
               </span>
               <div className="leading-tight">
                 <p className="text-lg font-bold text-cream-50">Rice Purity Test</p>
-                <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-cream-400/80">Original &middot; 100 items</p>
+                <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-cream-400/80">100 items</p>
               </div>
             </Link>
             <p className="mt-5 max-w-sm text-sm leading-relaxed text-cream-100/75">
@@ -38,7 +38,7 @@ export default function HomeFooter() {
           </div>
 
           <div className="md:col-span-3">
-            <h2 className="text-xs font-semibold uppercase tracking-[0.2em] text-[#FACC15]">Pages</h2>
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[#FACC15]">Pages</p>
             <ul className="mt-5 space-y-3">
               {PAGES.map((p) => (
                 <li key={p.label}>
@@ -49,7 +49,7 @@ export default function HomeFooter() {
           </div>
 
           <div className="md:col-span-4">
-            <h2 className="text-xs font-semibold uppercase tracking-[0.2em] text-[#FACC15]">Follow</h2>
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[#FACC15]">Follow</p>
             <div className="mt-5 flex flex-wrap gap-2.5">
               {SOCIALS.map((s) => (
                 <a key={s.key} href={s.href} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 rounded-xl bg-[#FACC15] px-3.5 py-2.5 text-xs font-semibold text-ink-900 shadow-[0_2px_0_#000] transition-transform hover:-translate-y-0.5">

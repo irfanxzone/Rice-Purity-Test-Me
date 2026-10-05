@@ -37,12 +37,15 @@ for (const page of PAGES) {
     assert.deepEqual(values('description'), [page.description], 'Incorrect description');
     assert.deepEqual(values('og:url').map(value => new URL(value).href), [expectedUrl], 'Incorrect OG URL');
     assert.deepEqual(values('og:title'), [expectedTitle], 'Incorrect OG title');
+    assert.deepEqual(values('og:type'), ['website'], 'Incorrect OG type');
+    assert.deepEqual(values('og:description'), [page.description], 'Incorrect OG description');
+    assert.deepEqual(values('twitter:description'), [page.description], 'Incorrect Twitter description');
     assert.deepEqual(values('twitter:title'), [expectedTitle], 'Incorrect Twitter title');
     assert.deepEqual(values('keywords'), [], 'Obsolete keywords metadata');
     assert.equal(values('robots').length, 1, 'Missing or duplicate robots');
     assert.equal(/\bnoindex\b/.test(values('robots')[0]), !!page.noindex, 'Incorrect indexing directive');
     for (const [key, field] of [['article:published_time', 'published'], ['article:modified_time', 'modified']]) {
-      assert.deepEqual(values(key), page.type === 'article' && page[field] ? [page[field]] : [], 'Incorrect ' + key);
+      assert.deepEqual(values(key), [], 'Incorrect ' + key);
     }
     assert(!html.includes('www.ricepuritytestme.com'), 'www URL remains');
     const body = withoutScripts(html);

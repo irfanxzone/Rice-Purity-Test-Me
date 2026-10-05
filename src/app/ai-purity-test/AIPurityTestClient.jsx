@@ -280,7 +280,7 @@ export default function AIPurityTestClient() {
             What is The AI Purity Test?
           </h2>
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
-            The AI Purity Test is a humorous assessment of your interactions with artificial intelligence, whether you use AI for work, advice, research, or for learning about a specific topic. As AI technology continues to evolve and becomes increasingly the top choice of internet users in 2025, this test was officially created for entertainment and self-reflection.
+            The AI Purity Test is a humorous assessment of your interactions with artificial intelligence, whether you use AI for work, advice, research, or for learning about a specific topic. As AI technology continues to evolve and becomes increasingly the top choice of internet users in 2025, this test was created for entertainment and self-reflection.
           </p>
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
             This test has taken inspiration from the <Link href="/" className="rpt-interlink">Rice Purity Test</Link> to check your purity in how you use artificial intelligence. This test explores the creative, educational, and modern side of technology as well as highlights the negative usage of the highly emerging technology.

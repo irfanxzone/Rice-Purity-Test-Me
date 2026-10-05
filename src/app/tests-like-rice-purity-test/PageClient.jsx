@@ -12,7 +12,7 @@ export default function TestsLikeRicePurityTestPage() {
           <p className="mx-auto mt-3 max-w-xl text-[16px] leading-relaxed text-ink-700 text-center">
             The <a href="/" className="rpt-interlink">Rice Purity Test</a> is a popular quiz that is based on simple questions about personal life and experiences created by Rice University for O-Week students. Over time, it evolved and converted into a complete 100 questions about diverse aspects of life. Later, during COVID, it went viral on TikTok and turned out to be a social media trend.
             <br /><br />
-            With the popularity of the Rice Purity Test, other tests also became popular, which are made for different audiences and based on distinct interests. These tests help in self-discovery, and friends and peers challenge others to take them as a fun way to check their purity. Gamers, teens, and many other communities have curated tests by parodying the original Rice Purity Test. Below we have given a list of 10 tests, such as the rice purity. If you can relate to them, you can take them.
+            With the popularity of the Rice Purity Test, other tests also became popular, which are made for different audiences and based on distinct interests. These tests help in self-discovery, and friends and peers challenge others to take them as a fun way to check their purity. Gamers, teens, and many other communities have curated tests by parodying the classic Rice Purity Test. Below we have given a list of 10 tests, such as the rice purity. If you can relate to them, you can take them.
           </p>
         </section>
         <section className="mx-auto max-w-3xl px-4 pt-2 pb-10 sm:px-6 lg:px-8 rpt-prose">

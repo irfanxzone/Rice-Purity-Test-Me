@@ -171,7 +171,7 @@ export default function BrownRicePurityTestPage() {
             Brown Rice Purity Test
           </h1>
           <p className="mx-auto mt-3 max-w-xl text-[16px] leading-relaxed text-ink-700 text-center">
-            The term Brown Rice Purity Test is a little confusing. Most people know only the <a href="/" className="rpt-interlink">Rice purity Test</a>, and what confuses them is the word “Brown.” Their concern is whether this is the actual version or a funny internet name given to the Rice Purity Test. Well, this is not an official version of the test; rather, it is just another playful, fun variant of the original version.
+            The term Brown Rice Purity Test is a little confusing. Most people know only the <a href="/" className="rpt-interlink">Rice Purity Test</a>, and what confuses them is the word “Brown.” Their concern is whether this is the actual version or a funny internet name given to the Rice Purity Test. Well, this is a fan-made version of the test; it is another playful, fun variant of the classic version.
             <br /><br />
             This is a more generic and lighthearted test that revolves around food, culture, life experiences, and personality. You can take it as a light, fun test instead of treating it as a personality assessment tool with a very calm and relatable tone.
           </p>
@@ -276,7 +276,7 @@ export default function BrownRicePurityTestPage() {
         <section className="mx-auto max-w-3xl px-4 py-16 sm:px-6 lg:px-8 rpt-prose">
           <h2 className="font-heading text-2xl font-bold tracking-tight text-neutral-900 sm:text-3xl mt-10">What Is the Brown Rice Purity Test?</h2>
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700">
-            The Brown Rice Purity Test is a humorous and food-related quiz. The original version focuses on personality and purity based on a person's life experiences, and checks how innocent a person is in different areas of life.
+            The Brown Rice Purity Test is a humorous and food-related quiz. The classic version focuses on personality and purity based on a person's life experiences, and checks how innocent a person is in different areas of life.
           </p>
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700">
             However, the brown version has no fixed format; it consists of a random mix of questions related to culture, fun, and food. Brown rice is considered as more natural and healthier, so this test is also described as healthy and natural.
@@ -303,7 +303,7 @@ export default function BrownRicePurityTestPage() {
 
           <h2 className="font-heading text-2xl font-bold tracking-tight text-neutral-900 sm:text-3xl mt-10">Is the Brown Rice Purity Test Different from the Rice Purity Test?</h2>
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700">
-            The simple answer is yes, it is different because there are no official questions available for this version, unlike the original version, which asks 100 organized questions about life experiences. It can be taken as a more open-minded, funny, and creative version of the real test. This test doesn’t include mature or highly personal questions; rather, it asks funny questions like:
+            The simple answer is yes, it is different because there are no standardized questions available for this version, unlike the classic version, which asks 100 organized questions about life experiences. It can be taken as a more open-minded, funny, and creative version of the real test. This test doesn’t include mature or highly personal questions; rather, it asks funny questions like:
           </p>
           <ul className="list-disc ml-6 mt-4 text-[16px] text-neutral-700">
             <li>Have you ever eaten plain rice without seasoning?</li>
@@ -313,12 +313,12 @@ export default function BrownRicePurityTestPage() {
 
           <h2 className="font-heading text-2xl font-bold tracking-tight text-neutral-900 sm:text-3xl mt-10">How Does the Score Work?</h2>
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700">
-            The scoring system works the same as the original test. You answer questions in a yes-or-no format at the end, and you’ll get results out of 100. Every yes decreases your score, and a no simply increases it. A higher score indicates that you have strong brown rice energy; a low score indicates you are chaotic, spicy, or processed. The scores are just numbers; you don’t have to take them seriously.
+            The scoring system works the same as the classic test. You answer questions in a yes-or-no format at the end, and you’ll get results out of 100. Every yes decreases your score, and a no simply increases it. A higher score indicates that you have strong brown rice energy; a low score indicates you are chaotic, spicy, or processed. The scores are just numbers; you don’t have to take them seriously.
           </p>
 
           <h2 className="font-heading text-2xl font-bold tracking-tight text-neutral-900 sm:text-3xl mt-10">Final Thoughts</h2>
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700">
-            The Brown Purity Test is a funny and creative variation of the famous Rice Purity Test. There is no official meaning behind the term “Brown Rice”, it was likely created by a random internet user for fun. It is used as a humorous and light personality quiz. Take the test for fun; it is not about being pure or perfect; it’s all about experiencing new things for fun and enjoyment.
+            The Brown Purity Test is a funny and creative variation of the famous Rice Purity Test. There is no standardized meaning behind the term “Brown Rice”, it was likely created by a random internet user for fun. It is used as a humorous and light personality quiz. Take the test for fun; it is not about being pure or perfect; it’s all about experiencing new things for fun and enjoyment.
           </p>
           <p className="mt-6 text-[16px] leading-relaxed text-neutral-700">
             If you want another playful twist on purity quizzes, check out the <a href="/weighted-rice-purity-test" className="rpt-interlink">Weighted Rice Purity Test</a> before you finish.

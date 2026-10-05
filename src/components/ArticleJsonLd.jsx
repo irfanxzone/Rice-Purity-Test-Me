@@ -1,3 +1,4 @@
+import quizQuestions from "@/data/quiz-schema.json";
 import { getPage, SITE_URL, SITE_NAME } from "@/lib/seo";
 
 export default function ArticleJsonLd({ slug }) {
@@ -13,5 +14,30 @@ export default function ArticleJsonLd({ slug }) {
     ...(page.modified ? { dateModified: page.modified } : {}),
     author: organization, publisher: organization,
   };
-  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema).replace(/</g, "\\u003c") }} />;
+  const questions = quizQuestions[page.path];
+  const webpageId = url + '#webpage';
+  const quizId = url + '#quiz';
+  const graph = [{
+    '@type': 'WebPage', '@id': webpageId, url,
+    name: page.title, description: page.description,
+    ...(questions ? { mainEntity: { '@id': quizId } } : {}),
+  }];
+  if (questions) graph.push({
+    '@type': 'Quiz', '@id': quizId,
+    name: page.title, headline: page.title, description: page.description,
+    url: url + '#test', mainEntityOfPage: { '@id': webpageId },
+    educationalUse: 'Self assessment', learningResourceType: 'Quiz',
+    numberOfQuestions: questions.length, isAccessibleForFree: true,
+    provider: organization,
+    hasPart: questions.map((question, index) => ({
+      '@type': 'Question', position: index + 1, name: question,
+    })),
+  });
+  const serialize = value => JSON.stringify(value).replace(/</g, '\u003c');
+  return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: serialize(schema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: serialize({ '@context': 'https://schema.org', '@graph': graph }) }} />
+    </>
+  );
 }

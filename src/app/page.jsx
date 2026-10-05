@@ -16,7 +16,7 @@ export const metadata = buildMetadata({ path: "/", absoluteTitle: true, type: "w
 export default function HomePage() {
     const siteUrl = "https://ricepuritytestme.com/";
     const logoUrl = "https://ricepuritytestme.com/RicePurityTest.webp";
-    const pageTitle = "The Rice Purity Test 2026";
+    const pageTitle = getPage("/").title;
     const pageDescription = getPage("/").description;
 
     const homeSchema = {
@@ -60,26 +60,6 @@ export default function HomePage() {
                 },
             },
             {
-                "@type": "Article",
-                "@id": `${siteUrl}#article`,
-                headline: pageTitle,
-                name: pageTitle,
-                description: pageDescription,
-                url: siteUrl,
-                datePublished: getPage("/").published,
-                dateModified: getPage("/").modified,
-                image: logoUrl,
-                author: {
-                    "@id": `${siteUrl}#organization`,
-                },
-                publisher: {
-                    "@id": `${siteUrl}#organization`,
-                },
-                mainEntityOfPage: {
-                    "@id": `${siteUrl}#webpage`,
-                },
-            },
-            {
                 "@type": "WebApplication",
                 "@id": `${siteUrl}#web-application`,
                 name: "Rice Purity Test Online",
@@ -96,18 +76,6 @@ export default function HomePage() {
                 publisher: {
                     "@id": `${siteUrl}#organization`,
                 },
-            },
-            {
-                "@type": "BreadcrumbList",
-                "@id": `${siteUrl}#breadcrumb`,
-                itemListElement: [
-                    {
-                        "@type": "ListItem",
-                        position: 1,
-                        name: "Home",
-                        item: siteUrl,
-                    },
-                ],
             },
             {
                 "@type": "Quiz",

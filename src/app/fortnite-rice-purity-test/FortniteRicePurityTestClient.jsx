@@ -171,7 +171,7 @@ export default function FortniteRicePurityTestClient() {
           <p className="mx-auto mt-3 max-w-xl text-[16px] leading-relaxed text-ink-700 text-center">
             Are you a Fortnite player who wants to check how pure your Fortnite habits are? The Fortnite Rice Purity Test is not just about measuring the players skills or who is the best player; it's a joyful way to assess your Fortnite experience and gameplay. It's a simple game where you land, grab a weapon, and try to survive as long as possible. Soon you realize it's more than just a game. You become attached to it and buy skins and build a personality around your gameplay.
             <br /><br />
-            The Fortnite Purity Test is highly inspired by the original <a href="/" className="rpt-interlink">Rice Purity Test</a>, where questions revolve around innocence and life experiences. In this version, however, questions are totally about gameplay habits and in-game choices. The best part about this test is that it relates closely to a regular player, that's the beauty of it.
+            The Fortnite Purity Test is highly inspired by the classic <a href="/" className="rpt-interlink">Rice Purity Test</a>, where questions revolve around innocence and life experiences. In this version, however, questions are totally about gameplay habits and in-game choices. The best part about this test is that it relates closely to a regular player, that's the beauty of it.
           </p>
         </section>
 
@@ -307,7 +307,7 @@ export default function FortniteRicePurityTestClient() {
             How Your Score Is Calculated
           </h2>
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
-            Score calculation is easy and follows the same procedure as the original version. You start at 100. Each time you answer "Yes" to a question, the number decreases. Here's the rough idea about the score:
+            Score calculation is easy and follows the same procedure as the classic version. You start at 100. Each time you answer "Yes" to a question, the number decreases. Here's the rough idea about the score:
           </p>
           <ul className="list-disc ml-6 mt-2 text-[16px] text-neutral-700">
             <li><span className="font-bold">90 to 100:</span> Beginner or pure player.</li>

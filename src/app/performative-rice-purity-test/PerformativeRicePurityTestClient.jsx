@@ -286,7 +286,7 @@ export default function PerformativeRicePurityTestClient() {
             <li>Coffee choices, reading habits, and many other lifestyle choices.</li>
           </ul>
           <img
-            src="/perfprmative-rice-purity-test.webp"
+            src="/performative-rice-purity-test.webp"
             alt="Performative Rice Purity Test social trend quiz featured image"
             className="mt-6 h-auto w-full rounded-lg border border-ink-200 object-cover"
           />

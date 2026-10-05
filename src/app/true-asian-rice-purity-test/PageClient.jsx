@@ -251,7 +251,7 @@ export default function TrueAsianRicePurityTestPage() {
         <section id="about" data-testid="seo-content" className="rpt-prose mx-auto max-w-3xl px-4 py-16 sm:px-6 sm:py-20 lg:px-8">
           <h2 className="font-heading text-2xl font-bold tracking-tight text-neutral-900 sm:text-3xl">What the True Asian Rice Purity Test Is</h2>
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
-            The True Asian Test is a parody quiz built on the format of the original Rice Purity Test. It was created by Liang Pan. Instead of measuring innocence or life experience, it measures how many stereotypically Asian household and upbringing experiences you can relate to.
+            The True Asian Test is a parody quiz built on the format of the classic Rice Purity Test. It was created by Liang Pan. Instead of measuring innocence or life experience, it measures how many stereotypically Asian household and upbringing experiences you can relate to.
           </p>
           <img
             src="/true-asian-rice-purity-test.webp"
@@ -262,7 +262,7 @@ export default function TrueAsianRicePurityTestPage() {
             You go down a checklist and tick every item that applies to you. The more you tick, the higher your percentage will be and the more asian your belonging proves. It leans into humor about strict parents, tutoring, food habits, and growing up in an Asian household, so it lands hardest with people who lived those things. If the food and everyday-habit questions are your favorite part, the <a href="https://ricepuritytestme.com/brown-rice-purity-test" className="rpt-interlink">Brown Rice Purity Test</a> takes a lighter, food-and-culture-focused approach.
           </p>
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
-            It is not a scientific measure of identity or heritage. There is no official body behind it, no data collection about your ethnicity, and no real meaning to the number. It is a shared-experience meme that spread through TikTok and group chats, which is exactly why the how asian are you framing caught on.
+            It is not a scientific measure of identity or heritage. There is no governing body behind it, no data collection about your ethnicity, and no real meaning to the number. It is a shared-experience meme that spread through TikTok and group chats, which is exactly why the how asian are you framing caught on.
           </p>
 
           <h2 className="font-heading mt-10 text-2xl font-bold tracking-tight text-neutral-900 sm:text-3xl">How the Scoring Works (and Why It Confuses People)</h2>
@@ -289,7 +289,7 @@ export default function TrueAsianRicePurityTestPage() {
 
           <h2 className="font-heading mt-10 text-2xl font-bold tracking-tight text-neutral-900 sm:text-3xl">What Kind of Questions It Asks</h2>
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
-            The checklist runs to dozens of items, all pulled from everyday life rather than the milestone-and-taboo questions of the original. They cluster into a few loose themes.
+            The checklist runs to dozens of items, all pulled from everyday life rather than the milestone-and-taboo questions of the classic. They cluster into a few loose themes.
           </p>
           <h3 className="mt-6 font-heading text-xl font-semibold text-neutral-900">Home and daily habits:</h3>
           <ul className="ml-6 mt-2 list-disc text-[16px] text-neutral-700">
@@ -316,7 +316,7 @@ export default function TrueAsianRicePurityTestPage() {
             The tone throughout is affectionate and self-deprecating, which is why it reads as a bonding exercise rather than a real assessment. People share results to say same, not to compete on virtue.
           </p>
 
-          <h2 className="font-heading mt-10 text-2xl font-bold tracking-tight text-neutral-900 sm:text-3xl">True Asian Test vs the Original Rice Purity Test</h2>
+          <h2 className="font-heading mt-10 text-2xl font-bold tracking-tight text-neutral-900 sm:text-3xl">True Asian Test vs the Classic Rice Purity Test</h2>
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
             They are easy to mix up, so here is the short version of how they differ.
           </p>
@@ -335,7 +335,7 @@ export default function TrueAsianRicePurityTestPage() {
             </table>
           </div>
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
-            The original started as a self-scored survey in Rice University's student newspaper in the 1920s and later grew into the 100-question format that went viral on TikTok. The True Asian Test is a much more recent spin-off that kept the checkbox design and swapped in cultural in-jokes.
+            The classic started as a self-scored survey in Rice University's student newspaper in the 1920s and later grew into the 100-question format that went viral on TikTok. The True Asian Test is a much more recent spin-off that kept the checkbox design and swapped in cultural in-jokes.
           </p>
 
           <h2 className="font-heading mt-10 text-2xl font-bold tracking-tight text-neutral-900 sm:text-3xl">Should You Take It Seriously?</h2>
@@ -343,7 +343,7 @@ export default function TrueAsianRicePurityTestPage() {
             No, and that is the point. The True Asian Test is entertainment. It cannot tell you whether you count as Asian, and questions like am I asian do not have a real answer hiding inside a checkbox quiz. Identity is not a percentage.
           </p>
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
-            It is worth being aware that purity style tests, including the original, have been criticized for the way they frame experience and culture. Treat the True Asian Test the way its creator intended, as a lighthearted way to laugh about shared experiences with friends, and it holds up fine. Read too much into the number and you are giving a meme more weight than it can carry.
+            It is worth being aware that purity style tests, including the classic, have been criticized for the way they frame experience and culture. Treat the True Asian Test the way its creator intended, as a lighthearted way to laugh about shared experiences with friends, and it holds up fine. Read too much into the number and you are giving a meme more weight than it can carry.
           </p>
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
             For a separate reflection on racial assumptions rather than cultural identity, the <a href="https://ricepuritytestme.com/racism-rice-purity-test" className="rpt-interlink">Racism Rice Purity Test</a> asks about bias and everyday behavior.

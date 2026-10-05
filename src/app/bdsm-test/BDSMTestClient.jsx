@@ -172,7 +172,7 @@ export default function BDSMTestClient() {
           <p className="mx-auto mt-3 max-w-xl text-center text-[16px] leading-relaxed text-ink-700">
             The BDSM Test is a unique and modern way to check how kinky you really are and it is specially made for adults who want to understand personal experience and curiosity related to bdsm. It does not mean it is made for those who are deeply involved in BDSM. Rather, people take this test out of curiosity. Many of them take it for fun, some want to share their scores with friends, and others take it with their partner as a fun conversation starter.
             <br /><br />
-            It is inspired by the <Link href="/" className="rpt-interlink">Rice purity Test</Link> which asks general questions about dating, relationships, and life experiences, but this version focuses on kink, power dynamics, and everything that falls under the BDSM umbrella. The questions included in the test are very personal and related to your intimacy with your partner. One important thing to remember before taking the test: this is made for fun and entertainment. Your score is not a label or diagnosis of your personality.
+            It is inspired by the <Link href="/" className="rpt-interlink">Rice Purity Test</Link> which asks general questions about dating, relationships, and life experiences, but this version focuses on kink, power dynamics, and everything that falls under the BDSM umbrella. The questions included in the test are very personal and related to your intimacy with your partner. One important thing to remember before taking the test: this is made for fun and entertainment. Your score is not a label or diagnosis of your personality.
           </p>
         </section>
 
@@ -181,7 +181,7 @@ export default function BDSMTestClient() {
             Questions
           </h2>
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
-            Here are 100 original kink/BDSM self-assessment questions, grouped into dimensions similar to what a comprehensive test would cover. Answer honestly by checking the questions that apply to you.
+            Here are 100 kink/BDSM self-assessment questions, grouped into dimensions similar to what a comprehensive test would cover. Answer honestly by checking the questions that apply to you.
           </p>
         </section>
 

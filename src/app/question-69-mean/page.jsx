@@ -74,7 +74,7 @@ export default function Question69MeanPage() {
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
             So, 69 itself serves as the question. That is why there is only a question mark on the 69th question number, meaning have you engaged in this intimate activity? If you have ever performed this activity, answer "Yes"; otherwise, leave it unchecked for No.
           </p>          <img
-            src="/Questio-69-mean.webp"
+            src="/question-69-mean.webp"
             alt="Question 69 Rice Purity Test meaning guide featured image"
             className="mt-6 h-auto w-full rounded-lg border border-ink-200 object-cover"
           />

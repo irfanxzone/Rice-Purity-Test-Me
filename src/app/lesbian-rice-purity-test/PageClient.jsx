@@ -246,7 +246,7 @@ export default function LesbianRicePurityTestPage() {
         <section id="about" data-testid="seo-content" className="rpt-prose mx-auto max-w-3xl px-4 py-16 sm:px-6 sm:py-20 lg:px-8">
           <h2 className="font-heading text-2xl font-bold tracking-tight text-neutral-900 sm:text-3xl">What Is the Lesbian Rice Purity Test?</h2>
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
-            The format of this test stays the same as the Official version of the <a href="https://ricepuritytestme.com/" className="rpt-interlink">Rice Purity Test</a>, but it’s totally built around lesbian dating and relationship experiences. It follows the checklist-type questions approach like other purity tests and asks about things such as dates, affection, and personal milestones. You simply tick off things that you experienced in your life honestly and privately.
+            The format of this test stays the same as the Classic version of the <a href="https://ricepuritytestme.com/" className="rpt-interlink">Rice Purity Test</a>, but it’s totally built around lesbian dating and relationship experiences. It follows the checklist-type questions approach like other purity tests and asks about things such as dates, affection, and personal milestones. You simply tick off things that you experienced in your life honestly and privately.
           </p>
           <img src="/lesbian-rice-purity-test.webp" alt="Lesbian Rice Purity Test 2026: 76-question relationship experiences quiz" className="mt-6 h-auto w-full rounded-lg border border-ink-200 object-cover" />
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">

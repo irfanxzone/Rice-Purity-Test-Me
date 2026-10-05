@@ -191,7 +191,7 @@ export default function OverwatchRicePurityTestPage() {
           <p className="mx-auto mt-3 max-w-xl text-[16px] leading-relaxed text-ink-700 text-center">
             Have you played Overwatch 2, filled with unforgettable matches, amazing moments, and a community of wonderful gamers? Every type of person is a part of the community: chaotic, passionate, or unhinged. Which one are you? Take the Overwatch Rice Purity Test to check the personality you hold. It’s a community-made 100-question quiz that focuses on experiences, memories, and habits related solely to Overwatch.
             <br /><br />
-            This test follows the structure of the <a href="/" className="rpt-interlink">Rice purity Test</a>, but the questions included are about Overwatch, which gamers can relate to. With an evolving community of Overwatch gamers, the test became a meme and spread across social media and gaming communities.
+            This test follows the structure of the <a href="/" className="rpt-interlink">Rice Purity Test</a>, but the questions included are about Overwatch, which gamers can relate to. With an evolving community of Overwatch gamers, the test became a meme and spread across social media and gaming communities.
           </p>
           <div className="mx-auto max-w-xl text-center mt-2">
             <span className="text-[16px] text-ink-700">

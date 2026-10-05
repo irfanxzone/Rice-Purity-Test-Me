@@ -171,9 +171,9 @@ export default function KinkRicePurityTestPage() {
         </section>
 
         <section className="mx-auto max-w-3xl px-4 pb-10 sm:px-6 lg:px-8">
-          <h3 className="font-heading text-xl font-bold tracking-tight text-neutral-900 sm:text-2xl mt-10">
+          <h2 className="font-heading text-xl font-bold tracking-tight text-neutral-900 sm:text-2xl mt-10">
             Questions
-          </h3>
+          </h2>
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
             Answer every question honestly by checking the boxes that apply to you. Each checked item subtracts one point from the full 100 score.
           </p>
@@ -274,7 +274,7 @@ export default function KinkRicePurityTestPage() {
             How the Test Actually Works
           </h2>
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
-            The core concept of the test is the same as the <a href="/" className="rpt-interlink">Rice purity Test</a>. You start with a score of 100, and each time you answer a question, one point is deducted from the total score. The process is pretty simple, but the questions are divided into different categories. Below, we have described each one:
+            The core concept of the test is the same as the <a href="/" className="rpt-interlink">Rice Purity Test</a>. You start with a score of 100, and each time you answer a question, one point is deducted from the total score. The process is pretty simple, but the questions are divided into different categories. Below, we have described each one:
           </p>
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
             <strong>BDSM:</strong> Out of the complete list, some questions are related to submission, restraints, and similar experiences.

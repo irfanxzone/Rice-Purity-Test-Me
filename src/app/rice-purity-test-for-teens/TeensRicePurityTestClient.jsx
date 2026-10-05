@@ -319,7 +319,7 @@ export default function TeensRicePurityTestClient() {
             Purity Score Breakdown for Teens
           </h2>
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
-            The score levels and ranges are the same as the original test. Here is the brief overview of the score ranges:
+            The score levels and ranges are the same as the classic test. Here is the brief overview of the score ranges:
           </p>
           <ul className="list-disc ml-6 mt-2 text-[16px] text-neutral-700">
             <li><span className="font-bold">100-85 Score:</span> Pure as an angel.</li>

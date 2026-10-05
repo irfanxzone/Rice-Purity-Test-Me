@@ -13,11 +13,10 @@ const poppins = Poppins({
 export const metadata = {
     metadataBase: new URL(SITE_URL),
     title: { default: "RicePurityTestMe", template: "%s · RicePurityTestMe" },
-    robots: { index: true, follow: true },
     icons: {
         icon: [{ url: "/favicon.svg", type: "image/svg+xml" }],
         shortcut: [{ url: "/favicon.svg", type: "image/svg+xml" }],
-        apple: [{ url: "/RicePurityTest.webp", type: "image/webp" }],
+        apple: [{ url: "/apple-touch-icon.png", type: "image/png", sizes: "180x180" }],
     },
 };
 

@@ -82,7 +82,7 @@ export default function SeventySixRicePurityTestPage() {
             Conclusion
           </h2>
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
-            A 76 Rice Purity Test is not a special or new version of the original test; rather, it simply refers to a score of 76 on the test. This reminds you of reaching the 76th question or you have got a 76 score out of 100. Try this fun test and challenge your friends to reach the 76th question and beyond.
+            A 76 Rice Purity Test is not a special or new version of the classic test; rather, it simply refers to a score of 76 on the test. This reminds you of reaching the 76th question or you have got a 76 score out of 100. Try this fun test and challenge your friends to reach the 76th question and beyond.
           </p>
         </section>
       </main>

@@ -8,8 +8,9 @@
     "start": "next start -H 0.0.0.0 -p 3000",
     "prod": "next start -H 0.0.0.0 -p 3000",
     "lint": "next lint",
-    "prebuild": "node scripts/validate-seo-registry.mjs && node scripts/optimize-images.cjs",
-    "check:seo": "node scripts/check-seo.mjs"
+    "prebuild": "node scripts/validate-seo-registry.mjs && node scripts/generate-quiz-schema.cjs && node scripts/optimize-images.cjs",
+    "check:seo": "node scripts/check-seo.mjs",
+    "predev": "node scripts/generate-quiz-schema.cjs"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.0.1",

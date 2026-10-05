@@ -1,0 +1,5 @@
+Google Rich Results Test: AO3 production HTML submitted in code mode.
+URL: https://search.google.com/test/rich-results
+Result: no validation report returned.
+Message: Something went wrong. Log in and try again.
+Status: external Google validation pending sign-in; not a pass.

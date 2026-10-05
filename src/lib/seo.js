@@ -5,8 +5,8 @@ export const SITE_NAME = "RicePurityTestMe";
 export const PAGES = [
   {
     "path": "/",
-    "title": "The Rice Purity Test 2026",
-    "description": "Take the original 100-question Rice Purity Test. Tick what you've done and get your purity score instantly. Free, anonymous, nothing saved.",
+    "title": "The Rice Purity Test",
+    "description": "Take the 100-question Rice Purity Test. Tick what you've done and get your purity score instantly. Free, anonymous, nothing saved.",
     "type": "website",
     "absoluteTitle": true,
     "published": "2026-04-27",
@@ -19,7 +19,8 @@ export const PAGES = [
     "type": "article",
     "image": "/76-rice-purity-test.webp",
     "published": "2026-06-29",
-    "modified": "2026-09-26"
+    "modified": "2026-09-26",
+    "absoluteTitle": true
   },
   {
     "path": "/about",
@@ -40,7 +41,8 @@ export const PAGES = [
     "type": "article",
     "image": "/AI-purity-test.webp",
     "published": "2026-07-15",
-    "modified": "2026-09-17"
+    "modified": "2026-09-17",
+    "absoluteTitle": true
   },
   {
     "path": "/ao3-rice-purity-test",
@@ -53,21 +55,23 @@ export const PAGES = [
       "label": "AO3 Rice Purity Test"
     },
     "published": "2026-04-27",
-    "modified": "2026-08-02"
+    "modified": "2026-08-02",
+    "absoluteTitle": true
   },
   {
     "path": "/bdsm-test",
     "title": "Updated BDSM Test 2026",
-    "description": "The BDSM Test is a unique and modern way to check how kinky you really are.",
+    "description": "Take the 100-question BDSM Test for adults. Check what applies, get your kink score instantly — free, anonymous, nothing saved.",
     "type": "article",
     "image": "/BDSM-test.webp",
     "published": "2026-07-12",
-    "modified": "2026-08-03"
+    "modified": "2026-08-03",
+    "absoluteTitle": true
   },
   {
     "path": "/blog",
     "title": "Blog — Rice Purity Test",
-    "description": "Guides, history, scoring explanations, and the occasional fun deep-dive on the Rice Purity Test.",
+    "description": "Browse all 25 Rice Purity Test versions — AO3, BDSM, kink, Valorant, Fortnite and more. Pick your test and get your score.",
     "type": "website",
     "published": "2026-04-27",
     "modified": "2026-09-25"
@@ -79,16 +83,18 @@ export const PAGES = [
     "type": "article",
     "image": "/brown-rice-purity-test.webp",
     "published": "2026-06-08",
-    "modified": "2026-09-17"
+    "modified": "2026-09-17",
+    "absoluteTitle": true
   },
   {
     "path": "/byu-rice-purity-test",
     "title": "BYU Rice Purity Test",
-    "description": "The BYU Rice Purity Test is an updated and a customized version of the original Rice Purity Test.",
+    "description": "The BYU Rice Purity Test is an updated and a customized version of the classic Rice Purity Test.",
     "type": "article",
     "image": "/BYU-rice-purity-test.webp",
     "published": "2026-07-14",
-    "modified": "2026-08-02"
+    "modified": "2026-08-02",
+    "absoluteTitle": true
   },
   {
     "path": "/contact",
@@ -121,7 +127,8 @@ export const PAGES = [
     "type": "article",
     "image": "/Fortnite-rice-purity-test.webp",
     "published": "2026-07-05",
-    "modified": "2026-09-26"
+    "modified": "2026-09-26",
+    "absoluteTitle": true
   },
   {
     "path": "/gay-rice-purity-test",
@@ -130,7 +137,8 @@ export const PAGES = [
     "type": "article",
     "image": "/gay-rice-purity-test.webp",
     "published": "2026-08-08",
-    "modified": "2026-09-17"
+    "modified": "2026-09-17",
+    "absoluteTitle": true
   },
   {
     "path": "/kink-rice-purity-test",
@@ -139,7 +147,8 @@ export const PAGES = [
     "type": "article",
     "image": "/kink-rice-purity-test.webp",
     "published": "2026-06-05",
-    "modified": "2026-08-04"
+    "modified": "2026-08-04",
+    "absoluteTitle": true
   },
   {
     "path": "/lesbian-rice-purity-test",
@@ -148,25 +157,28 @@ export const PAGES = [
     "type": "article",
     "image": "/lesbian-rice-purity-test.webp",
     "published": "2026-09-12",
-    "modified": "2026-09-12"
+    "modified": "2026-09-12",
+    "absoluteTitle": true
   },
   {
     "path": "/mps-meaning-rice-purity-test",
     "title": "MPS Meaning Rice Purity Test",
-    "description": "MPS means \"member of the preferred sex\". Here's what it refers to in the Rice Purity Test questions and how to answer them.",
+    "description": "Seeing \"MPS\" in the Rice Purity Test and confused? Here's what it stands for and how to answer those 3 questions.",
     "type": "article",
     "image": "/mps-meaning-purity-test.webp",
     "published": "2026-06-07",
-    "modified": "2026-09-26"
+    "modified": "2026-09-26",
+    "absoluteTitle": true
   },
   {
     "path": "/nyu-rice-purity-test",
-    "title": "NYU rice purity test",
+    "title": "NYU Rice Purity Test",
     "description": "The NYU Rice Purity Test is specially designed for NYU students.",
     "type": "article",
     "image": "/NYU-rice-purity-test.webp",
     "published": "2026-07-17",
-    "modified": "2026-08-02"
+    "modified": "2026-08-02",
+    "absoluteTitle": true
   },
   {
     "path": "/overwatch-rice-purity-test",
@@ -179,16 +191,18 @@ export const PAGES = [
       "label": "Overwatch Rice Purity Test"
     },
     "published": "2026-06-04",
-    "modified": "2026-09-07"
+    "modified": "2026-09-07",
+    "absoluteTitle": true
   },
   {
     "path": "/performative-rice-purity-test",
     "title": "Performative Rice Purity Test: Quiz 2026",
     "description": "The Performative Rice Purity Test is a playful quiz that started on social media, where purity is no longer the focus.",
     "type": "article",
-    "image": "/perfprmative-rice-purity-test.webp",
+    "image": "/performative-rice-purity-test.webp",
     "published": "2026-07-01",
-    "modified": "2026-09-17"
+    "modified": "2026-09-17",
+    "absoluteTitle": true
   },
   {
     "path": "/privacy-policy",
@@ -204,16 +218,17 @@ export const PAGES = [
   },
   {
     "path": "/question-69-mean",
-    "title": "What is Question 69 on the Rice Purity test",
+    "title": "What Is Question 69 on the Rice Purity Test",
     "description": "If you have ever taken the Rice Purity Test, you might have wondered what question 69 means.",
     "type": "article",
-    "image": "/Questio-69-mean.webp",
+    "image": "/question-69-mean.webp",
     "published": "2026-07-16",
-    "modified": "2026-09-26"
+    "modified": "2026-09-26",
+    "absoluteTitle": true
   },
   {
     "path": "/racism-rice-purity-test",
-    "title": "The Racism Rice Purity Test 2026",
+    "title": "Racism Rice Purity Test 2026",
     "description": "Take Racism Rice Purity Test to understand your beliefs, behaviours, and experiences related to racism.",
     "type": "article",
     "image": "/Racism-rice-purity-test.webp",
@@ -222,11 +237,12 @@ export const PAGES = [
       "label": "Racism Rice Purity Test"
     },
     "published": "2026-05-15",
-    "modified": "2026-08-05"
+    "modified": "2026-08-05",
+    "absoluteTitle": true
   },
   {
     "path": "/rice-purity-test-for-14-years-old",
-    "title": "Rice Purity Test for 14 years Old",
+    "title": "Rice Purity Test for 14 Years Old",
     "description": "A non-sexual, 20-question Rice Purity Test for 14-year-olds about school, friends, crushes, hobbies, and phones. Get a private score out of 20.",
     "type": "article",
     "image": "/rice-purity-test-for-14-years-old.webp",
@@ -234,7 +250,8 @@ export const PAGES = [
     "menu": {
       "group": "tests",
       "label": "Rice Purity Test for 14-Year-Olds"
-    }
+    },
+    "absoluteTitle": true
   },
   {
     "path": "/rice-purity-test-for-girls",
@@ -243,7 +260,8 @@ export const PAGES = [
     "type": "article",
     "image": "/rice-purity-test-for-girls.webp",
     "published": "2026-07-04",
-    "modified": "2026-09-26"
+    "modified": "2026-09-26",
+    "absoluteTitle": true
   },
   {
     "path": "/rice-purity-test-for-teens",
@@ -252,16 +270,18 @@ export const PAGES = [
     "type": "article",
     "image": "/rice-purity-test-for-teens.webp",
     "published": "2026-06-30",
-    "modified": "2026-08-03"
+    "modified": "2026-08-03",
+    "absoluteTitle": true
   },
   {
     "path": "/rice-purity-test-for-virgins",
-    "title": "Rice Purity Test For virgins 2026",
+    "title": "Rice Purity Test for Virgins 2026",
     "description": "Rice Purity Test for virgins is a special variant that is made for those who do not need sexual experience or have never had it before.",
     "type": "article",
     "image": "/rice-purity-test-for-virgin.webp",
     "published": "2026-09-18",
-    "modified": "2026-09-26"
+    "modified": "2026-09-26",
+    "absoluteTitle": true
   },
   {
     "path": "/rice-purity-test-in-spanish",
@@ -270,7 +290,8 @@ export const PAGES = [
     "type": "article",
     "image": "/rice-purity-test-in-spanish.webp",
     "published": "2026-09-25",
-    "modified": "2026-09-25"
+    "modified": "2026-09-25",
+    "absoluteTitle": true
   },
   {
     "path": "/terms-and-conditions",
@@ -287,16 +308,18 @@ export const PAGES = [
     "type": "article",
     "image": "/tests-like-rice-purity-test.webp",
     "published": "2026-05-15",
-    "modified": "2026-09-26"
+    "modified": "2026-09-26",
+    "absoluteTitle": true
   },
   {
     "path": "/true-asian-rice-purity-test",
     "title": "True Asian Rice Purity Test",
-    "description": "The True Asian Test is a parody quiz built on the format of the original Rice Purity Test. It was created by Liang Pan.",
+    "description": "The True Asian Test is a parody quiz built on the format of the classic Rice Purity Test. It was created by Liang Pan.",
     "type": "article",
     "image": "/true-asian-rice-purity-test.webp",
     "published": "2026-08-24",
-    "modified": "2026-09-26"
+    "modified": "2026-09-26",
+    "absoluteTitle": true
   },
   {
     "path": "/valorant-rice-purity-test",
@@ -309,7 +332,8 @@ export const PAGES = [
       "label": "Valorant Rice Purity Test"
     },
     "published": "2026-04-30",
-    "modified": "2026-09-17"
+    "modified": "2026-09-17",
+    "absoluteTitle": true
   },
   {
     "path": "/weighted-rice-purity-test",
@@ -318,7 +342,8 @@ export const PAGES = [
     "type": "article",
     "image": "/weighted-rice-purity-test.webp",
     "published": "2026-06-06",
-    "modified": "2026-09-17"
+    "modified": "2026-09-17",
+    "absoluteTitle": true
   }
 ];
 
@@ -339,12 +364,17 @@ export function buildMetadata({ path, description, absoluteTitle, type } = {}) {
   const fullTitle = (absoluteTitle ?? page.absoluteTitle) ? title : `${title} · ${SITE_NAME}`;
   const canonical = new URL(path, SITE_URL).href;
   const summary = description ?? page.description;
-  const ogType = type ?? page.type;
+  const ogType = type ?? "website";
   const image = new URL(page.image || "/RicePurityTest.webp", SITE_URL).href;
   return {
     title: { absolute: fullTitle },
     description: summary,
-    alternates: { canonical },
+    alternates: {
+      canonical,
+      ...(["/", "/rice-purity-test-in-spanish"].includes(path) ? {
+        languages: { en: SITE_URL + "/", es: SITE_URL + "/rice-purity-test-in-spanish" },
+      } : {}),
+    },
     robots: { index: !page.noindex, follow: true },
     openGraph: {
       title: fullTitle, description: summary, url: canonical, type: ogType,

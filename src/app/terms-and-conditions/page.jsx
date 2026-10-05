@@ -60,7 +60,7 @@ export default function Terms() {
                             disrupt the service.
                         </li>
                         <li>
-                            No republishing our original content without
+                            No republishing our content without
                             permission.
                         </li>
                         <li>

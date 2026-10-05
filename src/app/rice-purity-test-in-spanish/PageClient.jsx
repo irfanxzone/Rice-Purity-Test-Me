@@ -160,7 +160,7 @@ export default function SpanishRicePurityTestPage() {
         <section className="mx-auto max-w-3xl px-4 pt-10 pb-10 sm:px-6 sm:pt-14 lg:px-8">
           <h1 className="mt-5 text-center text-4xl font-extrabold text-ink-900 sm:text-5xl">Rice Purity Test in Spanish</h1>
           <p className="mx-auto mt-3 max-w-xl text-center text-[16px] leading-relaxed text-ink-700">{"There are multiple Spanish versions available on the internet named \"test de pureza\", \"test de pureza Rice\", or simply \"Rice Purity Test en español\". If you’re confused about which one is the real test, cause all tests pose the same idea, but they’re not the same."}</p>
-          <p className="mx-auto mt-3 max-w-xl text-center text-[16px] leading-relaxed text-ink-700">{"Before taking any Spanish version, check that the list of questions shouldn’t be changed. Multiple websites offer it; some provide a direct translation of the original version, and others make it from scratch. So if two friends take the test on different sites, their scores might be based on different questions and cannot even be comparable."}</p>
+          <p className="mx-auto mt-3 max-w-xl text-center text-[16px] leading-relaxed text-ink-700">{"Before taking any Spanish version, check that the list of questions shouldn’t be changed. Multiple websites offer it; some provide a direct translation of the classic version, and others make it from scratch. So if two friends take the test on different sites, their scores might be based on different questions and cannot even be comparable."}</p>
           <p className="mx-auto mt-3 max-w-xl text-center text-[16px] leading-relaxed text-ink-700">{"This below guide give the best Spanish version of the Rice Purity Test and explains the score levels and different questions people ask about the Purity Test."}</p>
         </section>
 
@@ -241,8 +241,8 @@ export default function SpanishRicePurityTestPage() {
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">{"The most common name used is “test de pureza,” which is famous in Spanish; it means “Purity Test” in English. Here are some of the other name variants you might see on different sites."}</p>
           <ol className="mt-4 list-decimal space-y-2 pl-6 text-neutral-700"><li>{"Test de pureza Rice, this one keeps the name of Rice University and actually means “Rice Purity Test”"}</li>
 <li>{"Prueba de pureza, it uses a different word for the test."}</li>
-<li>{"Rice Purity Test en español kept the original name and added Spanish flavour."}</li></ol>
-          <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">Among all of the above, there is no authorized Spanish edition. The original <a href="https://ricepuritytestme.com/" className="rpt-interlink">Rice Purity Test</a> is in the English language. It began as a student newspaper questionnaire at Rice University and spread from there.</p>
+<li>{"Rice Purity Test en español kept the classic name and added Spanish flavour."}</li></ol>
+          <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">Among all of the above, there is no authorized Spanish edition. The classic <a href="https://ricepuritytestme.com/" className="rpt-interlink">Rice Purity Test</a> is in the English language. It began as a student newspaper questionnaire at Rice University and spread from there.</p>
           <img src="/rice-purity-test-in-spanish.webp" alt="Rice Purity Test in Spanish: 100-question test de pureza" className="mt-6 h-auto w-full rounded-lg border border-ink-200 object-cover" />
           <h2 className="font-heading mt-10 text-2xl font-bold text-neutral-900 sm:text-3xl">What stays exactly the same</h2>
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">{"Whichever edition you take, the core never changes:"}</p>

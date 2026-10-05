@@ -271,7 +271,7 @@ export default function BYURicePurityTestClient() {
             What is the BYU Rice Purity Test?
           </h2>
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
-            The BYU Rice Purity Test is an updated and customized version of the original Rice Purity Test based on 100 questions about your personal relationships, habits, behaviors, and experiences over time. This test was created specifically for BYU students, which is why it is named the BYU Rice Purity Test.
+            The BYU Rice Purity Test is an updated and customized version of the classic Rice Purity Test based on 100 questions about your personal relationships, habits, behaviors, and experiences over time. This test was created specifically for BYU students, which is why it is named the BYU Rice Purity Test.
           </p>
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
             The score is described in different levels. Each level determines which category you fall into, such as a purely innocent, partially innocent, or more experienced person.

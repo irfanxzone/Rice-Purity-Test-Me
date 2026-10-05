@@ -274,10 +274,10 @@ export default function RacismRicePurityTestPage() {
           />
           <h2 className="font-heading text-2xl font-bold tracking-tight text-neutral-900 sm:text-3xl mt-10">What is the Racism Rice Purity Test?</h2>
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
-            The Racism Rice purity Test became popular online as a part of the broader trend of self-assessment quizzes. Since people often follow trends, online trends often spread rapidly through social media. The same happened in the case of the Rice purity score. A random person on X posted about the racism purity test, and it went viral and became a popular trend. The racism rice purity test is a 100-question quiz asking questions about beliefs, behaviours, and experiences related to racial bias.
+            The Racism Rice Purity Test became popular online as a part of the broader trend of self-assessment quizzes. Since people often follow trends, online trends often spread rapidly through social media. The same happened in the case of the Rice purity score. A random person on X posted about the racism purity test, and it went viral and became a popular trend. The racism rice purity test is a 100-question quiz asking questions about beliefs, behaviours, and experiences related to racial bias.
           </p>
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
-            The core idea of this test is very similar to the <a href="/" className="rpt-interlink">rice purity test</a>; actually, it’s a parody of the official test. A complete 100-question list is provided, answered by checking the boxes, and if your answer is No, leave the box unchecked. At last, you’ll get the racism purity score out of 100.
+            The core idea of this test is very similar to the <a href="/" className="rpt-interlink">rice purity test</a>; actually, it’s a parody of the classic test. A complete 100-question list is provided, answered by checking the boxes, and if your answer is No, leave the box unchecked. At last, you’ll get the racism purity score out of 100.
           </p>
           <h2 className="font-heading text-2xl font-bold tracking-tight text-neutral-900 sm:text-3xl mt-10">What Do Your Racism Purity Test Scores Mean?</h2>
           <ul className="list-disc ml-6 mt-2 text-[16px] text-neutral-700">
@@ -296,7 +296,7 @@ export default function RacismRicePurityTestPage() {
           </p>
           <h2 className="font-heading text-2xl font-bold tracking-tight text-neutral-900 sm:text-3xl mt-10">Conclusion</h2>
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
-            The Racism Rice purity Test is an amazing tool to describe one’s racial bias. The results of the test do not prove you’re racist or pure, but it’s just for educational and self-reflection purposes. Students, adults, and people of different age groups can take this and get to know their race purity score. This is already a trend, so take the test and share it with your friends to know their experiences and discussions.
+            The Racism Rice Purity Test is an amazing tool to describe one’s racial bias. The results of the test do not prove you’re racist or pure, but it’s just for educational and self-reflection purposes. Students, adults, and people of different age groups can take this and get to know their race purity score. This is already a trend, so take the test and share it with your friends to know their experiences and discussions.
           </p>
         </section>
       </main>

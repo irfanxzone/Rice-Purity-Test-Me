@@ -274,7 +274,7 @@ export default function GirlsRicePurityTestClient() {
             What Makes the Rice Purity Test for Girls Different?
           </h2>
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
-            If you've taken the official Rice Purity Test, which was originally made for college students and has evolved over time. The questions in that test are general and can be applied to everyone. On the other hand, this version is specially designed and carefully created for girls only, which is what makes it different from other test variants. It asks about those experiences and amazing moments that only relate to girls.
+            If you've taken the classic Rice Purity Test, which was initially made for college students and has evolved over time. The questions in that test are general and can be applied to everyone. On the other hand, this version is specially designed and carefully created for girls only, which is what makes it different from other test variants. It asks about those experiences and amazing moments that only relate to girls.
           </p>
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
             One thing to keep in mind is that maybe some questions may not relate to you, that is absolutely normal. Some girls are more social, while others are shy due to their culture and environment. That's why take this very lightly, rather than as a judgmental or serious test.
@@ -289,7 +289,7 @@ export default function GirlsRicePurityTestClient() {
             How the Purity Score Works
           </h2>
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
-            When we initiate the test, it starts from 100. Each "Yes" answer to a question usually subtracts a point from 100. This simply means that your score decreases each time you select an item that applies to you. As this test completely follows the mechanism of the official version, higher scores mean less experience and lower scores mean a more experienced person.
+            When we initiate the test, it starts from 100. Each "Yes" answer to a question usually subtracts a point from 100. This simply means that your score decreases each time you select an item that applies to you. As this test completely follows the mechanism of the classic version, higher scores mean less experience and lower scores mean a more experienced person.
           </p>
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
             However, the purpose is not to determine who is more pure than others because two girls can have the same score, but still hold totally different personalities. So instead of looking at whether your score is good or bad, just reflect on whether the score relates to your life or personality. Below are score levels:

@@ -190,7 +190,7 @@ export default function WeightedRicePurityTestPage() {
             Weighted Rice Purity Test
           </h1>
           <p className="mx-auto mt-3 max-w-xl text-[16px] leading-relaxed text-ink-700 text-center">
-            The Weighted Rice Purity Test is a much more realistic version of the official <a href="/" className="rpt-interlink">Rice purity Test</a>. After becoming popular, many users demanded that the score be weighted by different questions rather than simply decreasing by 1 point from 100. This version assigns a different weight to each question; the score weighting depends on the type of question. It’s a complete parody of the original test; the only thing that is changed is that instead of giving every question 1 point this test distributes scores in positive and negative scores.
+            The Weighted Rice Purity Test is a much more realistic version of the classic <a href="/" className="rpt-interlink">Rice Purity Test</a>. After becoming popular, many users demanded that the score be weighted by different questions rather than simply decreasing by 1 point from 100. This version assigns a different weight to each question; the score weighting depends on the type of question. It’s a complete parody of the classic test; the only thing that is changed is that instead of giving every question 1 point this test distributes scores in positive and negative scores.
             <br /><br />
             The Weighted Test doesn’t treat every question equally; it gives different importance to each question. Some questions weigh more than others; let’s say some reduce the score a little, but some reduce it more and the result is based on the weight of each question. The test is made for those who want a realistic approach with serious or risky experiences. This way, the score looks more meaningful.
           </p>
@@ -304,16 +304,16 @@ export default function WeightedRicePurityTestPage() {
 
         <section className="mx-auto max-w-3xl px-4 py-16 sm:px-6 lg:px-8 rpt-prose">
           <h2 className="font-heading text-2xl font-bold tracking-tight text-neutral-900 sm:text-3xl mt-10">
-            What the Original Rice Purity Test Misses
+            What the Classic Rice Purity Test Misses
           </h2>
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
-            The Rice Purity Test started long ago. The questions included in it are still relevant and up-to-date, but the score mechanism is outdated. Many social media users wanted a more profound and better version which reduces the purity score out of 100 by the weight of the question. What the original tests misses is that we cannot treat holding hands and being arrested as having the same weight score.
+            The Rice Purity Test started long ago. The questions included in it are still relevant and up-to-date, but the score mechanism is outdated. Many social media users wanted a more profound and better version which reduces the purity score out of 100 by the weight of the question. What the classic tests misses is that we cannot treat holding hands and being arrested as having the same weight score.
           </p>
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
-            For an example of how the original scoring works, the <a href="https://ricepuritytestme.com/76-rice-purity-test" className="rpt-interlink">76 Rice Purity Test</a> guide explains why 24 checked answers leave a score of 76; weighted scores use a different calculation.
+            For an example of how the classic scoring works, the <a href="https://ricepuritytestme.com/76-rice-purity-test" className="rpt-interlink">76 Rice Purity Test</a> guide explains why 24 checked answers leave a score of 76; weighted scores use a different calculation.
           </p>
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
-            The weighted test is also composed of the same questions given in the original version. The only difference is that each question has a different score. Seeing the high demand, we designed the test provided above, which perfectly gives a better scoring experience than the official rice purity test.
+            The weighted test is also composed of the same questions given in the classic version. The only difference is that each question has a different score. Seeing the high demand, we designed the test provided above, which perfectly gives a better scoring experience than the classic rice purity test.
           </p>
           <img
             src="/weighted-rice-purity-test.webp"
@@ -442,7 +442,7 @@ export default function WeightedRicePurityTestPage() {
             Conclusion
           </h2>
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
-            The Weighted Rice Purity Test is a much better version of the original test. The scoring mechanics, especially each question, has a different weight, based on their nature. This activity is the real problem solver and in-demand thing from social media users. This makes the test more user-oriented and engages them with the test until the last question.
+            The Weighted Rice Purity Test is a much better version of the classic test. The scoring mechanics, especially each question, has a different weight, based on their nature. This activity is the real problem solver and in-demand thing from social media users. This makes the test more user-oriented and engages them with the test until the last question.
           </p>
         </section>
       </main>

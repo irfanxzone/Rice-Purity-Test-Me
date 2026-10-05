@@ -60,7 +60,7 @@ export default function About() {
                     </h2>
                     <p className="mt-3">
                         The test has been circulating informally for nearly a
-                        century, originally printed on paper and passed between
+                        century, initially printed on paper and passed between
                         students during orientation week. Over the years it
                         became a fixture of college life, and in the social
                         media era it went viral on TikTok, Twitter, and
