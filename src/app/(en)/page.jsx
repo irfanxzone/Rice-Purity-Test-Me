@@ -1,4 +1,3 @@
-import AllTests from "@/components/AllTests";
 import { buildMetadata, getPage } from "@/lib/seo";
 import { ALL_QUESTIONS } from "@/data/questions";
 import HomePageClient from "../HomePageClient";
@@ -125,7 +124,6 @@ export default function HomePage() {
                     <SeoContent />
                     <Faq items={HOME_FAQ} />
                     <FinalWords />
-                    <AllTests />
                 </main>
                 <HomeFooter />
             </div>

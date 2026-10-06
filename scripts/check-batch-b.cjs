@@ -33,13 +33,11 @@ const base = process.env.TEST_URL || 'http://127.0.0.1:3100';
         headings: [...document.querySelectorAll('main h1,main h2,main h3,main h4')].map(el => ({ level: Number(el.tagName.slice(1)), text: el.textContent.trim() })),
         cards: [...document.querySelectorAll('[data-testid="all-tests"] a')].map(el => ({ path: el.getAttribute('href'), title: el.textContent.trim() })),
         siblings: [...document.querySelectorAll('main [data-testid="related-tests"] a')].map(el => el.getAttribute('href')),
-        footerOrder: !!document.querySelector('[data-testid="all-tests"]') && !!(document.querySelector('[data-testid="all-tests"]').compareDocumentPosition(document.querySelector('footer')) & Node.DOCUMENT_POSITION_FOLLOWING),
       }));
       const internal = content.links.map(href => { try { const url = new URL(href, base); return [new URL(base).origin, 'https://ricepuritytestme.com'].includes(url.origin) ? url.pathname : null; } catch { return null; } }).filter(path => paths.has(path));
       graph.set(entry.path, [...new Set(internal)]);
       if (entry.path === '/') {
-        assert.deepEqual(content.cards, variants.map(item => ({ path: item.path, title: item.title })));
-        assert(content.footerOrder, 'Homepage grid must precede footer');
+        assert.deepEqual(content.cards, [], "Homepage directory removed at user request");
       }
       if (variantPaths.has(entry.path)) {
         const siblings = [...new Set(content.bodyLinks.filter(path => variantPaths.has(path) && path !== entry.path))];
@@ -72,12 +70,11 @@ const base = process.env.TEST_URL || 'http://127.0.0.1:3100';
       const errors = [];
       page.on('pageerror', error => errors.push(error.message));
       await page.goto(base, { waitUntil: 'domcontentloaded' });
-      const grid = page.getByTestId('all-tests');
-      await grid.scrollIntoViewIfNeeded();
-      const columns = await grid.locator('a').evaluateAll(els => new Set(els.map(el => Math.round(el.getBoundingClientRect().left))).size);
-      assert.equal(columns, width < 640 ? 1 : width < 1024 ? 2 : 3);
+      assert.equal(await page.getByTestId('all-tests').count(), 0);
       assert(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth));
-      await grid.locator('a[href="/rice-purity-test-in-spanish"]').click();
+      await page.goto(base + '/blog', { waitUntil: 'domcontentloaded' });
+      await page.getByRole('button', { name: '3', exact: true }).click();
+      await page.locator('main a[href="/rice-purity-test-in-spanish"]').first().click();
       await page.waitForURL('**/rice-purity-test-in-spanish');
       assert.equal(await page.locator('html').getAttribute('lang'), 'es');
       assert.equal(await page.locator('#test input[type=checkbox]').count(), 100);
@@ -85,10 +82,10 @@ const base = process.env.TEST_URL || 'http://127.0.0.1:3100';
       await page.waitForURL(base + '/');
       assert.equal(await page.locator('html').getAttribute('lang'), 'en');
       assert.deepEqual(errors, []);
-      console.log('PASS ' + width + 'px: grid, overflow, cross-language navigation, and runtime errors.');
+      console.log('PASS ' + width + 'px: homepage, overflow, cross-language navigation, and runtime errors.');
       await page.close();
     }
     fs.writeFileSync('reports/seo/batch-b-results.json', JSON.stringify({ pages: results, clickDepth: Object.fromEntries(distances), orphanPages: [], allVariantsWithinTwoClicks: true }, null, 2) + '\n');
-    console.log('PASS Batch B: all 25 variants are one click from home; all 32 pages reachable; no orphans.');
+    console.log('PASS Batch B: all 25 variants are within two clicks from home; all 32 pages reachable; no orphans.');
   } finally { await browser.close(); }
 })().catch(error => { console.error(error); process.exitCode = 1; });
