@@ -87,8 +87,7 @@ export default function About() {
                                 <strong className="text-ink-900">
                                     Anonymous by design.
                                 </strong>{" "}
-                                Runs entirely in your browser. No accounts, no
-                                cookies for scoring, nothing saved server-side.
+                                Your quiz answers stay in your browser and no account is required. Google AdSense and Google Analytics may use cookies; see our Privacy Policy.
                             </span>
                         </li>
                         <li className="flex gap-3">

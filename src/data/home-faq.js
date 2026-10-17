@@ -1,7 +1,9 @@
 export const HOME_FAQ = [
+  { q: "What do the Rice Purity score bands mean?", a: "98-100: Very high innocence; 75-97: Average range; 45-74: Moderate experience; 0-44: High level of life experience. These are entertainment labels, not scientifically measured averages or judgments of your worth." },
+  { q: "Are my answers private?", a: "Your answers stay in your browser. Google AdSense and Google Analytics may use cookies. See our Privacy Policy for advertising and analytics details." },
   {
     q: "Is the Rice Purity Test suitable for a 14-year-old?",
-    a: "Preferably not, but some students voluntarily take the test. Still certain questions are not associated with 14-years-old that is why it is recommended to not answer if you do not feel comfortable.",
+    a: "The 100-question quiz contains adult questions and is for adults aged 18 or older. Younger teens can use our non-sexual 20-question version for 14-year-olds.",
   },
   {
     q: "Is the Rice Purity Test accurate?",

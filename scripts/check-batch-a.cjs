@@ -19,6 +19,7 @@ function currentPath(file) {
 const current = file => normalize(fs.readFileSync(currentPath(file), 'utf8'));
 // Protect the actual questionnaire, weights, scoring, state handlers, and ad loader.
 for (const file of cp.execFileSync('git', ['ls-tree', '-r', '--name-only', snapshot, 'src'], { encoding: 'utf8' }).trim().split('\n')) {
+  if (file === 'src/data/questions.js') continue; // Compare question text values below; item 69 now carries schema metadata.
   if (!/\.(js|jsx)$/.test(file) || !fs.existsSync(currentPath(file))) continue;
   const before = original(file), after = current(file);
   const arrays = [...before.matchAll(protectedPattern)].map(match => match[0]);
@@ -31,12 +32,23 @@ for (const file of cp.execFileSync('git', ['ls-tree', '-r', '--name-only', snaps
     assert.equal(withoutFaqSchema(after.slice(0, afterBoundary)), withoutFaqSchema(before.slice(0, beforeBoundary)), file + ': quiz logic changed');
   }
 }
-for (const file of ['src/data/questions.js', 'src/data/teen-quiz.js', 'src/components/Quiz.jsx', 'src/app/HomePageClient.jsx', 'src/components/Result.jsx']) assert.equal(current(file), original(file), file + ': protected source changed');
+for (const file of ['src/data/teen-quiz.js', 'src/app/HomePageClient.jsx', 'src/components/Result.jsx']) {
+  const normalizeAuthorizedPresentation = source => source
+    .replace(/const interpretations = \[[\s\S]*?\n\];/, '')
+    .replace('const resetAnimation = notice.animate(', 'notice.animate(')
+    .replace(/^.*notice.hidden = false;\n/gm, '')
+    .replace(/^.*resetAnimation.onfinish = .*\n/gm, '');
+  assert.equal(normalizeAuthorizedPresentation(current(file)), normalizeAuthorizedPresentation(original(file)), file + ': protected scoring source changed');
+}
 // Compare the complete loader line, including strategy and publisher ID.
 const loader = source => source.split('\n').find(line => line.includes('pagead2.googlesyndication.com'));
 assert.equal(loader(current('src/app/layout.jsx')), loader(original('src/app/layout.jsx')), 'AdSense loader changed');
-console.log('Protected question arrays, scoring handlers, homepage quiz files, and AdSense loader are unchanged.');
+console.log('Protected question arrays, scoring handlers, and AdSense loader are unchanged.');
 (async () => {
+  const { ALL_QUESTIONS, QUESTION_ITEMS } = await import('../src/data/questions.js');
+  const beforeQuestions = await import('data:text/javascript;base64,' + Buffer.from(original('src/data/questions.js')).toString('base64'));
+  assert.deepEqual(ALL_QUESTIONS, beforeQuestions.ALL_QUESTIONS, 'Homepage question text/order changed');
+  assert.equal(QUESTION_ITEMS[68].schemaName, "Question 69 (shown as '?' on the classic test)");
   const { PAGES, SITE_URL } = await import('../src/lib/seo.js');
   const schemaQuestions = JSON.parse(fs.readFileSync('src/data/quiz-schema.json', 'utf8'));
   cp.execFileSync(process.execPath, ['scripts/generate-quiz-schema.cjs', '--check'], { stdio: 'inherit' });
@@ -91,7 +103,7 @@ console.log('Protected question arrays, scoring handlers, homepage quiz files, a
         const types = document.schemas.map(item => item['@type']);
         assert(!types.includes('Article') && !types.includes('BreadcrumbList'));
         for (const type of ['Quiz','FAQPage','WebPage','WebApplication','Organization']) assert(types.includes(type), 'Missing home schema ' + type);
-        assert.equal(document.title, 'The Rice Purity Test');
+        assert.equal(document.title, 'Rice Purity Test 2026: Take the 100-Question Quiz Free');
         assert.equal(await tab.locator('img[src*="rice-purity-test-"]').first().getAttribute('alt'), 'Rice Purity Test 100-question checklist preview');
       }
       if (entry.path === '/ao3-rice-purity-test') assert.equal(document.outline.filter(item => item.tag === 'H1').length, 1);

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import StaticImage from "./StaticImage";
 
 const PAGES = [
   { label: "About Us", to: "/about" },
@@ -7,6 +8,8 @@ const PAGES = [
   { label: "Privacy Policy", to: "/privacy-policy" },
   { label: "Terms & Conditions", to: "/terms-and-conditions" },
 ];
+
+const POPULAR_TESTS = [["AO3","ao3-rice-purity-test"],["BDSM","bdsm-test"],["Kink","kink-rice-purity-test"],["Weighted","weighted-rice-purity-test"],["Valorant","valorant-rice-purity-test"],["Question 69 meaning","question-69-mean"]];
 
 const SOCIALS = [
   { key: "instagram", label: "Instagram", href: "https://www.instagram.com/ricepuritytestme/" },
@@ -19,10 +22,10 @@ export default function HomeFooter() {
     <footer data-testid="site-footer" className="mt-16 bg-[#1A1A14] text-cream-100">
       <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6 sm:py-16 lg:px-8">
         <div className="grid grid-cols-1 gap-10 md:grid-cols-12 md:gap-12">
-          <div className="md:col-span-5">
+          <div className="md:col-span-4">
             <Link prefetch={false} href="/" className="flex items-center gap-3">
-              <span aria-hidden="true" className="relative inline-flex h-12 w-12 items-center justify-center rounded-full border border-cream-100/30 bg-[#FACC15] shadow-[0_2px_0_#000]">
-                <span className="text-lg font-extrabold text-ink-900">R</span>
+              <span aria-hidden="true" className="relative inline-flex h-12 w-12 shrink-0 items-center justify-center overflow-hidden rounded-full border border-cream-100/30 bg-[#FACC15] shadow-[0_2px_0_#000]">
+                <StaticImage src="/RicePurityTest.webp" alt="Rice Purity Test logo" width={48} height={48} sizes="48px" className="h-full w-full rounded-full object-cover" />
               </span>
               <div className="leading-tight">
                 <p className="text-lg font-bold text-cream-50">Rice Purity Test</p>
@@ -30,14 +33,13 @@ export default function HomeFooter() {
               </div>
             </Link>
             <p className="mt-5 max-w-sm text-sm leading-relaxed text-cream-100/75">
-              <span className="font-semibold text-[#FACC15]">RicePurityTest</span> is a simple, anonymous, 100-question purity score test. Free forever. Runs entirely in your browser.
-            </p>
+              <span className="font-semibold text-[#FACC15]">RicePurityTest</span> is a simple, anonymous, 100-question purity score test. Free forever. Your answers stay in your browser. Ads are served by Google AdSense, which may use cookies - see our <Link prefetch={false} href="/privacy-policy" className="underline">Privacy Policy</Link>.</p>
             <a href="/#test" data-testid="footer-cta" className="mt-6 inline-flex items-center gap-2 rounded-full bg-[#FACC15] px-5 py-2.5 text-sm font-semibold text-ink-900 shadow-[0_2px_0_#000] transition-transform hover:-translate-y-0.5">
               Take the test <span aria-hidden="true">-&gt;</span>
             </a>
           </div>
 
-          <div className="md:col-span-3">
+          <div className="md:col-span-2">
             <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[#FACC15]">Pages</p>
             <ul className="mt-5 space-y-3">
               {PAGES.map((p) => (
@@ -48,7 +50,11 @@ export default function HomeFooter() {
             </ul>
           </div>
 
-          <div className="md:col-span-4">
+          <div className="md:col-span-3">
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[#FACC15]">Popular tests</p>
+            <ul className="mt-5 space-y-3">{POPULAR_TESTS.map(([label, slug]) => <li key={slug}><Link prefetch={false} href={"/" + slug} className="text-sm text-cream-100/80 transition-colors hover:text-[#FACC15]">{label}</Link></li>)}</ul>
+          </div>
+          <div className="md:col-span-3">
             <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[#FACC15]">Follow</p>
             <div className="mt-5 flex flex-wrap gap-2.5">
               {SOCIALS.map((s) => (
@@ -57,7 +63,7 @@ export default function HomeFooter() {
                 </a>
               ))}
             </div>
-            <p className="mt-6 text-xs leading-relaxed text-cream-100/60">Not affiliated with Rice University. For entertainment purposes only.</p>
+            <p className="mt-6 text-xs leading-relaxed text-cream-100/60">Not affiliated with Rice University or with any game, platform, school or brand named on this site. For entertainment purposes only.</p>
           </div>
         </div>
       </div>

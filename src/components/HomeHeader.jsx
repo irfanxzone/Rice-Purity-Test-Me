@@ -2,7 +2,12 @@ import { getMenuItems } from "@/lib/seo";
 import StaticImage from "./StaticImage";
 import Link from "next/link";
 
-const MORE_TESTS = getMenuItems("tests");
+const MORE_TESTS = [
+  ...getMenuItems("tests"),
+  { to: "/bdsm-test", label: "BDSM Test" },
+  { to: "/kink-rice-purity-test", label: "Kink Rice Purity Test" },
+  { to: "/weighted-rice-purity-test", label: "Weighted Rice Purity Test" },
+].filter((item, index, items) => items.findIndex(other => other.to === item.to) === index);
 
 const ABOUT_ITEMS = getMenuItems("about");
 

@@ -33,12 +33,14 @@ export default function HomePageClient({ children, totalQuestions }) {
             checked.forEach(input => { input.checked = false; });
             const notice = quizRef.current.querySelector("[data-reset-notice]");
             notice.getAnimations().forEach(animation => animation.cancel());
-            notice.animate([
+            notice.hidden = false;
+            const resetAnimation = notice.animate([
                 { opacity: 0, transform: "rotate(-14deg) scale(1.6)" },
                 { opacity: 0.95, transform: "rotate(-8deg) scale(1)", offset: 0.25 },
                 { opacity: 0.9, transform: "rotate(-8deg) scale(1)", offset: 0.7 },
                 { opacity: 0, transform: "rotate(-8deg) scale(0.95)" },
             ], { duration: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? 1 : 1400 });
+            resetAnimation.onfinish = () => { notice.hidden = true; };
         }
     }
 

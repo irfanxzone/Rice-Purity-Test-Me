@@ -1,4 +1,4 @@
-import { ALL_QUESTIONS } from "@/data/questions";
+import { QUESTION_ITEMS } from "@/data/questions";
 
 function QuestionRow({ text, idx }) {
     const id = `q-${idx}`;
@@ -44,6 +44,7 @@ export const Quiz = () => {
                 </p>
             </div>
 
+
             {/* Disclaimer */}
             <div
                 id="test"
@@ -57,7 +58,7 @@ export const Quiz = () => {
                     data-testid="cancelled-stamp"
                     className="pointer-events-none absolute inset-0 flex items-center justify-center"
                 >
-                    <span className="rpt-cancelled-stamp" data-reset-notice style={{ animation: "none", opacity: 0 }}>Cancelled</span>
+                    <span className="rpt-cancelled-stamp" data-reset-notice hidden style={{ animation: "none", opacity: 0 }}>Cancelled</span>
                 </div>
             </div>
 
@@ -65,8 +66,8 @@ export const Quiz = () => {
             <div className="relative">
                 <div className="mb-10 scroll-mt-28">
                     <ul className="divide-y divide-ink-900/10 rounded-2xl border border-ink-300/50 bg-cream-50/70 px-3 sm:px-4">
-                        {ALL_QUESTIONS.map((text, idx) => (
-                            <QuestionRow key={idx} text={text} idx={idx} />
+                        {QUESTION_ITEMS.map((item, idx) => (
+                            <QuestionRow key={idx} {...(typeof item === "string" ? { text: item } : item)} idx={idx} />
                         ))}
                     </ul>
                 </div>

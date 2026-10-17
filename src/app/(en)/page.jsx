@@ -1,5 +1,5 @@
-import { buildMetadata, getPage } from "@/lib/seo";
-import { ALL_QUESTIONS } from "@/data/questions";
+import { buildMetadata, getPage, org, SITE_NAME } from "@/lib/seo";
+import { ALL_QUESTIONS, QUESTION_ITEMS } from "@/data/questions";
 import HomePageClient from "../HomePageClient";
 import Quiz from "@/components/Quiz";
 import Script from "next/script";
@@ -23,10 +23,8 @@ export default function HomePage() {
         "@context": "https://schema.org",
         "@graph": [
             {
-                "@type": "Organization",
+                ...org,
                 "@id": `${siteUrl}#organization`,
-                name: "Rice Purity Test",
-                url: siteUrl,
                 logo: {
                     "@type": "ImageObject",
                     url: logoUrl,
@@ -46,15 +44,11 @@ export default function HomePage() {
                 isPartOf: {
                     "@type": "WebSite",
                     "@id": `${siteUrl}#website`,
-                    name: "Rice Purity Test",
+                    name: SITE_NAME,
                     url: siteUrl,
-                    publisher: {
-                        "@id": `${siteUrl}#organization`,
-                    },
+                    publisher: org,
                 },
-                publisher: {
-                    "@id": `${siteUrl}#organization`,
-                },
+                publisher: org,
                 mainEntity: {
                     "@id": `${siteUrl}#rice-purity-quiz`,
                 },
@@ -73,9 +67,7 @@ export default function HomePage() {
                     price: "0",
                     priceCurrency: "USD",
                 },
-                publisher: {
-                    "@id": `${siteUrl}#organization`,
-                },
+                publisher: org,
             },
             {
                 "@type": "Quiz",
@@ -89,13 +81,11 @@ export default function HomePage() {
                 assesses: "Life experiences and personal reflection",
                 numberOfQuestions: ALL_QUESTIONS.length,
                 isAccessibleForFree: true,
-                provider: {
-                    "@id": `${siteUrl}#organization`,
-                },
-                hasPart: ALL_QUESTIONS.map((question, index) => ({
+                provider: org,
+                hasPart: QUESTION_ITEMS.map((question, index) => ({
                     "@type": "Question",
                     position: index + 1,
-                    name: question,
+                    name: typeof question === "string" ? question : question.schemaName ?? question.text,
                 })),
             },
         ],

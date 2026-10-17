@@ -6,36 +6,10 @@ import { Toaster, toast } from "sonner";
 import HandCheck from "./HandCheck";
 
 const interpretations = [
-    {
-        min: 97,
-        max: 100,
-        label: "Pure as Snow",
-        text: "Very few life experiences checked off. You are as pure as it gets — innocence in its finest form.",
-    },
-    {
-        min: 85,
-        max: 96,
-        label: "Mostly Pure",
-        text: "A few experiences but still firmly on the innocent side. You have kept things fairly tame so far.",
-    },
-    {
-        min: 55,
-        max: 84,
-        label: "Average",
-        text: "A healthy mix of experiences. You have lived a balanced life — neither too wild nor too reserved.",
-    },
-    {
-        min: 25,
-        max: 54,
-        label: "Experienced",
-        text: "You have lived a full and varied life. You have clearly done a lot and collected plenty of stories.",
-    },
-    {
-        min: 0,
-        max: 24,
-        label: "Very Experienced",
-        text: "You have done most of what there is to do. A life lived out loud — no regrets, plenty of tales.",
-    },
+    { min: 98, max: 100, label: "Very high innocence", text: "You checked very few experiences on this questionnaire." },
+    { min: 75, max: 97, label: "Average range", text: "You checked some experiences. This band is an entertainment label, not a measured population average." },
+    { min: 45, max: 74, label: "Moderate experience", text: "You checked a moderate number of experiences on this questionnaire." },
+    { min: 0, max: 44, label: "High level of life experience", text: "You checked many experiences. Your score is not a judgment of your worth." },
 ];
 
 const getInterpretation = (score) =>

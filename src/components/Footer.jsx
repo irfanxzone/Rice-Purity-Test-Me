@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import StaticImage from "./StaticImage";
 import { ArrowUp } from "lucide-react";
 
 const PAGES = [
@@ -10,6 +11,8 @@ const PAGES = [
     { label: "Privacy Policy", to: "/privacy-policy" },
     { label: "Terms & Conditions", to: "/terms-and-conditions" },
 ];
+
+const POPULAR_TESTS = [["AO3","ao3-rice-purity-test"],["BDSM","bdsm-test"],["Kink","kink-rice-purity-test"],["Weighted","weighted-rice-purity-test"],["Valorant","valorant-rice-purity-test"],["Question 69 meaning","question-69-mean"]];
 
 const SOCIALS = [
     {
@@ -59,15 +62,13 @@ export default function Footer() {
             <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6 sm:py-16 lg:px-8">
                 <div className="grid grid-cols-1 gap-10 md:grid-cols-12 md:gap-12">
                     {/* Brand */}
-                    <div className="md:col-span-5">
+                    <div className="md:col-span-4">
                         <Link href="/" className="flex items-center gap-3">
                             <span
                                 aria-hidden="true"
-                                className="relative inline-flex h-12 w-12 items-center justify-center rounded-full border border-cream-100/30 bg-[#FACC15] shadow-[0_2px_0_#000]"
+                                className="relative inline-flex h-12 w-12 shrink-0 items-center justify-center overflow-hidden rounded-full border border-cream-100/30 bg-[#FACC15] shadow-[0_2px_0_#000]"
                             >
-                                <span className="text-lg font-extrabold text-ink-900">
-                                    R
-                                </span>
+                                <StaticImage src="/RicePurityTest.webp" alt="Rice Purity Test logo" width={48} height={48} sizes="48px" className="h-full w-full rounded-full object-cover" />
                             </span>
                             <div className="leading-tight">
                                 <p className="text-lg font-bold text-cream-50">
@@ -84,8 +85,7 @@ export default function Footer() {
                                 RicePurityTest
                             </span>{" "}
                             is a simple, anonymous, 100-question purity score
-                            test. Free forever. Runs entirely in your browser —
-                            nothing saved, nothing tracked, nothing shared.
+                            test. Free forever. Your answers stay in your browser. Ads are served by Google AdSense, which may use cookies - see our <Link prefetch={false} href="/privacy-policy" className="underline">Privacy Policy</Link>.
                         </p>
 
                         <Link
@@ -99,7 +99,7 @@ export default function Footer() {
                     </div>
 
                     {/* Pages */}
-                    <div className="md:col-span-3">
+                    <div className="md:col-span-2">
                         <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[#FACC15]">
                             Pages
                         </p>
@@ -118,8 +118,13 @@ export default function Footer() {
                         </ul>
                     </div>
 
+                    {/* Popular tests */}
+                    <div className="md:col-span-3">
+                        <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[#FACC15]">Popular tests</p>
+                        <ul className="mt-5 space-y-3">{POPULAR_TESTS.map(([label, slug]) => <li key={slug}><Link prefetch={false} href={"/" + slug} className="text-sm text-cream-100/80 transition-colors hover:text-[#FACC15]">{label}</Link></li>)}</ul>
+                    </div>
                     {/* Socials */}
-                    <div className="md:col-span-4">
+                    <div className="md:col-span-3">
                         <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[#FACC15]">
                             Follow
                         </p>
@@ -141,8 +146,7 @@ export default function Footer() {
                         </div>
 
                         <p className="mt-6 text-xs leading-relaxed text-cream-100/60">
-                            Not affiliated with Rice University. For
-                            entertainment purposes only. If content distresses
+                            Not affiliated with Rice University or with any game, platform, school or brand named on this site. For entertainment purposes only. If content distresses
                             you, please speak with a trusted person or
                             professional.
                         </p>

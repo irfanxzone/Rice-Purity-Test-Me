@@ -3,7 +3,7 @@
 // Final score = 100 - (number of checked items).
 
 // Single flat list of 100 questions (user requested order)
-export const ALL_QUESTIONS = [
+export const QUESTION_ITEMS = [
     "Held hands romantically?",
     "Been on a date?",
     "Been in a relationship?",
@@ -72,7 +72,7 @@ export const ALL_QUESTIONS = [
     "Committed an act of vandalism?",
     "Had sexual intercourse?",
     "Had sexual intercourse three or more times in one night?",
-    "?",
+    { text: "?", schemaName: "Question 69 (shown as '?' on the classic test)" },
     "Had sexual intercourse 10 or more times?",
     "Had sexual intercourse in four or more positions?",
     "Had sexual intercourse with a stranger or person you met within 24 hours?",
@@ -105,5 +105,7 @@ export const ALL_QUESTIONS = [
     "Committed an act of incest?",
     "Engaged in bestiality?",
 ];
+
+export const ALL_QUESTIONS = QUESTION_ITEMS.map(item => typeof item === "string" ? item : item.text);
 
 export const TOTAL_QUESTIONS = ALL_QUESTIONS.length;

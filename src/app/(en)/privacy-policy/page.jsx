@@ -93,9 +93,10 @@ export default function PrivacyPolicy() {
                         Cookies
                     </h2>
                     <p className="mt-3">
-                        We may use a minimal set of cookies or local-storage
-                        keys to remember light UI preferences. We do not use
-                        tracking cookies across other sites.
+                        Your quiz answers stay in your browser. We use Google AdSense for advertising and Google Analytics to understand site usage. These services may use cookies or similar technologies and receive information such as your IP address, browser details, and pages visited.
+                    </p>
+                    <p className="mt-3">Google and other third-party advertising providers may use cookies to serve and measure ads, including ads based on visits to this and other websites, depending on your settings and applicable consent choices. You can manage advertising personalization in <a className="underline" href="https://myadcenter.google.com/">Google My Ad Center</a> and manage cookies through your browser settings.</p>
+                    <p className="mt-3">Read <a className="underline" href="https://policies.google.com/technologies/partner-sites">how Google uses information from sites that use its services</a> and <a className="underline" href="https://support.google.com/adsense/answer/7549925">how AdSense uses cookies</a> for more information.
                     </p>
                 </section>
 

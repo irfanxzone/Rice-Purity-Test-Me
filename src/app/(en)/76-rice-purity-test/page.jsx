@@ -26,7 +26,7 @@ export default function SeventySixRicePurityTestPage() {
             What does the 76 Rice Purity Test term mean?
           </h2>
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
-            This means you answered "Yes" to 24 questions and received a score of 76 out of 100. Your score level falls between 70 and 80, which indicates someone with average life experiences. The Rice Purity Test covers topics like dating, relationships, and adult experiences and gives a score between 0 and 100.
+            This means you answered "Yes" to 24 questions and received a score of 76 out of 100. Your score falls in the 75-97 band, labelled Average range on this site. The Rice Purity Test covers topics like dating, relationships, and adult experiences and gives a score between 0 and 100.
           </p>
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
             Based on all the questions, a score of 76 doesn't mean you're completely innocent or pure, but you are also far from being wild. You have enjoyed life in a balanced way and haven't gone extreme. This score level is considered moderately high and balanced, not too innocent and not extreme.
@@ -41,17 +41,16 @@ export default function SeventySixRicePurityTestPage() {
             Where Does a 76 Score Sit on the Scale?
           </h2>
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
-            Every platform has its own way of describing score ranges or levels, but one thing they all agree on is that a score of 76 is considered average. Here's the score level breakdown:
+            These four descriptive bands are for entertainment, not measured population averages. A score of 76 falls in the Average range:
           </p>
           <ul className="list-disc ml-6 mt-4 text-[16px] text-neutral-700">
-            <li>100-90: Very pure and innocent, almost no experience.</li>
-            <li>90-80: Still an innocent and pure soul, maybe a first crush or kiss.</li>
-            <li>80-70: Average or moderate purity with some normal dating.</li>
-            <li>70-35: An experienced personality, you've lived a bit, but not gone extreme.</li>
-            <li>34-0: Very low score, often involving extreme behavior, heavy substance use, or legal trouble.</li>
+            <li>98-100: Very high innocence</li>
+            <li>75-97: Average range</li>
+            <li>45-74: Moderate experience</li>
+            <li>0-44: High level of life experience</li>
           </ul>
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
-            So, according to the above score scale, a score of 76 falls within the average-to-moderate range.
+            So, according to the above score scale, a score of 76 falls within the 75-97 Average range.
           </p>
 
           <h2 className="font-heading text-2xl font-bold tracking-tight text-neutral-900 sm:text-3xl mt-10">

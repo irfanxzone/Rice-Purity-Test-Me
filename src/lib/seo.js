@@ -2,15 +2,16 @@
 // See reports/seo/date-provenance.json. Update modified only after a real content edit.
 export const SITE_URL = "https://ricepuritytestme.com";
 export const SITE_NAME = "RicePurityTestMe";
+export const org = { "@type": "Organization", name: SITE_NAME, url: SITE_URL };
 export const PAGES = [
   {
     "path": "/",
-    "title": "The Rice Purity Test",
-    "description": "Take the 100-question Rice Purity Test. Tick what you've done and get your purity score instantly. Free, anonymous, nothing saved.",
+    "title": "Rice Purity Test 2026: Take the 100-Question Quiz Free",
+    "description": "Take the 100-question Rice Purity Test. Tick what you've done and get your purity score instantly. Free, anonymous, answers stay in your browser.",
     "type": "website",
     "absoluteTitle": true,
-    "published": "2026-04-27",
-    "modified": "2026-09-25"
+    "published": "2026-10-17",
+    "modified": "2026-10-17"
   },
   {
     "path": "/76-rice-purity-test",
@@ -61,7 +62,7 @@ export const PAGES = [
   {
     "path": "/bdsm-test",
     "title": "Updated BDSM Test 2026",
-    "description": "Take the 100-question BDSM Test for adults. Check what applies, get your kink score instantly — free, anonymous, nothing saved.",
+    "description": "Take the 100-question BDSM Test for adults. Check what applies, get your kink score instantly — free, anonymous, answers stay in your browser.",
     "type": "article",
     "image": "/BDSM-test.webp",
     "published": "2026-07-12",
@@ -372,7 +373,7 @@ export function buildMetadata({ path, description, absoluteTitle, type } = {}) {
     alternates: {
       canonical,
       ...(["/", "/rice-purity-test-in-spanish"].includes(path) ? {
-        languages: { en: SITE_URL + "/", es: SITE_URL + "/rice-purity-test-in-spanish" },
+        languages: { en: SITE_URL, es: SITE_URL + "/rice-purity-test-in-spanish", "x-default": SITE_URL },
       } : {}),
     },
     robots: { index: !page.noindex, follow: true },

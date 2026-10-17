@@ -329,3 +329,5 @@ code, .font-mono {
     .rpt-native-checkbox { appearance: auto; }
     .rpt-native-checkbox::after { display: none; }
 }
+
+.rpt-cancelled-stamp[hidden] { display: none; }

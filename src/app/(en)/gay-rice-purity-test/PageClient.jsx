@@ -297,7 +297,7 @@ export default function GayRicePurityTestPage() {
             </table>
           </div>
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
-            There is no sign-up, no email, and no name required. It's completely anonymous unless you share it with your friends. The whole thing takes around three to five minutes.
+            There is no sign-up, no email, and no name required. Your answers stay in your browser. Google AdSense and Google Analytics may use cookies; see our Privacy Policy. The whole thing takes around three to five minutes.
           </p>
 
           <h2 className="font-heading mt-10 text-2xl font-bold tracking-tight text-neutral-900 sm:text-3xl">What Does Your Gay Purity Score Mean?</h2>

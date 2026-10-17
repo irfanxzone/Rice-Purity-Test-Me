@@ -301,7 +301,7 @@ export default function AIPurityTestClient() {
           <ul className="mt-4 list-disc space-y-2 pl-6 text-[16px] leading-relaxed text-neutral-700">
             <li>Based on 100 questions covering all aspects of AI in depth.</li>
             <li>Gives you results with just one click and a personalized assessment.</li>
-            <li>Completely anonymous and protects your privacy.</li>
+            <li>Your answers stay in your browser. Google AdSense and Google Analytics may use cookies; see our Privacy Policy.</li>
             <li>You can share your scores with friends, peers, and colleagues easily.</li>
           </ul>
 

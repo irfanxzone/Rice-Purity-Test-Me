@@ -1,3 +1,4 @@
+import Link from "next/link";
 import StaticImage from "./StaticImage";
 
 export const SeoContent = () => {
@@ -85,11 +86,10 @@ export const SeoContent = () => {
                             </tr>
                         </thead>
                         <tbody>
-                            <tr><td className="border px-2 py-1">98-100</td><td className="border px-2 py-1">This is a clear representation of a person’s innocent behavior, youngsters or people under 18 often get the highest purity score.</td></tr>
-                            <tr><td className="border px-2 py-1">91-97</td><td className="border px-2 py-1">You are very pure and not involved in adult activities. This score range is also purest due to fewer instances in life.</td></tr>
-                            <tr><td className="border px-2 py-1">77-90</td><td className="border px-2 py-1">Whether you are in a relationship or experienced certain events, this score is a moderate range that shows a mild experience.</td></tr>
-                            <tr><td className="border px-2 py-1">45-76</td><td className="border px-2 py-1">This score shows that you encounter a wide range of events in your life, and experienced many things.</td></tr>
-                            <tr><td className="border px-2 py-1">0-44</td><td className="border px-2 py-1">This is an extremely experienced graph of a person’s life with uncountable social interactions.</td></tr>
+                            <tr><td className="border px-2 py-1">98-100</td><td className="border px-2 py-1">Very high innocence</td></tr>
+                            <tr><td className="border px-2 py-1">75-97</td><td className="border px-2 py-1">Average range</td></tr>
+                            <tr><td className="border px-2 py-1">45-74</td><td className="border px-2 py-1">Moderate experience</td></tr>
+                            <tr><td className="border px-2 py-1">0-44</td><td className="border px-2 py-1">High level of life experience</td></tr>
                         </tbody>
                     </table>
                 </div>
@@ -121,33 +121,13 @@ export const SeoContent = () => {
                     Over the passage of time, different online communities appeared where the test was inspired by the classic Rice Purity Test. However, they have made different categories based on the interests of users. For instance,
                 </p>
                 <ul className="list-disc ml-6 mt-2 text-[15px] text-neutral-700">
-                    <li>Gaming genre is included, with questions related to games</li>
+                    <li>Gaming genre: <Link prefetch={false} className="rpt-interlink" href="/valorant-rice-purity-test">Valorant</Link>, <Link prefetch={false} className="rpt-interlink" href="/overwatch-rice-purity-test">Overwatch</Link>, <Link prefetch={false} className="rpt-interlink" href="/fortnite-rice-purity-test">Fortnite</Link></li>
                     <li>Anime inspired questions from anime culture</li>
                     <li><a href="/ao3-rice-purity-test" className="rpt-interlink">Fanfiction and AO3</a>, with concentration on reading- and writing-based questions.</li>
                 </ul>
                 <p className="mt-2 text-[15px] leading-relaxed text-neutral-700 sm:text-base">
                     These genres are created by fans. Whereas the classic questionnaire of 100-questions is the best recognized and widely accepted version.
                 </p>
-                <h3 className="mt-8 font-heading text-xl font-semibold text-neutral-900">Rice Test Popularity by Country</h3>
-                <div className="mt-4 overflow-x-auto">
-                    <table className="w-full border border-neutral-200">
-                        <thead className="bg-neutral-100">
-                            <tr>
-                                <th className="px-2 py-1 border">Country</th>
-                                <th className="px-2 py-1 border">Popularity</th>
-                                <th className="px-2 py-1 border">Avg. Score</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr><td className="border px-2 py-1">United States</td><td className="border px-2 py-1">54.21%</td><td className="border px-2 py-1">63.9</td></tr>
-                            <tr><td className="border px-2 py-1">United Kingdom</td><td className="border px-2 py-1">18.69%</td><td className="border px-2 py-1">65.7</td></tr>
-                            <tr><td className="border px-2 py-1">France</td><td className="border px-2 py-1">0.67%</td><td className="border px-2 py-1">57.9</td></tr>
-                            <tr><td className="border px-2 py-1">Russia</td><td className="border px-2 py-1">0.61%</td><td className="border px-2 py-1">59.2</td></tr>
-                            <tr><td className="border px-2 py-1">Canada</td><td className="border px-2 py-1">3.20%</td><td className="border px-2 py-1">61.0</td></tr>
-                            <tr><td className="border px-2 py-1">Australia</td><td className="border px-2 py-1">2.26%</td><td className="border px-2 py-1">64.3</td></tr>
-                        </tbody>
-                    </table>
-                </div>
                 <h3 className="mt-8 font-heading text-xl font-semibold text-neutral-900">What topics or Categories Does the Rice Purity Quiz Cover?</h3>
                 <p className="mt-2 text-[15px] leading-relaxed text-neutral-700 sm:text-base">
                     Covering a wide array of experiences, the Test is centered on behaviors, social expectations, college life etc. for instance

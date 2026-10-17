@@ -1,10 +1,9 @@
 import quizQuestions from "@/data/quiz-schema.json";
-import { getPage, SITE_URL, SITE_NAME } from "@/lib/seo";
+import { getPage, SITE_URL, org } from "@/lib/seo";
 
 export default function ArticleJsonLd({ slug }) {
   const page = getPage(`/${slug}`);
   const url = new URL(page.path, SITE_URL).href;
-  const organization = { "@type": "Organization", name: SITE_NAME, url: SITE_URL };
   const schema = {
     "@context": "https://schema.org", "@type": "BlogPosting",
     headline: page.title, description: page.description, url,
@@ -12,7 +11,7 @@ export default function ArticleJsonLd({ slug }) {
     ...(page.image ? { image: new URL(page.image, SITE_URL).href } : {}),
     ...(page.published ? { datePublished: page.published } : {}),
     ...(page.modified ? { dateModified: page.modified } : {}),
-    author: organization, publisher: organization,
+    author: org, publisher: org,
   };
   const questions = quizQuestions[page.path];
   const webpageId = url + '#webpage';
@@ -28,7 +27,7 @@ export default function ArticleJsonLd({ slug }) {
     url: url + '#test', mainEntityOfPage: { '@id': webpageId },
     educationalUse: 'Self assessment', learningResourceType: 'Quiz',
     numberOfQuestions: questions.length, isAccessibleForFree: true,
-    provider: organization,
+    provider: org,
     hasPart: questions.map((question, index) => ({
       '@type': 'Question', position: index + 1, name: question,
     })),
