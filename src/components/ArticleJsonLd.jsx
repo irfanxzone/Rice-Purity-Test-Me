@@ -13,7 +13,7 @@ export default function ArticleJsonLd({ slug }) {
     ...(page.modified ? { dateModified: page.modified } : {}),
     author: org, publisher: org,
   };
-  const questions = quizQuestions[page.path];
+  const questions = page.quizSchema === false ? undefined : quizQuestions[page.path];
   const webpageId = url + '#webpage';
   const quizId = url + '#quiz';
   const graph = [{

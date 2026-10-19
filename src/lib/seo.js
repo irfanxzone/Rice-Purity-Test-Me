@@ -10,8 +10,8 @@ export const PAGES = [
     "description": "Take the 100-question Rice Purity Test. Tick what you've done and get your purity score instantly. Free, anonymous, answers stay in your browser.",
     "type": "website",
     "absoluteTitle": true,
-    "published": "2026-10-17",
-    "modified": "2026-10-17"
+    "published": "2026-10-19",
+    "modified": "2026-10-19"
   },
   {
     "path": "/76-rice-purity-test",
@@ -47,7 +47,8 @@ export const PAGES = [
   },
   {
     "path": "/ao3-rice-purity-test",
-    "title": "AO3 Rice Purity Test",
+    "title": "AO3 Rice Purity Test: 100 Fanfiction Questions & Score",
+    "quizSchema": false,
     "description": "Take the AO3 Rice Purity Test and check how deep you are into fanfiction culture. Answer 100 fandom questions and get your purity score.",
     "type": "article",
     "image": "/ao3-rice-purity-test.webp",
@@ -61,7 +62,8 @@ export const PAGES = [
   },
   {
     "path": "/bdsm-test",
-    "title": "Updated BDSM Test 2026",
+    "title": "BDSM Test: 100 Questions for Adults, Free & Anonymous",
+    "quizSchema": false,
     "description": "Take the 100-question BDSM Test for adults. Check what applies, get your kink score instantly — free, anonymous, answers stay in your browser.",
     "type": "article",
     "image": "/BDSM-test.webp",
@@ -143,7 +145,8 @@ export const PAGES = [
   },
   {
     "path": "/kink-rice-purity-test",
-    "title": "Kink Rice Purity Test",
+    "title": "Kink Rice Purity Test: 100 Questions for Adults (18+)",
+    "quizSchema": false,
     "description": "A kink-focused version of the Rice Purity Test for adults (18+). Tick what you've done privately and get an instant score.",
     "type": "article",
     "image": "/kink-rice-purity-test.webp",

@@ -170,6 +170,7 @@ export default function KinkRicePurityTestPage() {
             <br /><br />
             It also consists of 100 questions, and only mature individuals or adults can take it. It involves questions related to BDSM, sexual practices, fetishes, and intimacy. The mechanism of the quiz remains the same; you’ll get a score out of 100, and each time you answer a question, one point is deducted from the total. Want to check how kinky you are? Take the test below:
           </p>
+        <p className="mx-auto mt-3 max-w-xl text-center text-[16px] text-ink-700">Prefer a BDSM-focused list? <a href="/bdsm-test" className="rpt-interlink">Try the BDSM Test</a></p>
         </section>
 
         <section className="mx-auto max-w-3xl px-4 pb-10 sm:px-6 lg:px-8">
@@ -182,6 +183,7 @@ export default function KinkRicePurityTestPage() {
         </section>
 
         <section id="test" className="mx-auto max-w-3xl px-4 pt-2 pb-10 sm:px-6 lg:px-8">
+          <p className="mb-4 text-sm font-semibold text-ink-700">This quiz is for adults (18+).</p>
           {stage === "taking" && (
             <form
               onSubmit={(e) => {

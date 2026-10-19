@@ -89,7 +89,7 @@ console.log('Protected question arrays, scoring handlers, and AdSense loader are
         assert.equal(document.schemas.filter(item => item['@type'] === 'BlogPosting').length, 1);
         assert.equal(document.schemas.filter(item => item['@type'] === 'WebPage').length, 1);
         const quizzes = document.schemas.filter(item => item['@type'] === 'Quiz');
-        const questions = schemaQuestions[entry.path];
+        const questions = entry.quizSchema === false ? undefined : schemaQuestions[entry.path];
         assert.equal(quizzes.length, questions ? 1 : 0, entry.path + ': quiz schema presence');
         if (questions) {
           assert.equal(quizzes[0].numberOfQuestions, questions.length);

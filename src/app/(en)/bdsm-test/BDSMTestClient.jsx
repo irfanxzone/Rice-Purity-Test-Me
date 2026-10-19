@@ -169,13 +169,14 @@ export default function BDSMTestClient() {
       <main data-testid="main-content">
         <section className="mx-auto max-w-3xl px-4 pt-10 pb-10 sm:px-6 sm:pt-14 lg:px-8">
           <h1 className="mt-5 text-center text-4xl font-extrabold tracking-tight text-ink-900 sm:text-5xl">
-            Updated BDSM Test
+            BDSM Test
           </h1>
           <p className="mx-auto mt-3 max-w-xl text-center text-[16px] leading-relaxed text-ink-700">
             The BDSM Test is a unique and modern way to check how kinky you really are and it is specially made for adults who want to understand personal experience and curiosity related to bdsm. It does not mean it is made for those who are deeply involved in BDSM. Rather, people take this test out of curiosity. Many of them take it for fun, some want to share their scores with friends, and others take it with their partner as a fun conversation starter.
             <br /><br />
             It is inspired by the <Link href="/" className="rpt-interlink">Rice Purity Test</Link> which asks general questions about dating, relationships, and life experiences, but this version focuses on kink, power dynamics, and everything that falls under the BDSM umbrella. The questions included in the test are very personal and related to your intimacy with your partner. One important thing to remember before taking the test: this is made for fun and entertainment. Your score is not a label or diagnosis of your personality.
           </p>
+        <p className="mx-auto mt-3 max-w-xl text-center text-[16px] text-ink-700">Prefer a kink-focused list? <a href="/kink-rice-purity-test" className="rpt-interlink">Try the Kink Rice Purity Test</a></p>
         </section>
 
         <section className="mx-auto max-w-3xl px-4 pb-10 sm:px-6 lg:px-8">
@@ -188,6 +189,7 @@ export default function BDSMTestClient() {
         </section>
 
         <section id="test" className="mx-auto max-w-3xl px-4 pt-2 pb-10 sm:px-6 lg:px-8">
+          <p className="mb-4 text-sm font-semibold text-ink-700">This quiz is for adults (18+).</p>
           {stage === "taking" && (
             <form
               onSubmit={(event) => {

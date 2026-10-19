@@ -177,8 +177,9 @@ export default function AO3RicePurityTestPage() {
             <br /><br />
             Many internet users find it better than the <a href="/" className="rpt-interlink">classic rice purity test</a>. This test actually doesn't calculate your score based on the specific answers; it's based on the number of options you click. To calculate your score, just click the boxes that you think are relevant to you and get the results.
           </p>
+          <p className="mx-auto mt-3 max-w-xl text-center text-sm text-ink-700">This is an unofficial fan quiz. It is not affiliated with AO3 or the Organization for Transformative Works.</p>
           <div className="mx-auto max-w-xl text-center mt-2">
-            <span className="text-[16px] text-ink-700">Want more? <a href="/valorant-rice-purity-test" className="rpt-interlink">Take the Valorant Rice Purity Test</a></span>
+            <span className="text-[16px] text-ink-700">Want more? <a href="/tests-like-rice-purity-test" className="rpt-interlink">See more tests like the Rice Purity Test</a></span>
           </div>
         </section>
         <section id="test" className="mx-auto max-w-3xl px-4 pt-2 pb-10 sm:px-6 lg:px-8">
