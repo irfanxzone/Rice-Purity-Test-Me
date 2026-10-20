@@ -216,6 +216,7 @@ export default function ValorantRicePurityTestPage() {
             <br /><br />
             The core concept of this test same as the classic version; you just answer the right question that relates to you. The questions in this test aim to focus on players' playing habits, how they play, and their ethical boundaries. Also, it focuses on all the achievements while playing the game and the rankings of the players, whether they are beginners or pros.
           </p>
+          <p>This is an unofficial fan quiz. It is not affiliated with Riot Games or Valorant.</p>
         </section>
         <section id="test" className="mx-auto max-w-3xl px-4 pt-2 pb-10 sm:px-6 lg:px-8">
           {stage === "taking" && (
@@ -339,7 +340,7 @@ export default function ValorantRicePurityTestPage() {
             With these easy steps, you can evaluate your Valorant purity score.
           </p>
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
-            Want to try something different? <a href="/rice-purity-test-for-14-years-old" className="rpt-interlink">Take the Rice Purity Test for 14-year-olds</a> especially designed for younger teens.
+            Want more game quizzes? Try the <a href="/fortnite-rice-purity-test" className="rpt-interlink">Fortnite Rice Purity Test</a>.
           </p>
           <h2 className="font-heading text-2xl font-bold tracking-tight text-neutral-900 sm:text-3xl mt-10">How Score Calculated in the Valorant Rice Purity Test</h2>
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">

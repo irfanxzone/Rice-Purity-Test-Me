@@ -315,7 +315,7 @@ export default function WeightedRicePurityTestPage() {
             For an example of how the classic scoring works, the <a href="https://ricepuritytestme.com/76-rice-purity-test" className="rpt-interlink">76 Rice Purity Test</a> guide explains why 24 checked answers leave a score of 76; weighted scores use a different calculation.
           </p>
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
-            The weighted test is also composed of the same questions given in the classic version. The only difference is that each question has a different score. Seeing the high demand, we designed the test provided above, which perfectly gives a better scoring experience than the classic rice purity test.
+            The only difference is that each question has a different score. Seeing the high demand, we designed the test provided above, which perfectly gives a better scoring experience than the classic rice purity test.
           </p>
           <img
             src="/weighted-rice-purity-test.webp"

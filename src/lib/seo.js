@@ -10,8 +10,8 @@ export const PAGES = [
     "description": "Take the 100-question Rice Purity Test. Tick what you've done and get your purity score instantly. Free, anonymous, answers stay in your browser.",
     "type": "website",
     "absoluteTitle": true,
-    "published": "2026-10-19",
-    "modified": "2026-10-19"
+    "published": "2026-10-20",
+    "modified": "2026-10-20"
   },
   {
     "path": "/76-rice-purity-test",

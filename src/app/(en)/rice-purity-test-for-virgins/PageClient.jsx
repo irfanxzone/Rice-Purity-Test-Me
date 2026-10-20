@@ -129,7 +129,7 @@ export default function VirginsRicePurityTestPage() {
           <p className="mx-auto mt-3 max-w-xl text-center text-[16px] leading-relaxed text-ink-700">
             Do you want to take the <a href="https://ricepuritytestme.com/" className="rpt-interlink">rice purity test</a> but can&rsquo;t because most of the questions revolve around intimacy and you have never experienced an intimate relationship? Rice Purity Test for virgins is a special variant that is made for those who do not need sexual experience or have never had it before.
             <br /><br />
-            This is an fan-made version of the rice purity test, and the questions are totally different from the classic version. The purpose of this test is that if you have never had sex, you can still answer the questions and get a score. You also do not need to score 100 to describe yourself as a virgin.
+            This list is a shortened version of the classic Rice Purity Test. The purpose of this test is that if you have never had sex, you can still answer the questions and get a score. You also do not need to score 100 to describe yourself as a virgin.
           </p>
         </section>
 
@@ -142,6 +142,7 @@ export default function VirginsRicePurityTestPage() {
             className="space-y-6"
           >
             <h2 className="font-heading text-2xl font-bold text-ink-900">Questions:</h2>
+            <p>This quiz contains adult questions. Take it only if you are 18 or older.</p>
             <ul className="mb-6 divide-y divide-ink-200 rounded-xl border bg-cream-50">
               {VIRGIN_QUESTIONS.map((q, i) => (
                 <li key={i} className="flex items-center px-4 py-3">

@@ -253,7 +253,7 @@ export default function TrueAsianRicePurityTestPage() {
         <section id="about" data-testid="seo-content" className="rpt-prose mx-auto max-w-3xl px-4 py-16 sm:px-6 sm:py-20 lg:px-8">
           <h2 className="font-heading text-2xl font-bold tracking-tight text-neutral-900 sm:text-3xl">What the True Asian Rice Purity Test Is</h2>
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
-            The True Asian Test is a parody quiz built on the format of the classic Rice Purity Test. It was created by Liang Pan. Instead of measuring innocence or life experience, it measures how many stereotypically Asian household and upbringing experiences you can relate to.
+            The True Asian Test is a parody quiz built on the format of the classic Rice Purity Test. Instead of measuring innocence or life experience, it measures how many stereotypically Asian household and upbringing experiences you can relate to.
           </p>
           <img
             src="/true-asian-rice-purity-test.webp"
@@ -337,7 +337,7 @@ export default function TrueAsianRicePurityTestPage() {
             </table>
           </div>
           <p className="mt-4 text-[16px] leading-relaxed text-neutral-700 sm:text-base">
-            The classic started as a self-scored survey in Rice University's student newspaper in the 1920s and later grew into the 100-question format that went viral on TikTok. The True Asian Test is a much more recent spin-off that kept the checkbox design and swapped in cultural in-jokes.
+            The True Asian Test is a much more recent spin-off that kept the checkbox design and swapped in cultural in-jokes.
           </p>
 
           <h2 className="font-heading mt-10 text-2xl font-bold tracking-tight text-neutral-900 sm:text-3xl">Should You Take It Seriously?</h2>

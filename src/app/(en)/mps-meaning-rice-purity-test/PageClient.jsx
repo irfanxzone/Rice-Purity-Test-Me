@@ -19,7 +19,7 @@ export default function MpsMeaningPage() {
           </p>
 
           <p className="mt-4 text-[16px] leading-relaxed text-ink-700">
-            There are multiple questions available in the Rice Purity Test for this term. If you’re taking the test or trying to understand a question that includes the term, don’t worry, below we have discussed it in detail.
+            There are multiple questions available in the Rice Purity Test for this term. If you’re taking the test or trying to understand a question that includes the term, don’t worry, below we have discussed it in detail. Also confused by question 69? See <a href="/question-69-mean" className="rpt-interlink">what question 69 means</a>.
           </p>
 
           <h2 className="font-heading text-2xl font-bold tracking-tight text-neutral-900 sm:text-3xl mt-10">What Does MPS Mean in the Rice Purity Test?</h2>

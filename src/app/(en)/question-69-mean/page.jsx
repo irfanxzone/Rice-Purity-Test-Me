@@ -43,7 +43,7 @@ const faqSchema = {
   ],
 };
 
-export const metadata = buildMetadata({ path: "/question-69-mean" });
+export const metadata = buildMetadata({ path: "/question-69-mean", description: "Question 69 on the Rice Purity Test shows only a \"?\". Here is what it means, why it is blank and how to answer it." });
 
 export default function Question69MeanPage() {
   return (
@@ -59,7 +59,7 @@ export default function Question69MeanPage() {
             What is Question 69 on the Rice Purity test?
           </h1>
           <p className="mx-auto mt-3 max-w-xl text-center text-[16px] leading-relaxed text-ink-700">
-            If you have ever taken the <Link href="/" className="rpt-interlink">Rice Purity Test</Link>, you might have wondered what question 69 means. Why is there only a question mark "?" instead of a question on number 69? Strangely, all questions are clearly written, but this one specific question is unclear, which creates confusion.
+            If you have ever taken the <Link href="https://ricepuritytestme.com/#test" className="rpt-interlink">Rice Purity Test</Link>, you might have wondered what question 69 means. Why is there only a question mark "?" instead of a question on number 69? Strangely, all questions are clearly written, but this one specific question is unclear, which creates confusion.
             <br /><br />
             But do not worry; below, we clearly explain its meaning and the real question that should be in place of the question mark. This test is specifically made for adults and focuses on adult life experiences.
           </p>
