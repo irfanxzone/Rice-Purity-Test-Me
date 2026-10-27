@@ -6,7 +6,7 @@ export const org = { "@type": "Organization", name: SITE_NAME, url: SITE_URL };
 export const PAGES = [
   {
     "path": "/",
-    "title": "Rice Purity Test 2026: Take the 100-Question Quiz Free",
+    "title": "The Rice Purity Test",
     "description": "Take the 100-question Rice Purity Test. Tick what you've done and get your purity score instantly. Free, anonymous, answers stay in your browser.",
     "type": "website",
     "absoluteTitle": true,

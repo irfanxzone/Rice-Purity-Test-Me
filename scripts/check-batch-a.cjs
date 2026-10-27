@@ -103,7 +103,7 @@ console.log('Protected question arrays, scoring handlers, and AdSense loader are
         const types = document.schemas.map(item => item['@type']);
         assert(!types.includes('Article') && !types.includes('BreadcrumbList'));
         for (const type of ['Quiz','FAQPage','WebPage','WebApplication','Organization']) assert(types.includes(type), 'Missing home schema ' + type);
-        assert.equal(document.title, 'Rice Purity Test 2026: Take the 100-Question Quiz Free');
+        assert.equal(document.title, 'The Rice Purity Test');
         assert.equal(await tab.locator('img[src*="rice-purity-test-"]').first().getAttribute('alt'), 'Rice Purity Test 100-question checklist preview');
       }
       if (entry.path === '/ao3-rice-purity-test') assert.equal(document.outline.filter(item => item.tag === 'H1').length, 1);
