@@ -3,7 +3,7 @@ import { ALL_QUESTIONS, QUESTION_ITEMS } from "@/data/questions";
 import HomePageClient from "../HomePageClient";
 import Quiz from "@/components/Quiz";
 import Script from "next/script";
-import HomeHeader from "@/components/HomeHeader";
+
 import HomeFooter from "@/components/HomeFooter";
 import Faq from "@/components/Faq";
 import { HOME_FAQ } from "@/data/home-faq";
@@ -108,7 +108,9 @@ export default function HomePage() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(homeSchema) }}
             />
             <div className="App">
-                <HomeHeader />
+                <header data-testid="site-header" className="relative mx-auto mt-2 w-[98%] max-w-[1200px] overflow-hidden sm:w-[90%]" style={{ aspectRatio: "2172 / 292" }}>
+                    <img src="/rice-purity-test-me.webp" alt="Rice Purity Test" width={2172} height={724} fetchPriority="high" className="absolute left-0 top-0 block h-auto w-full" style={{ transform: "translateY(-32.32%)" }} />
+                </header>
                 <main data-testid="main-content">
                     <HomePageClient totalQuestions={ALL_QUESTIONS.length}><Quiz /></HomePageClient>
                     <SeoContent />

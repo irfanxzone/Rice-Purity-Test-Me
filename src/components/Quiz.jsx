@@ -29,13 +29,13 @@ export const Quiz = () => {
         <section
             id="top"
             data-testid="quiz-section"
-            className="mx-auto max-w-3xl px-4 pt-6 pb-10 sm:px-6 sm:pt-14 lg:px-8"
+            className="mx-auto max-w-3xl px-4 pt-2 pb-10 sm:px-6 sm:pt-3 lg:px-8"
         >
             {/* Intro strip */}
             <div className="mb-8 text-center">
                 <h1
                     data-testid="page-heading"
-                    className="mt-0 text-4xl font-extrabold tracking-tight text-ink-900 sm:mt-5 sm:text-5xl"
+                    className="sr-only"
                 >
                     Rice Purity Test
                 </h1>
@@ -85,7 +85,7 @@ export const Quiz = () => {
                             type="button"
                             data-quiz-action="calculate"
                             data-testid="calculate-score-btn"
-                            className="rounded-full bg-ink-900 px-4 py-2.5 text-sm font-semibold text-cream-50 shadow-[0_2px_0_#000] transition-transform hover:-translate-y-0.5 active:translate-y-0 focus:outline-none focus-visible:ring-2 focus-visible:ring-ink-900 focus-visible:ring-offset-2 sm:px-6"
+                            className="rounded-full bg-cream-100 hover:bg-[#bbf7d0] px-4 py-2.5 text-sm font-semibold text-ink-900 shadow-[0_2px_0_#000] transition-all duration-200 hover:-translate-y-0.5 active:translate-y-0 focus:outline-none focus-visible:ring-2 focus-visible:ring-ink-900 focus-visible:ring-offset-2 sm:px-6"
                         >
                             Calculate Score
                         </button>
@@ -93,7 +93,7 @@ export const Quiz = () => {
                             type="button"
                             data-quiz-action="clear"
                             data-testid="clear-btn"
-                            className="rounded-full border border-ink-300 bg-cream-50 px-3 py-2 text-xs font-medium text-ink-700 transition-colors hover:border-ink-900 sm:px-4"
+                            className="rounded-full bg-cream-100 hover:bg-[#fecaca] px-4 py-2.5 text-sm font-semibold text-ink-900 shadow-[0_2px_0_#000] transition-all duration-200 hover:-translate-y-0.5 active:translate-y-0 focus:outline-none focus-visible:ring-2 focus-visible:ring-ink-900 focus-visible:ring-offset-2 sm:px-6"
                         >
                             Clear
                         </button>
