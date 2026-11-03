@@ -1,3 +1,4 @@
+import StaticImage from "@/components/StaticImage";
 import { buildMetadata, getPage, org, SITE_NAME } from "@/lib/seo";
 import { ALL_QUESTIONS, QUESTION_ITEMS } from "@/data/questions";
 import HomePageClient from "../HomePageClient";
@@ -109,7 +110,7 @@ export default function HomePage() {
             />
             <div className="App">
                 <header data-testid="site-header" className="relative mx-auto mt-2 w-[98%] max-w-[1200px] overflow-hidden sm:w-[90%]" style={{ aspectRatio: "2172 / 292" }}>
-                    <img src="/rice-purity-test-me.webp" alt="Rice Purity Test" width={2172} height={724} fetchPriority="high" className="absolute left-0 top-0 block h-auto w-full" style={{ transform: "translateY(-32.32%)" }} />
+                    <StaticImage src="/rice-purity-test-me.webp" sizes="(max-width: 639px) 98vw, (max-width: 1333px) 90vw, 1200px" loading="eager" alt="Rice Purity Test" width={2172} height={724} fetchPriority="high" className="absolute left-0 top-0 block h-auto w-full" style={{ transform: "translateY(-32.32%)" }} />
                 </header>
                 <main data-testid="main-content">
                     <HomePageClient totalQuestions={ALL_QUESTIONS.length}><Quiz /></HomePageClient>

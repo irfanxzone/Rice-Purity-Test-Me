@@ -4,6 +4,7 @@ const { createHash } = require("node:crypto");
 const sharp = require("sharp");
 
 const images = {
+    "/rice-purity-test-me.webp": [384, 640, 768, 1080, 1440, 2172],
     "/RicePurityTest.webp": [40, 80, 120],
     "/rice-purity-test.webp": [384, 640, 768, 1080, 1440, 1974],
 };
@@ -17,7 +18,7 @@ const images = {
         const metadata = await sharp(input).metadata();
         const variants = [];
         for (const width of widths) {
-            const image = await sharp(input).resize({ width, withoutEnlargement: true }).webp({ quality: 78 }).toBuffer();
+            const image = await sharp(input).resize({ width, withoutEnlargement: true }).webp({ quality: src === "/rice-purity-test-me.webp" ? 90 : 78 }).toBuffer();
             const hash = createHash("sha256").update(image).digest("hex").slice(0, 12);
             const filename = path.basename(src, ".webp") + "-" + width + "-" + hash + ".webp";
             await fs.writeFile(path.join(output, filename), image);
