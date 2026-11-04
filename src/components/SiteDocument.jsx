@@ -30,6 +30,14 @@ export default function SiteDocument({ children, lang = "en" }) {
     return (
         <html lang={lang} className={poppins.variable}>
             <head>
+                <meta name="msvalidate.01" content="39FB4E51B7F793D53D0D30CD346CB13F" />
+                <Script id="microsoft-clarity" strategy="lazyOnload">
+                    {`(function(c,l,a,r,i,t,y){
+                        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+                        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+                        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+                    })(window, document, "clarity", "script", "z8epdl4373");`}
+                </Script>
                 <meta name="google-site-verification" content="jFv4AUzgLzT_F6biCRTUz2vVSyRhfSoP5T5b87jRqLw" />
                 <Script strategy="lazyOnload" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2310430198181820" crossOrigin="anonymous" />
                 <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
