@@ -15,9 +15,9 @@ function QuestionRow({ text, idx }) {
                     data-testid={`question-checkbox-${idx + 1}`}
                     className="rpt-checkbox rpt-native-checkbox mt-0.5"
                 />
-                <span className="flex-1 text-[15px] leading-relaxed text-ink-900">
-                    <span className="mr-2 font-mono text-xs text-ink-500">{idx + 1}.</span>
-                    <span className="rpt-q-text transition-colors">{text}</span>
+                <span className="flex min-w-0 flex-1 items-baseline gap-2 text-[15px] leading-relaxed text-ink-900">
+                    <span className="shrink-0 font-mono text-xs text-ink-500">{idx + 1}.</span>
+                    <span className="rpt-q-text min-w-0 flex-1 transition-colors">{text}</span>
                 </span>
             </label>
         </li>

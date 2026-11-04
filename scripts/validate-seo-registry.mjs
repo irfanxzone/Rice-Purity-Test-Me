@@ -30,9 +30,9 @@ assert.deepEqual(paths.sort(), PAGES.map(page => page.path).sort(), 'Registry an
 for (const page of PAGES) {
   assert(page.title && page.description, page.path + ': title and description required');
   for (const key of ['published', 'modified']) {
-    if (page[key]) assert(/^\d{4}-\d{2}-\d{2}$/.test(page[key]), page.path + ': invalid ' + key);
+    if (page[key]) assert(/^\d{4}-\d{2}-\d{2}(?:T\d{2}:\d{2}:\d{2}(?:Z|[+-]\d{2}:\d{2}))?$/.test(page[key]) && Number.isFinite(Date.parse(page[key])), page.path + ': invalid ' + key);
   }
-  if (page.published && page.modified) assert(page.modified >= page.published, page.path + ': modified precedes published');
+  if (page.published && page.modified) assert(Date.parse(page.modified) >= Date.parse(page.published), page.path + ': modified precedes published');
   assert.equal(buildMetadata({ path: page.path }).robots.index, !page.noindex);
 }
 assert.throws(() => getPage('/missing-registry-entry'), /Missing SEO registry entry/);
