@@ -17,15 +17,18 @@ export default function AdBanner() {
     }, []);
 
     return (
-        <div className="my-8 min-h-[100px] w-full" aria-label="Advertisement">
+        <div className="rpt-ad-banner my-5 min-h-[70px] w-full sm:my-6 sm:min-h-[110px]" aria-label="Advertisement">
+            <style>{`
+                .rpt-banner-slot { display: block; width: 100%; height: 50px; }
+                @media (min-width: 640px) { .rpt-banner-slot { height: 90px; } }
+                .rpt-ad-banner:has(ins[data-ad-status="unfilled"]) > p { visibility: hidden; }
+            `}</style>
+            <p className="mb-1 text-center text-[10px] leading-4 tracking-widest text-ink-500">Advertisement</p>
             <ins
                 ref={adRef}
-                className="adsbygoogle"
-                style={{ display: "block" }}
+                className="adsbygoogle rpt-banner-slot"
                 data-ad-client="ca-pub-2310430198181820"
                 data-ad-slot="2221211839"
-                data-ad-format="auto"
-                data-full-width-responsive="true"
             />
         </div>
     );

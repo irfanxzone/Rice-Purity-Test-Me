@@ -33,7 +33,7 @@ export const Quiz = () => {
             className="mx-auto max-w-3xl px-4 pt-2 pb-10 sm:px-6 sm:pt-3 lg:px-8"
         >
             {/* Intro strip */}
-            <div className="mb-8 text-center">
+            <div className="mb-4 text-center">
                 <h1
                     data-testid="page-heading"
                     className="sr-only"
@@ -51,7 +51,7 @@ export const Quiz = () => {
             {/* Disclaimer */}
             <div
                 id="test"
-                className="relative mb-10 text-center"
+                className="relative mb-4 text-center"
             >
                 <p className="mx-auto max-w-2xl text-[15px] font-bold leading-relaxed text-ink-900">
                     Disclaimer: This test is a reflection of your past–not a roadmap for your future so answer honestly, not aspirationally.
