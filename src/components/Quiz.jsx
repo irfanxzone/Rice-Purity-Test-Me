@@ -1,4 +1,5 @@
 import { QUESTION_ITEMS } from "@/data/questions";
+import AdBanner from "@/components/AdBanner";
 
 function QuestionRow({ text, idx }) {
     const id = `q-${idx}`;
@@ -45,6 +46,8 @@ export const Quiz = () => {
             </div>
 
 
+            <AdBanner />
+
             {/* Disclaimer */}
             <div
                 id="test"
@@ -63,6 +66,8 @@ export const Quiz = () => {
             </div>
 
             {/* ======= QUESTIONS ZONE — single sequence (no categories) ======= */}
+            <AdBanner />
+
             <div className="relative">
                 <div className="mb-10 scroll-mt-28">
                     <ul className="divide-y divide-ink-900/10 rounded-2xl border border-ink-300/50 bg-cream-50/70 px-3 sm:px-4">
