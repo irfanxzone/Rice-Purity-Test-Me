@@ -39,7 +39,7 @@ export default function SiteDocument({ children, lang = "en" }) {
                     })(window, document, "clarity", "script", "z8epdl4373");`}
                 </Script>
                 <meta name="google-site-verification" content="jFv4AUzgLzT_F6biCRTUz2vVSyRhfSoP5T5b87jRqLw" />
-                <Script strategy="lazyOnload" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2310430198181820" crossOrigin="anonymous" />
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2310430198181820" crossOrigin="anonymous" />
                 <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
             </head>
             <body>
