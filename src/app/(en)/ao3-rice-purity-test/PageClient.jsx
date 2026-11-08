@@ -5,7 +5,6 @@ import RelatedTests from "@/components/RelatedTests";
 import { useCallback, useMemo, useState, useEffect } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import AdBanner from "@/components/AdBanner";
 
 
 const AO3_QUESTIONS = [
@@ -184,7 +183,6 @@ export default function AO3RicePurityTestPage() {
           </div>
         </section>
         <section id="test" className="mx-auto max-w-3xl px-4 pt-2 pb-10 sm:px-6 lg:px-8">
-          <AdBanner />
           {stage === "taking" && (
             <form
               onSubmit={e => {

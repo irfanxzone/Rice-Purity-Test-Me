@@ -10,8 +10,8 @@ export const PAGES = [
     "description": "Take the 100-question Rice Purity Test. Tick what you've done and get your purity score instantly. Free, anonymous, answers stay in your browser.",
     "type": "website",
     "absoluteTitle": true,
-    "published": "2026-11-04T22:53:14+05:00",
-    "modified": "2026-11-04T22:53:14+05:00"
+    "published": "2026-11-08T17:50:45+05:00",
+    "modified": "2026-11-08T17:50:45+05:00"
   },
   {
     "path": "/76-rice-purity-test",
@@ -56,8 +56,8 @@ export const PAGES = [
       "group": "tests",
       "label": "AO3 Rice Purity Test"
     },
-    "published": "2026-04-27",
-    "modified": "2026-08-02",
+    "published": "2026-11-08T17:50:45+05:00",
+    "modified": "2026-11-08T17:50:45+05:00",
     "absoluteTitle": true
   },
   {
